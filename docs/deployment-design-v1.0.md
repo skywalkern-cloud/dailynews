@@ -1,6 +1,6 @@
 # Daily News 项目完整设计方案
 
-**版本**：v1.0 | **日期**：2026-04-12 | **作者**：龙六
+**版本**：v1.1 | **日期**：2026-04-13 | **作者**：龙六
 
 ---
 
@@ -193,7 +193,7 @@ git push origin gh-pages
 
 ---
 
-### Phase 1：初始化 Git + 修复 Bug（我来执行）
+### Phase 1：初始化 Git + 修复 Bug（扣钉执行）
 
 #### Step 1.1：初始化 Git 仓库
 
@@ -234,7 +234,7 @@ git push origin gh-pages
 
 ---
 
-### Phase 2：代码修复 + 新建统一调度脚本（我来执行）
+### Phase 2：代码修复 + 新建统一调度脚本（扣钉执行）
 
 #### Step 2.1：修复 deploy_website.py 的路径 bug
 
@@ -479,14 +479,14 @@ dailynews/
 |:---:|:---|:---|:---:|
 | 1 | GitHub 仓库 `dailynews` 已创建 | github.com 确认 | 老板 |
 | 2 | Cloudflare Pages 已连接 GitHub | Cloudflare Dashboard 确认 | 老板 |
-| 3 | git init 完成 | `git remote -v` 确认 | 我 |
-| 4 | .gitignore 已创建 | 文件存在确认 | 我 |
-| 5 | gh-pages orphan 分支已推送 | `git log gh-pages` 确认 | 我 |
-| 6 | deploy_website.py 路径已修复 | 代码检查 | 我 |
-| 7 | deploy_website.py 逻辑已修改 | 代码检查 | 我 |
-| 8 | daily_update.py 已创建 | 文件存在确认 | 我 |
-| 9 | 手动触发成功 | 运行脚本 + 检查输出 | 我 |
-| 10 | GitHub commit 存在 | github.com 确认 | 我 |
+| 3 | git init 完成 | `git remote -v` 确认 | 扣钉 |
+| 4 | .gitignore 已创建 | 文件存在确认 | 扣钉 |
+| 5 | gh-pages orphan 分支已推送 | `git log gh-pages` 确认 | 扣钉 |
+| 6 | deploy_website.py 路径已修复 | 代码检查 | 扣钉 |
+| 7 | deploy_website.py 逻辑已修改 | 代码检查 | 扣钉 |
+| 8 | daily_update.py 已创建 | 文件存在确认 | 扣钉 |
+| 9 | 手动触发成功 | 运行脚本 + 检查输出 | 扣钉 |
+| 10 | GitHub commit 存在 | github.com 确认 | 扣钉 |
 | 11 | Cloudflare 构建成功 | Cloudflare Dashboard 确认 | 老板 |
 | 12 | 网站可访问 | 浏览器打开 dailynews.pages.dev | 老板 |
 
@@ -499,21 +499,21 @@ dailynews/
 Step 0.1: GitHub 创建空仓库
 Step 0.2: Cloudflare 连接 GitHub
          ↓
-【Phase 1 - 初始化】（我操作）
+【Phase 1 - 初始化】（扣钉操作）
 Step 1.1: git init + remote + push
 Step 1.2: 创建 .gitignore
 Step 1.3: 创建 gh-pages orphan 分支
          ↓
-【Phase 2 - 代码修复】（我操作）
+【Phase 2 - 代码修复】（扣钉操作）
 Step 2.1: 修复 deploy_website.py 路径 bug
 Step 2.2: 修改 deploy_website.py 部署逻辑
 Step 2.3: 修改 main() 函数
 Step 2.4: 创建 daily_update.py
          ↓
-【Phase 3 - 验证】（我操作）
+【Phase 3 - 验证】（扣钉操作）
 Step 3.1: 手动触发完整流程
 Step 3.2: 检查清单验证
          ↓
-【Phase 4 - Cron】（我操作）
+【Phase 4 - Cron】（扣钉操作）
 配置每日 6:00 定时任务
 ```

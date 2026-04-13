@@ -10,7 +10,7 @@ import subprocess
 from pathlib import Path
 from datetime import datetime
 
-WORK_DIR = Path(os.path.expanduser("~/.openclaw/workspace-market-insight"))
+WORK_DIR = Path(os.path.expanduser("~/.openclaw/workspace-dailynews"))
 GHPAGES_DIR = WORK_DIR / "gh-pages"
 
 def deploy_to_cloudflare(project_name=None):
@@ -45,28 +45,46 @@ def deploy_to_cloudflare(project_name=None):
         return False
 
 def deploy_to_github():
-    """提交到GitHub"""
-    print("\n提交到GitHub...")
+    """提交到GitHub gh-pages分支 → Cloudflare Pages自动部署"""
+    print("\n提交到GitHub (gh-pages)...")
 
     try:
-        # 检查git状态
-        result = subprocess.run(["git", "status", "--short"], cwd=str(WORK_DIR), capture_output=True, text=True)
+        # 1. 切换到 gh-pages 分支
+        result = subprocess.run(["git", "checkout", "gh-pages"], cwd=str(WORK_DIR), capture_output=True, text=True)
+        if result.returncode != 0:
+            print(f"✗ 切换gh-pages分支失败: {result.stderr}")
+            return False
+        print("  ✓ 已切换到 gh-pages 分支")
 
+        # 2. 用 gh-pages/ 目录的内容覆盖根目录
+        import shutil
+        for item in GHPAGES_DIR.iterdir():
+            if item.name == '.git':
+                continue
+            dest = WORK_DIR / item.name
+            if dest.is_dir() and not dest.is_symlink():
+                shutil.rmtree(dest)
+            elif dest.exists() and not dest.is_symlink():
+                dest.unlink()
+            if item.is_dir():
+                shutil.copytree(item, dest)
+            else:
+                shutil.copy2(item, dest)
+        print("  ✓ gh-pages/ 内容已覆盖根目录")
+
+        # 3. 检查变更
+        result = subprocess.run(["git", "status", "--short"], cwd=str(WORK_DIR), capture_output=True, text=True)
         if not result.stdout.strip():
             print("  无文件变更")
             return True
 
-        # 添加文件
-        subprocess.run(["git", "add", "-A"], cwd=str(WORK_DIR), capture_output=True)
-
-        # 提交
+        # 4. Git add + commit + push
+        subprocess.run(["git", "add", "."], cwd=str(WORK_DIR), capture_output=True)
         commit_msg = f"Update: {datetime.now().strftime('%Y-%m-%d %H:%M')}"
         subprocess.run(["git", "commit", "-m", commit_msg], cwd=str(WORK_DIR), capture_output=True)
+        subprocess.run(["git", "push", "origin", "gh-pages"], cwd=str(WORK_DIR), capture_output=True)
 
-        # 推送
-        subprocess.run(["git", "push"], cwd=str(WORK_DIR), capture_output=True)
-
-        print("✓ GitHub提交成功")
+        print("✓ GitHub gh-pages 推送成功 → Cloudflare Pages 将自动部署")
         return True
     except Exception as e:
         print(f"✗ GitHub提交失败: {e}")
@@ -83,8 +101,8 @@ def main():
     parser.add_argument(
         "target",
         nargs="?",
-        choices=["github", "cloudflare", "all"],
-        default="all",
+        choices=["github"],
+        default="github",
         help="部署目标: github / cloudflare / all (默认: all)"
     )
     args = parser.parse_args()
@@ -95,9 +113,6 @@ def main():
 
     if args.target in ["github", "all"]:
         deploy_to_github()
-
-    if args.target in ["cloudflare", "all"]:
-        deploy_to_cloudflare(args.project_name)
 
     print("\n✓ 部署完成!")
 
