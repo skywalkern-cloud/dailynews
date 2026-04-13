@@ -1,0 +1,248 @@
+{
+  "news_sources": [
+    {
+      "name": "36氪",
+      "url": "https://36kr.com/feed",
+      "category": "科技",
+      "weight": 2
+    },
+    {
+      "name": "虎嗅",
+      "url": "https://www.huxiu.com/rss/",
+      "category": "科技",
+      "weight": 2
+    },
+    {
+      "name": "爱范儿",
+      "url": "https://www.ifanr.com/feed/",
+      "category": "科技",
+      "weight": 1
+    },
+    {
+      "name": "少数派",
+      "url": "https://sspai.com/feed",
+      "category": "科技",
+      "weight": 1
+    },
+    {
+      "name": "极客公园",
+      "url": "https://www.geekpark.net/feed",
+      "category": "科技",
+      "weight": 1
+    },
+    {
+      "name": "Bloomberg",
+      "url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "财经",
+      "weight": 3
+    },
+    {
+      "name": "Financial Times",
+      "url": "https://www.ft.com/rss/home",
+      "category": "财经",
+      "weight": 3
+    },
+    {
+      "name": "第一财经",
+      "url": "https://www.yicai.com/rss/news/",
+      "category": "财经",
+      "weight": 1
+    },
+    {
+      "name": "财新",
+      "url": "https://www.caixin.com/rss/rss.xml",
+      "category": "财经",
+      "weight": 2
+    },
+    {
+      "name": "BBC",
+      "url": "https://feeds.bbci.co.uk/news/rss.xml",
+      "category": "国际",
+      "weight": 2
+    },
+    {
+      "name": "CNN",
+      "url": "http://rss.cnn.com/rss/edition.rss",
+      "category": "国际",
+      "weight": 2
+    },
+    {
+      "name": "Reuters",
+      "url": "https://feeds.reuters.com/reuters/topNews",
+      "category": "国际",
+      "weight": 2
+    },
+    {
+      "name": "The Guardian",
+      "url": "https://www.theguardian.com/world/rss",
+      "category": "国际",
+      "weight": 1
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed/",
+      "category": "AI",
+      "weight": 3
+    },
+    {
+      "name": "Wired",
+      "url": "https://www.wired.com/feed/rss",
+      "category": "AI",
+      "weight": 2
+    },
+    {
+      "name": "VentureBeat",
+      "url": "https://venturebeat.com/feed/",
+      "category": "AI",
+      "weight": 1
+    },
+    {
+      "name": "机器之心",
+      "url": "https://www.jiqizhixin.com/",
+      "category": "AI",
+      "weight": 2
+    },
+    {
+      "name": "品玩",
+      "url": "https://www.pingwest.com/feed",
+      "category": "AI",
+      "weight": 1
+    },
+    {
+      "name": "腾讯科技",
+      "url": "https://tech.qq.com/rss.xml",
+      "category": "科技",
+      "weight": 1
+    },
+    {
+      "name": "新浪科技",
+      "url": "https://tech.sina.com.cn/rss.xml",
+      "category": "科技",
+      "weight": 1
+    }
+  ],
+  "podcast_sources": [
+    {
+      "name": "宏观七日谈",
+      "id": "66276f4ebb69f099cb6aee62",
+      "rss": null,
+      "type": "xiaoyuzhou"
+    },
+    {
+      "name": "AI + a16z",
+      "id": "68076827f5bc477bd92b5c8a",
+      "rss": null,
+      "type": "xiaoyuzhou"
+    },
+    {
+      "name": "研报掘金",
+      "id": "697982f0d7844512f502b2c2",
+      "rss": null,
+      "type": "xiaoyuzhou"
+    },
+    {
+      "name": "第一财经",
+      "id": "64c75555e8176c3ff81de98c",
+      "rss": null,
+      "type": "xiaoyuzhou"
+    },
+    {
+      "name": "乱翻书",
+      "id": "61358d971c5d56efe5bcb5d2",
+      "rss": null,
+      "type": "xiaoyuzhou"
+    },
+    {
+      "name": "张小珺｜商业访谈录",
+      "id": "626b46ea9cbbf0451cf5a962",
+      "rss": null,
+      "type": "xiaoyuzhou"
+    },
+    {
+      "name": "投研声译局",
+      "id": "67c95851d5cf5091ed2abe19",
+      "rss": null,
+      "type": "xiaoyuzhou"
+    },
+    {
+      "name": "All-in Podcast",
+      "id": "1502871393",
+      "rss": "https://rss.libsyn.com/shows/254861/destinations/1928300.xml",
+      "type": "rss"
+    },
+    {
+      "name": "晚点聊 LateTalk",
+      "id": "61933ace1b4320461e91fd55",
+      "rss": null,
+      "type": "xiaoyuzhou"
+    },
+    {
+      "name": "硬地骇客",
+      "id": "640ee2438be5d40013fe4a87",
+      "rss": null,
+      "type": "xiaoyuzhou"
+    },
+    {
+      "name": "果壳时间",
+      "id": "663d818aaf6f88d32f7cde07",
+      "rss": null,
+      "type": "xiaoyuzhou"
+    },
+    {
+      "name": "华夏基金DeepTalk",
+      "id": "61e7b5314675a08411f51319",
+      "rss": null,
+      "type": "xiaoyuzhou"
+    }
+  ],
+  "youtube_channels": [
+    {
+      "name": "Lex Fridman",
+      "handle": "@LexFridman"
+    },
+    {
+      "name": "a16z",
+      "handle": "@a16z"
+    },
+    {
+      "name": "All-in Podcast",
+      "handle": "@allin"
+    },
+    {
+      "name": "Bloomberg Technology",
+      "handle": "@business"
+    },
+    {
+      "name": "CNBC",
+      "handle": "@CNBC"
+    },
+    {
+      "name": "TED",
+      "handle": "@TED"
+    },
+    {
+      "name": "IBM Technology",
+      "handle": "@IBMTechnology"
+    },
+    {
+      "name": "OpenAI",
+      "handle": "@OpenAI"
+    },
+    {
+      "name": "Peter Diamandis",
+      "handle": "@PeterDiamandis"
+    },
+    {
+      "name": "Diary of a CEO",
+      "handle": "@TheDiaryOfACEO"
+    },
+    {
+      "name": "Marques Brownlee",
+      "handle": "@mkbhd"
+    },
+    {
+      "name": "MKBHD",
+      "handle": "@MKBHD"
+    }
+  ]
+}

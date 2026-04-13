@@ -1,0 +1,69 @@
+{
+  "channels": {
+    "@LexFridman": {
+      "name": "Lex Fridman",
+      "last_url": "https://www.youtube.com/watch?v=KGVpKPNUdzA",
+      "last_title": "Khabib vs Lex: Training with Khabib | FULL EXCLUSIVE FOOTAGE",
+      "last_upload_date": "20260225"
+    },
+    "@a16z": {
+      "name": "a16z",
+      "last_url": "https://www.youtube.com/watch?v=krdrkl38nRw",
+      "last_title": "How to Reorg After AI Changes Everything | Block's Owen Jennings on the a16z Show",
+      "last_upload_date": "20260401"
+    },
+    "@allin": {
+      "name": "All-in Podcast",
+      "last_url": "https://www.youtube.com/watch?v=4Gmd5UTF4rk",
+      "last_title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Major Lawsuits",
+      "last_upload_date": "20260327"
+    },
+    "@business": {
+      "name": "Bloomberg Technology",
+      "last_url": "https://www.youtube.com/watch?v=gsQg-w7V3Yo",
+      "last_title": "How Dubai’s Safe-Haven Status Is Being Tested",
+      "last_upload_date": "20260320"
+    },
+    "@CNBC": {
+      "name": "CNBC",
+      "last_url": "https://www.youtube.com/watch?v=mvDlx-wR72c",
+      "last_title": "Millions Of Americans Are Losing Weight With GLP-1s. Here’s How That’s Changing Retail.",
+      "last_upload_date": "20260409"
+    },
+    "@TED": {
+      "name": "TED",
+      "last_url": "https://www.youtube.com/watch?v=upwFLq7KOv8",
+      "last_title": "Jermaine Dupri on the Art of Making a Hit | On the Spot | TED",
+      "last_upload_date": "20260406"
+    },
+    "@IBMTechnology": {
+      "name": "IBM Technology",
+      "last_url": "https://www.youtube.com/watch?v=lYDkcC9DDaM",
+      "last_title": "Code Risk Intelligence: Securing AI Coding at Scale in Real Time",
+      "last_upload_date": "20260407"
+    },
+    "@OpenAI": {
+      "name": "OpenAI",
+      "last_url": "https://www.youtube.com/watch?v=ZpUKNYcgM-E",
+      "last_title": "Sam Altman on Building the Future of AI",
+      "last_upload_date": "20260407"
+    },
+    "@PeterDiamandis": {
+      "name": "Peter Diamandis",
+      "last_title": ""
+    },
+    "@TheDiaryOfACEO": {
+      "name": "Diary of a CEO",
+      "last_title": ""
+    },
+    "@mkbhd": {
+      "name": "Marques Brownlee",
+      "last_title": ""
+    },
+    "@MKBHD": {
+      "name": "MKBHD",
+      "last_title": ""
+    }
+  },
+  "last_update": "2026-04-12T15:56:54.985196"
+}

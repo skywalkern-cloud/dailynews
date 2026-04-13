@@ -1,0 +1,38 @@
+{
+  "source_weights": {
+    "MIT Technology Review": 3,
+    "Bloomberg": 3,
+    "Financial Times": 3,
+    "WSJ": 3,
+    "机器之心": 3,
+    "虎嗅": 2,
+    "36氪": 2,
+    "Wired": 2,
+    "Reuters": 2,
+    "BBC": 2,
+    "CNN": 2,
+    "财新": 2,
+    "爱范儿": 1,
+    "少数派": 1,
+    "极客公园": 1,
+    "第一财经": 1,
+    "The Guardian": 1,
+    "VentureBeat": 1,
+    "品玩": 1,
+    "腾讯科技": 1,
+    "新浪科技": 1
+  },
+  "category_weights": {
+    "must-read": 3,
+    "AI前沿": 2,
+    "大国博弈": 2,
+    "产业趋势": 2,
+    "投资参考": 2
+  },
+  "time_decay": {
+    "24h": 1.0,
+    "48h": 0.95,
+    "72h": 0.9,
+    "168h": 0.8
+  }
+}

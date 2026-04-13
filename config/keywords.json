@@ -1,0 +1,45 @@
+{
+  "keywords": {
+    "chinese": [
+      "AI", "人工智能", "大模型", "LLM", "ChatGPT", "芯片", "GPU", "英伟达", "Nvidia", "OpenAI", 
+      "具身智能", "自动驾驶", "量子计算", "AIGC", "Sora", "人形机器人", "中美", "俄乌", "台湾", "南海",
+      "制裁", "贸易战", "欧盟", "北约", "联合国", "伊朗", "朝鲜", "地缘政治", "国际关系",
+      "商业", "公司", "产品", "财报", "融资", "并购", "IPO", "科技趋势", "新兴技术", "智能硬件",
+      "消费电子", "新能源车", "航天", "新能源",
+      "股市", "基金", "债券", "宏观经济", "政策", "央行", "利率", "通胀", "GDP", "房地产",
+      "外汇", "虚拟货币", "美股", "港股", "A股"
+    ],
+    "english": [
+      "AI", "Artificial Intelligence", "Large Language Model", "LLM", "GPT", "chip", "GPU", "Nvidia", 
+      "OpenAI", "Embodied Intelligence", "self-driving", "quantum computing", "AIGC", "Sora", "humanoid robot",
+      "China", "US", "Russia", "Ukraine", "Taiwan", "South China Sea", "sanction", "trade war", "EU", 
+      "NATO", "UN", "Iran", "North Korea", "geopolitics", "international relations",
+      "business", "company", "product", "earnings", "funding", "M&A", "IPO", "tech trend", "emerging technology",
+      "smart hardware", "consumer electronics", "EV", "space", "renewable energy",
+      "stock market", "fund", "bond", "macro economy", "policy", "central bank", "interest rate", "inflation",
+      "GDP", "real estate", "forex", "cryptocurrency", "US stock", "Hong Kong stock", "A-share"
+    ]
+  },
+  "categories": {
+    "AI前沿": {
+      "keywords": ["AI", "人工智能", "大模型", "LLM", "ChatGPT", "芯片", "GPU", "英伟达", "Nvidia", "OpenAI", "具身智能", "自动驾驶", "量子计算", "AIGC", "Sora", "人形机器人"],
+      "sources": ["MIT Technology Review", "机器之心", "Wired", "36氪", "虎嗅"],
+      "target_count": 10
+    },
+    "大国博弈": {
+      "keywords": ["地缘政治", "国际关系", "中美", "俄乌", "台湾", "南海", "制裁", "贸易战", "欧盟", "北约", "联合国", "伊朗", "朝鲜"],
+      "sources": ["Bloomberg", "FT", "WSJ", "Reuters", "BBC", "CNN"],
+      "target_count": 10
+    },
+    "产业趋势": {
+      "keywords": ["商业", "公司", "产品", "财报", "融资", "并购", "IPO", "科技趋势", "新兴技术", "智能硬件", "消费电子", "新能源车", "具身智能", "航天", "新能源"],
+      "sources": ["36氪", "虎嗅", "爱范儿", "极客公园", "少数派", "机器之心"],
+      "target_count": 10
+    },
+    "投资参考": {
+      "keywords": ["股市", "基金", "债券", "宏观经济", "政策", "央行", "利率", "通胀", "GDP", "房地产", "外汇", "虚拟货币", "美股", "港股", "A股"],
+      "sources": ["Bloomberg", "FT", "WSJ", "财新", "第一财经", "Reuters"],
+      "target_count": 10
+    }
+  }
+}
