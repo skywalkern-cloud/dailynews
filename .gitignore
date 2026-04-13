@@ -1,0 +1,22 @@
+# gh-pages 数据文件（不需要版本控制）
+gh-pages/*.json
+gh-pages/data/
+
+# 临时文件
+*.log
+*.tmp
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
