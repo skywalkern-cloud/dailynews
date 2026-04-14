@@ -1,5 +1,27 @@
 [
   {
+    "id": "fcff73b8-9151-43cc-9a5a-0eeca700c926",
+    "title": "Announcing the Khan TED Institute",
+    "source": "TED",
+    "url": "https://www.youtube.com/watch?v=kEhRi1tFlhs",
+    "upload_date": "20260414",
+    "published_at": "20260414",
+    "fetched_at": "2026-04-14T21:48:12.083339",
+    "summary": "[失败]",
+    "status": "summarized"
+  },
+  {
+    "id": "029142a8-103c-4805-817b-b2a3f6bf985f",
+    "title": "The 7 Skills You Need to Build AI Agents",
+    "source": "IBM Technology",
+    "url": "https://www.youtube.com/watch?v=mtiOK2QG9Q0",
+    "upload_date": "20260414",
+    "published_at": "20260414",
+    "fetched_at": "2026-04-14T21:48:12.083339",
+    "summary": "[失败]",
+    "status": "summarized"
+  },
+  {
     "id": "1caa3558-3224-4bcc-9d4c-ca5fd4965e4c",
     "title": "Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495",
     "source": "Lex Fridman",
@@ -303,160 +325,6 @@
     "url": "https://www.youtube.com/watch?v=Ojk3QV5U5Jc",
     "upload_date": "20260413",
     "published_at": "20260413",
-    "fetched_at": "2026-04-14T16:15:50.475393",
-    "summary": "[失败]",
-    "status": "summarized"
-  },
-  {
-    "id": "4bcf28a8-7b8a-4298-a0a4-21c9f6c1c137",
-    "title": "4 Relationship Traps That Lead to Burnout | Eric Quintane | TED",
-    "source": "TED",
-    "url": "https://www.youtube.com/watch?v=FvV8vMV105E",
-    "upload_date": "20260412",
-    "published_at": "20260412",
-    "fetched_at": "2026-04-14T16:15:50.475393",
-    "summary": "[失败]",
-    "status": "summarized"
-  },
-  {
-    "id": "b9eb9a7e-44f1-4eed-8439-246995dbe15e",
-    "title": "What to Do When You’re Told There’s Nothing Left to Try | David Fajgenbaum, Kiah Williams | TED",
-    "source": "TED",
-    "url": "https://www.youtube.com/watch?v=lXifoci-Upo",
-    "upload_date": "20260410",
-    "published_at": "20260410",
-    "fetched_at": "2026-04-14T16:15:50.475393",
-    "summary": "[失败]",
-    "status": "summarized"
-  },
-  {
-    "id": "a5f2de7e-a228-4c1b-8884-7170abf8cd90",
-    "title": "What is Physical AI? How Robots Learn & Adapt in Real Life",
-    "source": "IBM Technology",
-    "url": "https://www.youtube.com/watch?v=GOsnf5lOIrI",
-    "upload_date": "20260413",
-    "published_at": "20260413",
-    "fetched_at": "2026-04-14T16:15:50.475393",
-    "summary": "[失败]",
-    "status": "summarized"
-  },
-  {
-    "id": "325b9e73-1ea1-47e1-99e4-a90301b1deec",
-    "title": "IAM for AI: 4 Steps to Secure and Futureproof Agentic Systems",
-    "source": "IBM Technology",
-    "url": "https://www.youtube.com/watch?v=e8ela6puxig",
-    "upload_date": "20260412",
-    "published_at": "20260412",
-    "fetched_at": "2026-04-14T16:15:50.475393",
-    "summary": "[失败]",
-    "status": "summarized"
-  },
-  {
-    "id": "eb0a027f-e6ae-4987-9c3c-cea2f808f686",
-    "title": "What is AI Technical Debt? Key Risks for Machine Learning Projects",
-    "source": "IBM Technology",
-    "url": "https://www.youtube.com/watch?v=DgXV8QSlI4U",
-    "upload_date": "20260411",
-    "published_at": "20260411",
-    "fetched_at": "2026-04-14T16:15:50.475393",
-    "summary": "[失败]",
-    "status": "summarized"
-  },
-  {
-    "id": "d6a5acca-9626-4d53-b0b1-76b444ef0f13",
-    "title": "Builders Unscripted: Ep. 2 - Ashe Magalhaes, Founder of Hearth AI",
-    "source": "OpenAI",
-    "url": "https://www.youtube.com/watch?v=flweA_I-VKE",
-    "upload_date": "20260410",
-    "published_at": "20260410",
-    "fetched_at": "2026-04-14T16:15:50.475393",
-    "summary": "[失败]",
-    "status": "summarized"
-  },
-  {
-    "id": "ae6f5f7d-baf7-4384-b4ee-b965244c3097",
-    "title": "Design your dream room by shopping with ChatGPT",
-    "source": "OpenAI",
-    "url": "https://www.youtube.com/watch?v=1PiLUnxd1b8",
-    "upload_date": "20260409",
-    "published_at": "20260409",
-    "fetched_at": "2026-04-14T16:15:50.475393",
-    "summary": "[失败]",
-    "status": "summarized"
-  },
-  {
-    "id": "32cd6827-6ac6-4867-9a7e-87657133d7c9",
-    "title": "ChatGPT and Cancer: How a Tech Founder Rewrote His Treatment Plan",
-    "source": "OpenAI",
-    "url": "https://www.youtube.com/watch?v=OAlHiQLsYQM",
-    "upload_date": "20260409",
-    "published_at": "20260409",
-    "fetched_at": "2026-04-14T16:15:50.475393",
-    "summary": "[失败]",
-    "status": "summarized"
-  },
-  {
-    "id": "05a17bbe-6054-42ea-ae42-b87f999f6384",
-    "title": "SpaceX Goes Public, Claude’s Mythos Release, and the US Data Center Delay | EP #246",
-    "source": "Peter Diamandis",
-    "url": "https://www.youtube.com/watch?v=cFI-SqnvQK8",
-    "upload_date": "20260411",
-    "published_at": "20260411",
-    "fetched_at": "2026-04-14T16:15:50.475393",
-    "summary": "[失败]",
-    "status": "summarized"
-  },
-  {
-    "id": "1573f891-32dd-4204-a34e-3230578b68ee",
-    "title": "AI + Synthetic Biology: The Most Transformative Technology in Human History | Ben Lamm (Colossal)",
-    "source": "Peter Diamandis",
-    "url": "https://www.youtube.com/watch?v=Goa6c6Qz__I",
-    "upload_date": "20260407",
-    "published_at": "20260407",
-    "fetched_at": "2026-04-14T16:15:50.475393",
-    "summary": "[失败]",
-    "status": "summarized"
-  },
-  {
-    "id": "9c7f1072-1635-4405-bd05-c35712d0c726",
-    "title": "Uber’s Robotaxi Playbook, End of Human Driving & $10B Bet on Robots | Dara Khosrowshahi (Uber CEO)",
-    "source": "Peter Diamandis",
-    "url": "https://www.youtube.com/watch?v=Mh9yC4j0_rI",
-    "upload_date": "20260402",
-    "published_at": "20260402",
-    "fetched_at": "2026-04-14T16:15:50.475393",
-    "summary": "[失败]",
-    "status": "summarized"
-  },
-  {
-    "id": "ffd51ef8-c864-4cd2-9f14-8c2e26710ce2",
-    "title": "URGENT UPDATE - The Iran War Expert: The Most Dangerous Stage Begins Now",
-    "source": "Diary of a CEO",
-    "url": "https://www.youtube.com/watch?v=pDKlaJM_vys",
-    "upload_date": "20260413",
-    "published_at": "20260413",
-    "fetched_at": "2026-04-14T16:15:50.475393",
-    "summary": "[失败]",
-    "status": "summarized"
-  },
-  {
-    "id": "387b12b3-b09b-4135-a083-ded6e453d760",
-    "title": "Ivanka Trump: I Learned What Most People Never Do at 9 Years Old!",
-    "source": "Diary of a CEO",
-    "url": "https://www.youtube.com/watch?v=7VxeyTfhBM8",
-    "upload_date": "20260409",
-    "published_at": "20260409",
-    "fetched_at": "2026-04-14T16:15:50.475393",
-    "summary": "[失败]",
-    "status": "summarized"
-  },
-  {
-    "id": "2f2a3820-6641-4aba-8330-58b8d79dfee5",
-    "title": "Financial Crash Expert: In 3 months We’ll Enter A Famine! If Iran Doesn’t Surrender It's The End!",
-    "source": "Diary of a CEO",
-    "url": "https://www.youtube.com/watch?v=PUO51DoSEqk",
-    "upload_date": "20260406",
-    "published_at": "20260406",
     "fetched_at": "2026-04-14T16:15:50.475393",
     "summary": "[失败]",
     "status": "summarized"
