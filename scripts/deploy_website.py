@@ -49,10 +49,47 @@ def deploy_to_github():
     print("\n提交到GitHub (gh-pages)...")
 
     try:
+        import shutil
+        import tempfile
+        
+        # 0. 处理本地修改：stash tracked + 移动 untracked 到 temp
+        result = subprocess.run(["git", "stash", "push", "-m", "auto-stash-before-deploy"], cwd=str(WORK_DIR), capture_output=True, text=True)
+        if result.returncode == 0 and "No local changes" not in result.stdout:
+            print("  ✓ 本地修改已stash")
+            stashed = True
+        else:
+            stashed = False
+            print("  ✓ 无本地修改需要stash")
+        
+        # 移动untracked文件到temp（防止切换分支时冲突）
+        temp_dir = tempfile.mkdtemp(prefix="git-deploy-")
+        result = subprocess.run(["git", "ls-files", "--others", "--exclude-standard"], cwd=str(WORK_DIR), capture_output=True, text=True)
+        untracked_files = [f.strip() for f in result.stdout.strip().split('\n') if f.strip()]
+        if untracked_files:
+            print(f"  移动 {len(untracked_files)} 个untracked文件到临时目录...")
+            for f in untracked_files:
+                src = WORK_DIR / f
+                if src.exists():
+                    dst = Path(temp_dir) / f
+                    dst.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.move(str(src), str(dst))
+
         # 1. 切换到 gh-pages 分支
         result = subprocess.run(["git", "checkout", "gh-pages"], cwd=str(WORK_DIR), capture_output=True, text=True)
         if result.returncode != 0:
             print(f"✗ 切换gh-pages分支失败: {result.stderr}")
+            # 恢复stash
+            if stashed:
+                subprocess.run(["git", "stash", "pop"], cwd=str(WORK_DIR), capture_output=True)
+            # 恢复untracked文件
+            if untracked_files:
+                for f in untracked_files:
+                    src = Path(temp_dir) / f
+                    if src.exists():
+                        dst = WORK_DIR / f
+                        dst.parent.mkdir(parents=True, exist_ok=True)
+                        shutil.move(str(src), str(dst))
+            shutil.rmtree(temp_dir, ignore_errors=True)
             return False
         print("  ✓ 已切换到 gh-pages 分支")
 
@@ -76,18 +113,52 @@ def deploy_to_github():
         result = subprocess.run(["git", "status", "--short"], cwd=str(WORK_DIR), capture_output=True, text=True)
         if not result.stdout.strip():
             print("  无文件变更")
-            return True
+            success = True
+        else:
+            # 4. Git add + commit + push
+            subprocess.run(["git", "add", "."], cwd=str(WORK_DIR), capture_output=True)
+            commit_msg = f"Update: {datetime.now().strftime('%Y-%m-%d %H:%M')}"
+            subprocess.run(["git", "commit", "-m", commit_msg], cwd=str(WORK_DIR), capture_output=True)
+            subprocess.run(["git", "push", "origin", "gh-pages"], cwd=str(WORK_DIR), capture_output=True)
+            print("✓ GitHub gh-pages 推送成功 → Cloudflare Pages 将自动部署")
+            success = True
 
-        # 4. Git add + commit + push
-        subprocess.run(["git", "add", "."], cwd=str(WORK_DIR), capture_output=True)
-        commit_msg = f"Update: {datetime.now().strftime('%Y-%m-%d %H:%M')}"
-        subprocess.run(["git", "commit", "-m", commit_msg], cwd=str(WORK_DIR), capture_output=True)
-        subprocess.run(["git", "push", "origin", "gh-pages"], cwd=str(WORK_DIR), capture_output=True)
+        # 5. 切换回main分支
+        result = subprocess.run(["git", "checkout", "main"], cwd=str(WORK_DIR), capture_output=True, text=True)
+        if result.returncode == 0:
+            print("  ✓ 已切回 main 分支")
 
-        print("✓ GitHub gh-pages 推送成功 → Cloudflare Pages 将自动部署")
-        return True
+        # 6. 恢复untracked文件
+        if untracked_files:
+            for f in untracked_files:
+                src = Path(temp_dir) / f
+                if src.exists():
+                    dst = WORK_DIR / f
+                    dst.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.move(str(src), str(dst))
+            print(f"  ✓ 已恢复 {len(untracked_files)} 个untracked文件")
+        shutil.rmtree(temp_dir, ignore_errors=True)
+
+        # 7. 恢复stash（如果有）
+        if stashed:
+            subprocess.run(["git", "stash", "pop"], cwd=str(WORK_DIR), capture_output=True)
+            print("  ✓ 已恢复本地修改")
+
+        return success
     except Exception as e:
         print(f"✗ GitHub提交失败: {e}")
+        # 尝试恢复状态
+        subprocess.run(["git", "checkout", "main"], cwd=str(WORK_DIR), capture_output=True)
+        if untracked_files:
+            for f in untracked_files:
+                src = Path(temp_dir) / f
+                if src.exists():
+                    dst = WORK_DIR / f
+                    dst.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.move(str(src), str(dst))
+        shutil.rmtree(temp_dir, ignore_errors=True)
+        if stashed:
+            subprocess.run(["git", "stash", "pop"], cwd=str(WORK_DIR), capture_output=True)
         return False
 
 def main():

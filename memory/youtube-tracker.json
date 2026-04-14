@@ -2,68 +2,76 @@
   "channels": {
     "@LexFridman": {
       "name": "Lex Fridman",
-      "last_url": "https://www.youtube.com/watch?v=KGVpKPNUdzA",
-      "last_title": "Khabib vs Lex: Training with Khabib | FULL EXCLUSIVE FOOTAGE",
-      "last_upload_date": "20260225"
+      "last_url": "https://www.youtube.com/watch?v=iKx3gAODybU",
+      "last_title": "Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495",
+      "last_upload_date": "20260409"
     },
     "@a16z": {
       "name": "a16z",
-      "last_url": "https://www.youtube.com/watch?v=krdrkl38nRw",
-      "last_title": "How to Reorg After AI Changes Everything | Block's Owen Jennings on the a16z Show",
-      "last_upload_date": "20260401"
+      "last_url": "https://www.youtube.com/watch?v=yiJOTCRVWjc",
+      "last_title": "Building Agents at Home: Homeschooling, Parenting and More | The a16z Show",
+      "last_upload_date": "20260413"
     },
     "@allin": {
       "name": "All-in Podcast",
-      "last_url": "https://www.youtube.com/watch?v=4Gmd5UTF4rk",
-      "last_title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Major Lawsuits",
-      "last_upload_date": "20260327"
+      "last_url": "https://www.youtube.com/watch?v=DVBJQQCjgXU",
+      "last_title": "Anthropic’s $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
+      "last_upload_date": "20260410"
     },
     "@business": {
       "name": "Bloomberg Technology",
-      "last_url": "https://www.youtube.com/watch?v=gsQg-w7V3Yo",
-      "last_title": "How Dubai’s Safe-Haven Status Is Being Tested",
-      "last_upload_date": "20260320"
+      "last_url": "https://www.youtube.com/watch?v=aPriy8Iy040",
+      "last_title": "How Prediction Markets Turned the World Into a Casino",
+      "last_upload_date": "20260410"
     },
     "@CNBC": {
       "name": "CNBC",
-      "last_url": "https://www.youtube.com/watch?v=mvDlx-wR72c",
-      "last_title": "Millions Of Americans Are Losing Weight With GLP-1s. Here’s How That’s Changing Retail.",
-      "last_upload_date": "20260409"
+      "last_url": "https://www.youtube.com/watch?v=oVyZbF9CY8E",
+      "last_title": "How Kodak’s CEO Plans To Keep The Business Alive After Over 100 Years",
+      "last_upload_date": "20260412"
     },
     "@TED": {
       "name": "TED",
-      "last_url": "https://www.youtube.com/watch?v=upwFLq7KOv8",
-      "last_title": "Jermaine Dupri on the Art of Making a Hit | On the Spot | TED",
-      "last_upload_date": "20260406"
+      "last_url": "https://www.youtube.com/watch?v=Ojk3QV5U5Jc",
+      "last_title": "3 Things I Wish I Knew When I Was Broke | Vivian Tu | TED",
+      "last_upload_date": "20260413"
     },
     "@IBMTechnology": {
       "name": "IBM Technology",
-      "last_url": "https://www.youtube.com/watch?v=lYDkcC9DDaM",
-      "last_title": "Code Risk Intelligence: Securing AI Coding at Scale in Real Time",
-      "last_upload_date": "20260407"
+      "last_url": "https://www.youtube.com/watch?v=GOsnf5lOIrI",
+      "last_title": "What is Physical AI? How Robots Learn & Adapt in Real Life",
+      "last_upload_date": "20260413"
     },
     "@OpenAI": {
       "name": "OpenAI",
-      "last_url": "https://www.youtube.com/watch?v=ZpUKNYcgM-E",
-      "last_title": "Sam Altman on Building the Future of AI",
-      "last_upload_date": "20260407"
+      "last_url": "https://www.youtube.com/watch?v=flweA_I-VKE",
+      "last_title": "Builders Unscripted: Ep. 2 - Ashe Magalhaes, Founder of Hearth AI",
+      "last_upload_date": "20260410"
     },
     "@PeterDiamandis": {
       "name": "Peter Diamandis",
-      "last_title": ""
+      "last_url": "https://www.youtube.com/watch?v=cFI-SqnvQK8",
+      "last_title": "SpaceX Goes Public, Claude’s Mythos Release, and the US Data Center Delay | EP #246",
+      "last_upload_date": "20260411"
     },
     "@TheDiaryOfACEO": {
       "name": "Diary of a CEO",
-      "last_title": ""
+      "last_url": "https://www.youtube.com/watch?v=pDKlaJM_vys",
+      "last_title": "URGENT UPDATE - The Iran War Expert: The Most Dangerous Stage Begins Now",
+      "last_upload_date": "20260413"
     },
     "@mkbhd": {
       "name": "Marques Brownlee",
-      "last_title": ""
+      "last_url": "https://www.youtube.com/watch?v=Hc0aqOEU2w8",
+      "last_title": "Bluey Phone Review",
+      "last_upload_date": "20260401"
     },
     "@MKBHD": {
       "name": "MKBHD",
-      "last_title": ""
+      "last_url": "https://www.youtube.com/watch?v=Hc0aqOEU2w8",
+      "last_title": "Bluey Phone Review",
+      "last_upload_date": "20260401"
     }
   },
-  "last_update": "2026-04-12T15:56:54.985196"
+  "last_update": "2026-04-14T17:01:41.751980"
 }
