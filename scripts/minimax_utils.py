@@ -4,7 +4,7 @@ import os
 import re
 import requests
 
-GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "AIzaSyAKr89GWrye6o8OZnpI03fWhaPVyx49KRs")
+GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "")
 
 def generate_summary(content, max_words=200, prompt=None):
     if not GOOGLE_API_KEY:
