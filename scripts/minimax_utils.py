@@ -4,12 +4,13 @@ import os
 import re
 import requests
 
-GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "AIzaSyCxutEEieDJapzHi2-9H8FfEJgpAR1cDAc")
+GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "")
 
 def generate_summary(content, max_words=200, prompt=None):
     if not GOOGLE_API_KEY:
         return "[摘要生成失败]"
     
+    # 使用传入的prompt，如果没有就用默认
     if prompt is None:
         prompt = "请用约" + str(max_words) + "字总结：" + content[:500]
     
