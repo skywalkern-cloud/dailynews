@@ -257,16 +257,17 @@ def check_updates(podcasts, tracker):
                 "episodes": new_episodes
             })
             
-            # 保存截止点 = 这次抓到的最旧的 episode（用于下次识别边界）
-            oldest_ep = episodes[-1]
-            if "podcasts" not in tracker:
-                tracker["podcasts"] = {}
-            tracker["podcasts"][podcast_id] = {
-                "name": name,
-                "last_link": oldest_ep.get("link", ""),
-                "last_title": oldest_ep.get("title", ""),
-                "last_pub_date": oldest_ep.get("pubDate", "")
-            }
+            # 保存截止点 = 这次抓到的 new_episodes 中最旧的 episode（用于下次识别边界）
+            if new_episodes:
+                oldest_ep = new_episodes[-1]  # 修复：用new_episodes而非episodes
+                if "podcasts" not in tracker:
+                    tracker["podcasts"] = {}
+                tracker["podcasts"][podcast_id] = {
+                    "name": name,
+                    "last_link": oldest_ep.get("link", ""),
+                    "last_title": oldest_ep.get("title", ""),
+                    "last_pub_date": oldest_ep.get("pubDate", "")
+                }
         else:
             print(f"    - 无新 episode")
         
@@ -375,17 +376,18 @@ def main():
     # fetch only模式：只抓取不生成摘要，保存到pending文件
     fetch_only = os.environ.get("FETCH_ONLY", "false").lower() == "true"
     if fetch_only:
-        pending_file = WORKSPACE / "memory" / "podcast-pending.json"
+        pending_file = MEMORY_DIR / "podcast-pending.json"
         pending = []
         for update in updates:
             for ep in update.get("episodes", []):
                 pending.append({
-                    "id": ep.get("id"),
-                    "title": ep.get("title"),
+                    "id": str(uuid.uuid4()),
+                    "title": ep.get("title", ""),
                     "source": update.get("podcast_name"),
-                    "link": ep.get("link"),
-                    "pubDate": ep.get("pubDate"),
+                    "link": ep.get("link", ""),
+                    "pubDate": ep.get("pubDate", ""),
                     "audio_url": ep.get("audio_url", ""),
+                    "description": ep.get("description", ""),
                 })
         with open(pending_file, 'w', encoding='utf-8') as f:
             json.dump(pending, f, ensure_ascii=False, indent=2)
