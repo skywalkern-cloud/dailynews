@@ -36,7 +36,7 @@ def main():
         ("Step 1: 新闻采集", SCRIPTS_DIR / "news_pipeline.py"),
         ("Step 2: 播客采集", SCRIPTS_DIR / "podcast_daily.py"),
         ("Step 3: YouTube采集", SCRIPTS_DIR / "youtube_daily.py"),
-        ("Step 4: 生成HTML", SCRIPTS_DIR / "generate_html_v21.py"),
+        ("Step 4: 生成HTML", SCRIPTS_DIR / "generate_html_v2.py"),
         ("Step 5: 部署到GitHub", SCRIPTS_DIR / "deploy_website.py"),
     ]
 
