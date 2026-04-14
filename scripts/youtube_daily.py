@@ -117,16 +117,17 @@ def check_updates(channels, tracker):
                 "videos": new_videos
             })
             
-            # 保存截止点 = 这次抓到的最旧的 video（用于下次识别边界）
-            oldest_v = videos[-1]
-            if "channels" not in tracker:
-                tracker["channels"] = {}
-            tracker["channels"][handle] = {
-                "name": name,
-                "last_url": oldest_v.get("url", ""),
-                "last_title": oldest_v.get("title", ""),
-                "last_upload_date": oldest_v.get("upload_date", "")
-            }
+            # 保存截止点 = 这次抓到的 new_videos 中最旧的 video（用于下次识别边界）
+            if new_videos:
+                oldest_v = new_videos[-1]  # 修复：用new_videos而非videos
+                if "channels" not in tracker:
+                    tracker["channels"] = {}
+                tracker["channels"][handle] = {
+                    "name": name,
+                    "last_url": oldest_v.get("url", ""),
+                    "last_title": oldest_v.get("title", ""),
+                    "last_upload_date": oldest_v.get("upload_date", "")
+                }
         else:
             print(f"    - 无新视频")
         
@@ -141,7 +142,7 @@ def generate_summaries(updates):
     
     for update in updates:
         channel_name = update["channel_name"]
-        videos = update["videos"]
+        videos = update["videos"][:3]  # 限制每个频道最多处理3个视频
         
         for video in videos:
             title = video.get("title", "")
@@ -154,7 +155,9 @@ def generate_summaries(updates):
             print(f"  生成摘要: {title_cn[:40]}...")
             
             # 调用AI生成摘要（800字+，带分段）
+            t_start = time.time()
             summary = generate_youtube_summary(desc)
+            print(f"    ✅ 摘要完成 ({time.time()-t_start:.1f}s, {len(summary)}字)")
             
             # P0-1: 统一Schema - UUID/published_at/fetched_at/status
             results.append({
@@ -201,8 +204,9 @@ def main():
     
     # 加载配置
     print("\n[1/4] 加载配置...")
+    t1 = time.time()
     channels = load_config()
-    print(f"  已加载 {len(channels)} 个YouTube频道")
+    print(f"  已加载 {len(channels)} 个YouTube频道 (耗时: {time.time()-t1:.1f}s)")
     
     # 加载追踪器
     tracker = load_tracker()
@@ -210,15 +214,18 @@ def main():
     
     # 检查更新
     print("\n[2/4] 检查频道更新...")
+    t2 = time.time()
     updates = check_updates(channels, tracker)
-    print(f"\n  共发现 {len(updates)} 个频道有更新")
+    print(f"\n  共发现 {len(updates)} 个频道有更新 (耗时: {time.time()-t2:.1f}s)")
     
     # 【重要】检查完更新立即保存tracker，不管后面的摘要是否成功
     save_tracker(tracker)
     
     # 生成AI摘要
     print("\n[3/4] 生成AI摘要...")
+    t3 = time.time()
     summaries = generate_summaries(updates)
+    print(f"  摘要生成完成 (耗时: {time.time()-t3:.1f}s)")
     
     # 加载历史数据
     existing_data = []
