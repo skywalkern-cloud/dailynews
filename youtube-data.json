@@ -12,6 +12,30 @@
     "status": "summarized"
   },
   {
+    "id": "300eae46-6189-44a2-8360-53df10c2921b",
+    "title": "[摘要生成失败]",
+    "source": "OpenAI",
+    "url": "https://www.youtube.com/watch?v=CPq1V7sH38I",
+    "upload_date": "20260415",
+    "published_at": "20260415",
+    "fetched_at": "2026-04-16T14:55:59.083711",
+    "description": "Fix it like a pro with ChatGPT\n\nDirector : Abhinav Pratiman\nDOP : Tassaduq Hussain\nProduction House : Early Man Film\nCreative agency: Hue & Why",
+    "summary": "[摘要生成失败]",
+    "status": "summarized"
+  },
+  {
+    "id": "9203da7c-69c0-48b0-a438-811f937ef91b",
+    "title": "世界崩溃专家：我们正进入有史以来最危险的全球权力真空。",
+    "source": "Diary of a CEO",
+    "url": "https://www.youtube.com/watch?v=EVts3Ui_0AI",
+    "upload_date": "20260416",
+    "published_at": "20260416",
+    "fetched_at": "2026-04-16T15:24:07.498287",
+    "description": "After predicting the world’s biggest risks for over 25 years, Geopolitical Expert Ian Bremmer reveals the top 10 risks for 2026, and why the AI job threat is far bigger than people think!\n\nIan Bremmer is a political scientist and founder of Eurasia Group, a leading political risk research and consulting firm, and GZERO Media, a global affairs media company. He is also a Professor at Columbia University’s School of International and Public Affairs, and the author of several books, including, “The",
+    "summary": "[摘要生成失败]",
+    "status": "summarized"
+  },
+  {
     "id": "23bc9db4-7ebf-4af0-8b0e-9b5c5402c4f1",
     "title": "[摘要生成失败]",
     "source": "CNBC",
@@ -44,18 +68,6 @@
     "published_at": "20260415",
     "fetched_at": "2026-04-16T14:55:59.083711",
     "description": "Read more about AI raising cybersecurity stakes → https://ibm.biz/~ftmuvbGVK\n\nAnthropic says its newest AI model, Claude Mythos, has found thousands of zero-day vulnerabilities across every major OS and web browser.\n\nIt's so powerful, they won't release it publicly. Instead, they’re restricting access to a handful of trusted partners, who get to experiment with Mythos through a new initiative called Project Glasswing.\n\nWhere does that leave the rest of us, who don’t get to tinker with perhaps th",
-    "summary": "[摘要生成失败]",
-    "status": "summarized"
-  },
-  {
-    "id": "300eae46-6189-44a2-8360-53df10c2921b",
-    "title": "[摘要生成失败]",
-    "source": "OpenAI",
-    "url": "https://www.youtube.com/watch?v=CPq1V7sH38I",
-    "upload_date": "20260415",
-    "published_at": "20260415",
-    "fetched_at": "2026-04-16T14:55:59.083711",
-    "description": "Fix it like a pro with ChatGPT\n\nDirector : Abhinav Pratiman\nDOP : Tassaduq Hussain\nProduction House : Early Man Film\nCreative agency: Hue & Why",
     "summary": "[摘要生成失败]",
     "status": "summarized"
   },
