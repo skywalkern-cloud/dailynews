@@ -224,31 +224,6 @@
       "score": 5.699999999999999,
       "category": "must-read",
       "ai_summary": ""
-    },
-    {
-      "id": "f9763203-72f5-4084-a8d4-bfcd98a28a8b",
-      "title": "[摘要生成失败]",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/technology/deepseek-v4-arrives-with-near-state-of-the-art-intelligence-at-1-6th-the-cost-of-opus-4-7-gpt-5-5",
-      "summary": "The whale has resurfaced. DeepSeek, the Chinese AI startup offshoot of High-Flyer Capital Management quantitative analysis firm, became a near-overnight sensation globally in January 2025 with the release of its open source R1 model that matched proprietary U.S. giants.It&#x27;s been an epoch in AI since then, and while DeepSeek has released several updates to that model and its other V3 series, the international AI and business community has been largely waiting with baited breath for the follo",
-      "published": "Fri, 24 Apr 2026 16:34:00 GMT",
-      "published_at": "2026-04-24T16:34:00",
-      "published_parsed": [
-        2026,
-        4,
-        24,
-        16,
-        34,
-        0,
-        4,
-        114,
-        0
-      ],
-      "fetched_at": "2026-04-25T06:04:46.137422",
-      "status": "summarized",
-      "score": 6.0,
-      "category": "must-read",
-      "ai_summary": ""
     }
   ],
   "AI前沿": [
@@ -378,31 +353,6 @@
       "ai_summary": ""
     },
     {
-      "id": "dac6d9c6-4025-4561-8d60-901406bc547e",
-      "title": "[摘要生成失败]",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/orchestration/openai-unveils-workspace-agents-a-successor-to-custom-gpts-for-enterprises-that-can-plug-directly-into-slack-salesforce-and-more",
-      "summary": "OpenAI introduced a new paradigm and product today that is likely to have huge implications for enterprises seeking to adopt and control fleets of AI agent workers.Called &quot;Workspace Agents,&quot; OpenAI&#x27;s new offering essentially allows users on its ChatGPT Business ($20 per user per month) and variably priced Enterprise, Edu and Teachers subscription plans to design or select from pre-existing agent templates that can take on work tasks across third-party apps and data sources includi",
-      "published": "Wed, 22 Apr 2026 23:53:00 GMT",
-      "published_at": "2026-04-22T23:53:00",
-      "published_parsed": [
-        2026,
-        4,
-        22,
-        23,
-        53,
-        0,
-        2,
-        112,
-        0
-      ],
-      "fetched_at": "2026-04-25T06:04:46.137422",
-      "status": "summarized",
-      "score": 8.1,
-      "category": "AI前沿",
-      "ai_summary": ""
-    },
-    {
       "id": "878ed498-99c4-4781-aaf5-794349f813b0",
       "title": "Grindr 首席执行官就首届白宫记者晚宴派对及政治倡议发表讲话",
       "source": "Bloomberg",
@@ -447,31 +397,6 @@
         0
       ],
       "fetched_at": "2026-04-25T06:04:31.034847",
-      "status": "summarized",
-      "score": 8.0,
-      "category": "AI前沿",
-      "ai_summary": ""
-    },
-    {
-      "id": "69185583-d74f-44c9-85e5-79ecf571c220",
-      "title": "[摘要生成失败]",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
-      "summary": "On Friday, Chinese AI firm DeepSeek released a preview of V4, its long-awaited new flagship model. Notably, the model can process much longer prompts than its last generation, thanks to a new design that helps it handle large amounts of text more efficiently. Like DeepSeek’s previous models, V4 is open source, meaning it is available&#8230;",
-      "published": "Fri, 24 Apr 2026 21:40:58 +0000",
-      "published_at": "2026-04-24T21:40:58",
-      "published_parsed": [
-        2026,
-        4,
-        24,
-        21,
-        40,
-        58,
-        4,
-        114,
-        0
-      ],
-      "fetched_at": "2026-04-25T06:04:41.169716",
       "status": "summarized",
       "score": 8.0,
       "category": "AI前沿",
