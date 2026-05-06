@@ -1,7 +1,7 @@
 {
   "must-read": [
     {
-      "id": "e1672e61-c44c-4e58-b1bd-27cf61ce06d0",
+      "id": "df942fcf-7122-4e0e-a3f3-e6b2c039c354",
       "title": "Cyber-Insecurity in the AI Era",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/",
@@ -19,13 +19,13 @@
         121,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:34.969900",
+      "fetched_at": "2026-05-06T10:28:31.868093",
       "status": "new",
       "score": 6.4,
       "category": "AI"
     },
     {
-      "id": "94054847-189b-4e13-9d72-7cba4c67962f",
+      "id": "cb9982e6-310d-48d0-8cf9-e863e4277e8a",
       "title": "Operationalizing AI for Scale and Sovereignty",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty/",
@@ -43,13 +43,13 @@
         121,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:34.969900",
+      "fetched_at": "2026-05-06T10:28:31.868093",
       "status": "new",
       "score": 6.4,
       "category": "AI"
     },
     {
-      "id": "0c4684eb-e43d-4bb3-9b42-d169382c1011",
+      "id": "fd03cd3a-2a21-4e20-9b4f-b35f2c7f4d0e",
       "title": "US Utility Threatens to Quit Power Grids on Data Center Rift",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-05/aep-weighs-break-from-two-of-america-s-biggest-power-grids",
@@ -67,13 +67,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:18.714143",
+      "fetched_at": "2026-05-06T10:28:17.933370",
       "status": "new",
       "score": 6.0,
       "category": "财经"
     },
     {
-      "id": "38fa3ed6-0efd-40ec-be91-c7c1dbe7775a",
+      "id": "b2ba24a4-b459-43ae-95d7-4816d83abcac",
       "title": "Toyota switches on to electric vehicles to counter Chinese threat",
       "source": "Financial Times",
       "url": "https://www.ft.com/content/5c321fb2-ae4c-46fa-a762-ec0bd0a2f516",
@@ -91,13 +91,13 @@
         126,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:21.636608",
+      "fetched_at": "2026-05-06T10:28:20.716522",
       "status": "new",
       "score": 6.0,
       "category": "财经"
     },
     {
-      "id": "41fba21e-6898-43ac-9bb5-e966abc7ae10",
+      "id": "e10d2a38-deeb-46b3-967e-83746c7d4d9d",
       "title": "A blueprint for using AI to strengthen democracy",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/05/05/1136843/ai-democracy-blueprint/",
@@ -115,13 +115,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:34.969900",
+      "fetched_at": "2026-05-06T10:28:31.868093",
       "status": "new",
       "score": 5.699999999999999,
       "category": "AI"
     },
     {
-      "id": "b3165f35-8b1f-4043-bf8f-8f70f4f89fb2",
+      "id": "98f111e5-6eae-40d6-a7d5-7af7eb3758c1",
       "title": "Tailoring AI solutions for health care needs",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/05/04/1134425/tailoring-ai-solutions-for-health-care-needs/",
@@ -139,13 +139,13 @@
         124,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:34.969900",
+      "fetched_at": "2026-05-06T10:28:31.868093",
       "status": "new",
       "score": 5.699999999999999,
       "category": "AI"
     },
     {
-      "id": "44e18045-da67-48c8-9d19-7917b6d66e8c",
+      "id": "9eae4b88-301f-4f9e-baa5-f47d98c22e93",
       "title": "一家AI原生健康硬件公司完成近亿元融资，韶音、甘洁出手，高秉强投过｜硬氪首发",
       "source": "36氪",
       "url": "https://36kr.com/p/3682907323150215?f=rss",
@@ -163,13 +163,37 @@
         126,
         0
       ],
-      "fetched_at": "2026-05-06T10:14:45.559532",
+      "fetched_at": "2026-05-06T10:27:45.062159",
       "status": "new",
       "score": 5.0,
       "category": "科技"
     },
     {
-      "id": "c93f6b94-1655-482a-83d4-4e8ced3c8fd5",
+      "id": "09b7e22c-cbdf-45e5-8c96-f48481bd57af",
+      "title": "“杉木SHANMU”完成近亿元A轮融资",
+      "source": "36氪",
+      "url": "https://36kr.com/newsflashes/3797185277172996?f=rss",
+      "summary": "36氪获悉，AI原生健康硬件公司“杉木SHANMU”近日完成近亿元A轮融资，本轮由石溪资本（兆易创新旗下战投基金）领投，韶音科技、博将资本、涌铧投资、上海天使会等多家机构联合参投，老股东甘洁教授旗下知行一号基金和万物为资本追加本轮投资。庚辛资本为本轮财务顾问。",
+      "published": "2026-05-06 10:16:36  +0800",
+      "published_at": "2026-05-06T02:16:36",
+      "published_parsed": [
+        2026,
+        5,
+        6,
+        2,
+        16,
+        36,
+        2,
+        126,
+        0
+      ],
+      "fetched_at": "2026-05-06T10:27:45.062159",
+      "status": "new",
+      "score": 4.0,
+      "category": "科技"
+    },
+    {
+      "id": "0284b15e-84ad-4e4e-86f4-8024ec2e4eee",
       "title": "Canadian Gold Miner Halts Trading Again as Project Blocked",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-05/dominican-republic-protests-derail-canadian-gold-mining-project",
@@ -187,13 +211,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:18.714143",
+      "fetched_at": "2026-05-06T10:28:17.933370",
       "status": "new",
       "score": 4.0,
       "category": "财经"
     },
     {
-      "id": "e15f6ab2-dbbf-4d8e-9551-f2c988b22018",
+      "id": "1eaad592-660b-4617-9347-0551eac7ccc1",
       "title": "Meta and Zuckerberg sued by publishers over ‘massive’ copyright infringement",
       "source": "Financial Times",
       "url": "https://www.ft.com/content/079ef5b2-5c68-435f-9f67-e02bd9073610",
@@ -211,31 +235,7 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:21.636608",
-      "status": "new",
-      "score": 4.0,
-      "category": "财经"
-    },
-    {
-      "id": "da343d55-0b3f-4c49-9c1f-ad658e944421",
-      "title": "Apple reaches $250mn settlement over delayed ‘AI Siri’",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/f2c6a27e-8ed9-487c-9384-7e0f0dca3061",
-      "summary": "iPhone buyers sued the tech giant for touting features in 2024 that have yet to launch",
-      "published": "Tue, 05 May 2026 20:43:18 GMT",
-      "published_at": "2026-05-05T20:43:18",
-      "published_parsed": [
-        2026,
-        5,
-        5,
-        20,
-        43,
-        18,
-        1,
-        125,
-        0
-      ],
-      "fetched_at": "2026-05-06T10:15:21.636608",
+      "fetched_at": "2026-05-06T10:28:20.716522",
       "status": "new",
       "score": 4.0,
       "category": "财经"
@@ -243,31 +243,7 @@
   ],
   "AI前沿": [
     {
-      "id": "6c616bff-4a86-408b-9342-99861ea41c30",
-      "title": "Alphabet Returns to Euro Debt Market for Latest AI Megabond Deal",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-05/alphabet-kicks-off-six-tranche-euro-debt-offering",
-      "summary": "Alphabet Inc. needs to borrow heavily to fund investments in artificial intelligence, and it’s increasingly tapping every market to do so.",
-      "published": "Tue, 05 May 2026 06:36:29 GMT",
-      "published_at": "2026-05-05T06:36:29",
-      "published_parsed": [
-        2026,
-        5,
-        5,
-        6,
-        36,
-        29,
-        1,
-        125,
-        0
-      ],
-      "fetched_at": "2026-05-06T10:15:18.714143",
-      "status": "new",
-      "score": 13.299999999999999,
-      "category": "财经"
-    },
-    {
-      "id": "cf1b284b-30d0-4e5a-b0ce-cd068821ce13",
+      "id": "7eaf78e8-6449-43ef-a722-44d31af71cfc",
       "title": "OpenAI turns its sold-out GPT-5.5 party into a monthlong Codex giveaway for 8,000 developers",
       "source": "VentureBeat",
       "url": "https://venturebeat.com/technology/openai-turns-its-sold-out-gpt-5-5-party-into-a-monthlong-codex-giveaway-for-8-000-developers",
@@ -285,13 +261,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:39.256640",
+      "fetched_at": "2026-05-06T10:28:39.678765",
       "status": "new",
       "score": 8.549999999999999,
       "category": "AI"
     },
     {
-      "id": "7bad3883-e38d-47cd-a2fd-1dcb3d1a3779",
+      "id": "8e7a9de8-06a0-4ded-b26f-060e989a3b52",
       "title": "Samsung Hits $1 Trillion Valuation, Joining TSMC in Elite Club",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-06/samsung-hits-1-trillion-valuation-joining-tsmc-in-elite-club",
@@ -309,13 +285,13 @@
         126,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:18.714143",
+      "fetched_at": "2026-05-06T10:28:17.933370",
       "status": "new",
       "score": 8.0,
       "category": "财经"
     },
     {
-      "id": "8f05a0fb-2264-4ac4-9b29-4af135911cb8",
+      "id": "0ea6e982-f25e-4a89-8c91-b7aef1b50bc2",
       "title": "Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI’s models",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
@@ -333,13 +309,13 @@
         121,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:34.969900",
+      "fetched_at": "2026-05-06T10:28:31.868093",
       "status": "new",
       "score": 6.4,
       "category": "AI"
     },
     {
-      "id": "791478fd-7d27-4ca4-b68a-9c88fdc7ddf5",
+      "id": "e5b81c4b-382f-478e-b448-156467e80ac4",
       "title": "The Download: a new Christian phone network, and debugging LLMs",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/05/01/1136762/the-download-christian-phone-network-debugging-llms/",
@@ -357,13 +333,13 @@
         121,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:34.969900",
+      "fetched_at": "2026-05-06T10:28:31.868093",
       "status": "new",
       "score": 6.4,
       "category": "AI"
     },
     {
-      "id": "0fb0d6ae-889f-4d7e-a4ba-acca3c83852d",
+      "id": "ab080d99-8dad-4df5-8a29-b7d951c749a2",
       "title": "Compass Shares Surge After 2Q Revenue Forecast Beats Estimates",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-05/compass-shares-surge-after-2q-revenue-forecast-beats-estimates",
@@ -381,13 +357,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:18.714143",
+      "fetched_at": "2026-05-06T10:28:17.933370",
       "status": "new",
       "score": 6.0,
       "category": "财经"
     },
     {
-      "id": "97d89f9a-47f9-4612-a5de-6423a7584092",
+      "id": "d84d6893-186e-4be7-918c-1d6d0b29b169",
       "title": "Meta plans advanced ‘agentic’ AI assistant for consumers",
       "source": "Financial Times",
       "url": "https://www.ft.com/content/5b48360c-53f2-444a-80a8-f7034750fd62",
@@ -405,13 +381,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:21.636608",
+      "fetched_at": "2026-05-06T10:28:20.716522",
       "status": "new",
       "score": 6.0,
       "category": "财经"
     },
     {
-      "id": "519cd583-dea7-4ef0-8041-6442e8d46953",
+      "id": "59af030f-456d-468a-9a7c-ed2edd607081",
       "title": "GPT-5.5 Instant shows you what it remembered — just not all of it",
       "source": "VentureBeat",
       "url": "https://venturebeat.com/orchestration/gpt-5-5-instant-shows-you-what-it-remembered-just-not-all-of-it",
@@ -429,13 +405,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:39.256640",
+      "fetched_at": "2026-05-06T10:28:39.678765",
       "status": "new",
       "score": 6.0,
       "category": "AI"
     },
     {
-      "id": "a81e9a24-788e-44f9-a928-8f8a3537a43e",
+      "id": "27f7fd42-1234-4c0c-b723-6ef6c53decd5",
       "title": "Week one of the Musk v. Altman trial: What it was like in the room",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/05/04/1136826/week-one-of-the-musk-v-altman-trial-what-it-was-like-in-the-room/",
@@ -453,13 +429,13 @@
         124,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:34.969900",
+      "fetched_at": "2026-05-06T10:28:31.868093",
       "status": "new",
       "score": 5.699999999999999,
       "category": "AI"
     },
     {
-      "id": "1071dc38-667a-4b92-ab58-69494e1e6388",
+      "id": "2d748c28-a4ff-44f4-a04d-d5edc8e7d90d",
       "title": "Google DeepMind Workers Vote to Unionize Over Military AI Deals",
       "source": "Wired",
       "url": "https://www.wired.com/story/google-deepmind-workers-vote-to-unionize-over-military-ai-deals/",
@@ -477,7 +453,31 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:36.905397",
+      "fetched_at": "2026-05-06T10:28:36.089610",
+      "status": "new",
+      "score": 5.0,
+      "category": "AI"
+    },
+    {
+      "id": "58473c2a-9ed9-4926-86c5-2bf762060e3f",
+      "title": "Miami startup Subquadratic claims 1,000x AI efficiency gain with SubQ model; researchers demand independent proof.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/miami-startup-subquadratic-claims-1-000x-ai-efficiency-gain-with-subq-model-researchers-demand-independent-proof",
+      "summary": "A little-known Miami-based startup called Subquadratic emerged from stealth on Tuesday with a sweeping claim: that it has built the first large language model to fully escape the mathematical constraint that has defined — and limited — every major AI system since 2017.The company claims its first model, SubQ 1M-Preview, is the first LLM built on a fully subquadratic architecture — one where compute grows linearly with context length. If that claim holds, it would be a genuine inflection point in",
+      "published": "Tue, 05 May 2026 23:30:14 GMT",
+      "published_at": "2026-05-05T23:30:14",
+      "published_parsed": [
+        2026,
+        5,
+        5,
+        23,
+        30,
+        14,
+        1,
+        125,
+        0
+      ],
+      "fetched_at": "2026-05-06T10:28:39.678765",
       "status": "new",
       "score": 5.0,
       "category": "AI"
@@ -485,7 +485,7 @@
   ],
   "大国博弈": [
     {
-      "id": "eb76141c-70ba-4703-98eb-e287cd23298c",
+      "id": "241e0228-571a-4cfc-906b-b6f2380d0bf4",
       "title": "Gold Rises as Trump Touts Progress with Iran and Dollar Falls",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-05/gold-steady-as-fragile-ceasefire-holds-in-gulf-after-flareup",
@@ -503,13 +503,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:18.714143",
+      "fetched_at": "2026-05-06T10:28:17.933370",
       "status": "new",
       "score": 8.0,
       "category": "财经"
     },
     {
-      "id": "84060d7e-1bb9-46d7-ae8c-bc5a81fd3345",
+      "id": "4cf285d0-3c4e-407e-81a6-b66a7f16a61e",
       "title": "US to Pause Guiding Ships While Seeking Iran Deal: Trump",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/videos/2026-05-06/us-to-pause-guiding-ships-while-seeking-iran-deal-trump-video",
@@ -527,13 +527,13 @@
         126,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:18.714143",
+      "fetched_at": "2026-05-06T10:28:17.933370",
       "status": "new",
       "score": 8.0,
       "category": "财经"
     },
     {
-      "id": "276edbe8-dff7-4e91-b961-baee5cf26804",
+      "id": "62d6e5b0-4b7e-494a-9676-d7e98bf0b5ca",
       "title": "Sydney Hedge Fund Regal Sees Inflows Jump for Inflation Hedges",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-05/sydney-hedge-fund-regal-sees-inflows-jump-for-inflation-hedges",
@@ -551,37 +551,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:18.714143",
+      "fetched_at": "2026-05-06T10:28:17.933370",
       "status": "new",
       "score": 8.0,
       "category": "财经"
     },
     {
-      "id": "ded1cead-c5ad-4903-9ab8-23c7ce600fc8",
-      "title": "Reeves clashed with Bessent over Iran war criticism",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/85f851c6-3cc2-44ee-b527-5a1136f851e7",
-      "summary": "Dispute between UK chancellor and US Treasury secretary underscores allies’ diverging stances on the conflict",
-      "published": "Tue, 05 May 2026 04:00:34 GMT",
-      "published_at": "2026-05-05T04:00:34",
-      "published_parsed": [
-        2026,
-        5,
-        5,
-        4,
-        0,
-        34,
-        1,
-        125,
-        0
-      ],
-      "fetched_at": "2026-05-06T10:15:21.636608",
-      "status": "new",
-      "score": 7.6,
-      "category": "财经"
-    },
-    {
-      "id": "4cd3b29f-abb5-4a25-8a12-5c8f6eea7b75",
+      "id": "6d37fa8e-dd5c-4eeb-9bf7-983715df3746",
       "title": "Oil Extends Decline as Trump Says ‘Great Progress’ in Iran Talks",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-05/latest-oil-market-news-and-analysis-for-may-6",
@@ -599,13 +575,37 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:18.714143",
+      "fetched_at": "2026-05-06T10:28:17.933370",
       "status": "new",
       "score": 6.0,
       "category": "财经"
     },
     {
-      "id": "e65fae71-67f2-4189-9ba2-b84857256b93",
+      "id": "a268b49c-6aff-497a-96a7-e528026326f8",
+      "title": "US pauses ‘Project Freedom’ as Trump seeks way out of Hormuz impasse",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/5f7ba94e-8a42-4f36-8c4c-19be932c8f66",
+      "summary": "US and Iranian forces clashed in the strait during the one-day mission to help commercial vessels through the waterway",
+      "published": "Wed, 06 May 2026 01:54:47 GMT",
+      "published_at": "2026-05-06T01:54:47",
+      "published_parsed": [
+        2026,
+        5,
+        6,
+        1,
+        54,
+        47,
+        2,
+        126,
+        0
+      ],
+      "fetched_at": "2026-05-06T10:28:20.716522",
+      "status": "new",
+      "score": 6.0,
+      "category": "财经"
+    },
+    {
+      "id": "02ae0c10-9c1c-40c2-9ffd-484e3d39bb98",
       "title": "Beijing promised to 'fight back' over Taiwan leader's US visit. But this time it has more to lose",
       "source": "CNN",
       "url": "https://www.cnn.com/2023/04/04/asia/tsai-ing-wen-taiwan-mccarthy-meeting-analysis-intl-hnk/index.html",
@@ -623,13 +623,13 @@
         94,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:25.891998",
+      "fetched_at": "2026-05-06T10:28:25.566959",
       "status": "new",
       "score": 4.800000000000001,
       "category": "国际"
     },
     {
-      "id": "81b69dba-6c96-4590-beeb-a34cd0630182",
+      "id": "b0c211da-6cc2-4f06-a398-93d360c8e96f",
       "title": "Canada to be first non-European nation at EPC summit as Carney seeks allies",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/may/03/canada-first-non-european-nation-epc-summit-mark-carney-allies-trump",
@@ -647,13 +647,13 @@
         123,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:28.117294",
+      "fetched_at": "2026-05-06T10:28:29.563450",
       "status": "new",
       "score": 4.5,
       "category": "国际"
     },
     {
-      "id": "1f1c869c-c4e6-40a2-970b-e3d8271efd96",
+      "id": "b451758e-b044-4b36-9086-f6ddf3b3fa08",
       "title": "Global oil reserves plunge at record pace as Middle East war strains supplies",
       "source": "Financial Times",
       "url": "https://www.ft.com/content/3beeb26f-6c35-46a9-b116-42edbe6552fd",
@@ -671,13 +671,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:21.636608",
+      "fetched_at": "2026-05-06T10:28:20.716522",
       "status": "new",
       "score": 4.0,
       "category": "财经"
     },
     {
-      "id": "820d8293-522a-4449-9ccc-9219154cae27",
+      "id": "5420e121-a0a7-4967-b690-c6e6415d922f",
       "title": "Watch: Captain of stranded ship in Strait of Hormuz tells BBC of 'pressure'",
       "source": "BBC",
       "url": "https://www.bbc.com/news/videos/czx2k3eprpgo?at_medium=RSS&at_campaign=rss",
@@ -695,13 +695,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:23.815712",
+      "fetched_at": "2026-05-06T10:28:23.224485",
       "status": "new",
       "score": 4.0,
       "category": "国际"
     },
     {
-      "id": "54759edb-3de1-4fd0-b491-7dd221ebe77e",
+      "id": "4a538269-1c71-48ac-a46d-28f6f8eee70b",
       "title": "The Stock Market Is On Fire Because Investors Don't Care About Iran Anymore",
       "source": "Off the Chain",
       "url": "https://pomp.substack.com/p/the-stock-market-is-on-fire-because",
@@ -719,7 +719,7 @@
         121,
         0
       ],
-      "fetched_at": "2026-05-06T10:16:01.934148",
+      "fetched_at": "2026-05-06T10:29:04.839783",
       "status": "new",
       "score": 4.0,
       "category": "财经"
@@ -727,7 +727,7 @@
   ],
   "产业趋势": [
     {
-      "id": "cce46e1b-647b-4622-be20-52312c0fb3ac",
+      "id": "53c1dd4b-0cc7-4afa-b29f-3da1f6709566",
       "title": "Sun Pharma Explores Funding Mix for $12 Billion Organon Deal",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-06/sun-pharma-explores-funding-mix-for-12-billion-organon-deal",
@@ -745,13 +745,13 @@
         126,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:18.714143",
+      "fetched_at": "2026-05-06T10:28:17.933370",
       "status": "new",
       "score": 12.0,
       "category": "财经"
     },
     {
-      "id": "95943d84-9dcc-4553-93a4-8b935f975d70",
+      "id": "9d6bc751-4ab6-45a1-aaa0-d49d3fb47d75",
       "title": "在硅谷，中美具身公司聊了聊了4个问题的解法",
       "source": "36氪",
       "url": "https://36kr.com/p/3792155815304450?f=rss",
@@ -769,13 +769,13 @@
         122,
         0
       ],
-      "fetched_at": "2026-05-06T10:14:45.559532",
+      "fetched_at": "2026-05-06T10:27:45.062159",
       "status": "new",
       "score": 4.800000000000001,
       "category": "科技"
     },
     {
-      "id": "a9aee587-70fb-41a3-b7e3-39148f2fc45c",
+      "id": "bcec1e68-d875-4ce5-8c51-63021072b28a",
       "title": "Sixth Street BDC Cuts Its Dividend After Posting Quarterly Loss",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-05/sixth-street-bdc-cuts-its-dividend-after-posting-quarterly-loss",
@@ -793,13 +793,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:18.714143",
+      "fetched_at": "2026-05-06T10:28:17.933370",
       "status": "new",
       "score": 4.0,
       "category": "财经"
     },
     {
-      "id": "e117dec7-fe03-431f-8b2e-2e9d0cd59f30",
+      "id": "f990d7d2-f779-4437-ba76-876ef9370fd0",
       "title": "Philip Morris uses secret Senate hearing to warn that illegal tobacco in Australia could wipe out legal trade by 2030",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/australia-news/2026/may/05/philip-morris-uses-secret-senate-hearing-to-warn-tobacco-in-australia-could-wipe-out-legal-trade-by-2030",
@@ -817,13 +817,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:28.117294",
+      "fetched_at": "2026-05-06T10:28:29.563450",
       "status": "new",
       "score": 4.0,
       "category": "国际"
     },
     {
-      "id": "1acb8f65-b51e-4958-ae36-318bf9876086",
+      "id": "331badf5-3e06-4d07-b880-5260a7e19c6a",
       "title": "Explosion at fireworks factory in China kills at least 26",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/may/05/fireworks-factory-explosion-china-kills-workers",
@@ -841,13 +841,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:28.117294",
+      "fetched_at": "2026-05-06T10:28:29.563450",
       "status": "new",
       "score": 3.8,
       "category": "国际"
     },
     {
-      "id": "3644f02e-90d6-4b51-9a4d-69428290d378",
+      "id": "83c47914-91c3-4f3f-a36e-8fe770d0aba3",
       "title": "又一算力独角兽，冲击IPO",
       "source": "36氪",
       "url": "https://36kr.com/p/3791796527602951?f=rss",
@@ -865,13 +865,13 @@
         122,
         0
       ],
-      "fetched_at": "2026-05-06T10:14:45.559532",
+      "fetched_at": "2026-05-06T10:27:45.062159",
       "status": "new",
       "score": 3.2,
       "category": "科技"
     },
     {
-      "id": "ea337ea2-5679-48d7-80d7-1c1cb2077435",
+      "id": "4787546f-38cc-4ca6-94b5-1b4295084e74",
       "title": "Nissan to close one UK production line and cut 900 jobs in Europe",
       "source": "BBC",
       "url": "https://www.bbc.com/news/articles/cdep9g8dp36o?at_medium=RSS&at_campaign=rss",
@@ -889,13 +889,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:23.815712",
+      "fetched_at": "2026-05-06T10:28:23.224485",
       "status": "new",
       "score": 3.0,
       "category": "国际"
     },
     {
-      "id": "2b285e12-4027-4b7a-a05e-39e8160d0765",
+      "id": "d24c74e9-5f6d-405e-99f8-9266763b12c2",
       "title": "The iPhone That Never Was",
       "source": "Wired",
       "url": "https://www.wired.com/story/book-excerpt-david-epstein-inside-the-box-general-magic/",
@@ -913,13 +913,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:36.905397",
+      "fetched_at": "2026-05-06T10:28:36.089610",
       "status": "new",
       "score": 3.0,
       "category": "AI"
     },
     {
-      "id": "e428cb47-a83f-4fe4-836c-c6b80c6e98ca",
+      "id": "866bc86e-ef7a-4e8f-867f-6ffab7277073",
       "title": "早报｜苹果：下季度内存成本压力将显著加大/宇树最便宜人形机器发布/5月1日高速车流或创历史纪录",
       "source": "爱范儿",
       "url": "https://www.ifanr.com/1664760?utm_source=rss&utm_medium=rss&utm_campaign=",
@@ -937,13 +937,13 @@
         121,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:16.571213",
+      "fetched_at": "2026-05-06T10:28:15.718068",
       "status": "new",
       "score": 2.4000000000000004,
       "category": "科技"
     },
     {
-      "id": "9e741802-79db-4980-85a6-a58ef38d0a0a",
+      "id": "b223708c-dbf1-4d9b-add2-b5cc0b416ec0",
       "title": "The $500 billion beauty industry's 'green' ambitions are a patchwork at best. And they're falling short",
       "source": "CNN",
       "url": "https://www.cnn.com/style/article/beauty-skincare-climate/index.html",
@@ -961,7 +961,7 @@
         96,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:25.891998",
+      "fetched_at": "2026-05-06T10:28:25.566959",
       "status": "new",
       "score": 2.4000000000000004,
       "category": "国际"
@@ -969,7 +969,7 @@
   ],
   "投资参考": [
     {
-      "id": "d2c8613d-6aef-4f29-931a-80d3263d943a",
+      "id": "86615b0a-ffa4-4d84-9d81-b3f1614b1e5f",
       "title": "Private Credit Fund Touts Quick Profit Buying Debt at 65 Cents",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-05/private-credit-fund-touts-quick-profit-buying-debt-at-65-cents",
@@ -987,13 +987,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:18.714143",
+      "fetched_at": "2026-05-06T10:28:17.933370",
       "status": "new",
       "score": 8.0,
       "category": "财经"
     },
     {
-      "id": "e381693b-ec09-490f-bf0b-6ab2556bf2c6",
+      "id": "59122b66-8edd-490b-a093-666468eb889c",
       "title": "Singapore’s Marina One Office Complex Said to Attract CapitaLand, Hongkong Land",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-05/singapore-s-marina-one-office-complex-said-to-attract-capitaland-hongkong-land",
@@ -1011,13 +1011,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:18.714143",
+      "fetched_at": "2026-05-06T10:28:17.933370",
       "status": "new",
       "score": 5.699999999999999,
       "category": "财经"
     },
     {
-      "id": "6c3c4e76-6231-43c7-8e22-9a61403f9fe4",
+      "id": "fefec25b-4f63-4713-a6f7-b2847e6a77ca",
       "title": "融资丨海外AI创意引擎Creati.ai完成了新一轮融资，金额超过2000万美元",
       "source": "创业邦",
       "url": "http://www.cyzone.cn/article/831823.html",
@@ -1035,37 +1035,37 @@
         118,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:13.616896",
+      "fetched_at": "2026-05-06T10:28:10.693188",
       "status": "new",
       "score": 5.6000000000000005,
       "category": "财经"
     },
     {
-      "id": "e6465b56-0e57-4df5-84ef-d0d96ed8091c",
+      "id": "8e410305-46ef-4339-938c-af7cd9715af4",
       "title": "Australia news live: PM announces $10bn fuel and fertiliser security budget package; alleged Bondi terror attacker to face 19 extra charges",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/australia-news/live/2026/may/06/national-cabinet-fuel-crisis-anthony-albanese-labor-angus-taylor-coalition-matt-canavan-federal-budget-interest-rates-reserve-bank-inflation-fears-ntwnfb",
       "summary": "Follow updates liveGet our breaking news email, free app or daily news podcastFederal shadow treasurer says any handouts in budget could add to inflationThe federal shadow treasurer, Tim Wilson, has warned that potential cash handouts in next week’s federal budget could add to inflation.Unfortunately when the government hasn’t take inflation seriously, we’ve ended up in this situation and the risk is that if you keep handing out money to households, what you’ll actually do is fuel inflation.This",
-      "published": "Wed, 06 May 2026 01:58:09 GMT",
-      "published_at": "2026-05-06T01:58:09",
+      "published": "Wed, 06 May 2026 02:14:23 GMT",
+      "published_at": "2026-05-06T02:14:23",
       "published_parsed": [
         2026,
         5,
         6,
-        1,
-        58,
-        9,
+        2,
+        14,
+        23,
         2,
         126,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:28.117294",
+      "fetched_at": "2026-05-06T10:28:29.563450",
       "status": "new",
       "score": 5.0,
       "category": "国际"
     },
     {
-      "id": "f31b0580-493a-492f-ba6a-b3f6bf39ca70",
+      "id": "50ddbecb-14df-4778-9987-2af8bb044857",
       "title": "Trump’s mass firing just dealt another blow to American science",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/05/01/1136722/mass-firing-trump-fresh-blow-american-science-nsf-nsb/",
@@ -1083,13 +1083,13 @@
         121,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:34.969900",
+      "fetched_at": "2026-05-06T10:28:31.868093",
       "status": "new",
       "score": 4.800000000000001,
       "category": "AI"
     },
     {
-      "id": "1589ad24-fce6-4489-8545-cd0a33ac30fe",
+      "id": "d3386210-a903-47ab-80d5-2b8c5beb9beb",
       "title": "Alphabet’s Record Canadian Debt Deal Weighs on Bond Spreads",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-05/alphabet-s-record-canadian-debt-deal-weighs-on-bond-spreads",
@@ -1107,13 +1107,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:18.714143",
+      "fetched_at": "2026-05-06T10:28:17.933370",
       "status": "new",
       "score": 4.0,
       "category": "财经"
     },
     {
-      "id": "44459f5c-6ab7-498c-ae55-c8d6a32b9004",
+      "id": "37e8424b-8573-48a2-ba1f-ab862f25ff99",
       "title": "Prudential Profit Rises Even as Firm Grapples With Japan Pause",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-05/prudential-profit-rises-even-as-firm-grapples-with-japan-pause",
@@ -1131,13 +1131,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:18.714143",
+      "fetched_at": "2026-05-06T10:28:17.933370",
       "status": "new",
       "score": 4.0,
       "category": "财经"
     },
     {
-      "id": "3f0fe7d5-fdb6-4897-828a-68692e07474f",
+      "id": "f4b3ffae-11a0-4a67-8c58-3fb3d42ed11a",
       "title": "US stock-lending operator charged with $450mn fraud",
       "source": "Financial Times",
       "url": "https://www.ft.com/content/8e71321f-9823-4dda-9a71-9fdc34920122",
@@ -1155,17 +1155,17 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:21.636608",
+      "fetched_at": "2026-05-06T10:28:20.716522",
       "status": "new",
       "score": 4.0,
       "category": "财经"
     },
     {
-      "id": "260db841-2383-4afa-bce3-cf88ef825e7f",
+      "id": "eeba1a60-1a42-4277-945a-4224fde01059",
       "title": "‘It’s quite distressing’: rate rise brings new pain for would-be homebuyers",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/australia-news/2026/may/05/its-quite-distressing-rate-rise-brings-new-pain-for-would-be-homebuyers",
-      "summary": "Property prices are still rising at the entry level and as borrowing costs increase, the home ownership dream is even further out of reach The third Reserve Bank rate hike in a row has delivered a blow not only to mortgaged homeowners, but also to those hoping to break into the property market like Dani Hunterford and her husband.They have been saving for a deposit but have been left frustrated as another rate hike appears to put their homeowning dream out of reach again. Continue reading...",
+      "summary": "Property prices are still rising at the entry level and as borrowing costs increase, the home ownership dream is even further out of reachFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastThe third Reserve Bank rate hike in a row has delivered a blow not only to mortgaged homeowners, but also to those hoping to break into the property market like Dani Hunterford and her husband.They have been saving for a deposit but have been left f",
       "published": "Tue, 05 May 2026 15:00:42 GMT",
       "published_at": "2026-05-05T15:00:42",
       "published_parsed": [
@@ -1179,13 +1179,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:28.117294",
+      "fetched_at": "2026-05-06T10:28:29.563450",
       "status": "new",
       "score": 4.0,
       "category": "国际"
     },
     {
-      "id": "ef805c14-3a25-41a5-ac03-0b6fffa453c7",
+      "id": "b320f6b1-8898-40d8-b46c-5586cd3d36d1",
       "title": "‘An existential crisis’: residents pay for Nashville boom",
       "source": "Financial Times",
       "url": "https://www.ft.com/content/181eaf5e-42cb-418d-a6e4-7d0bbb42be94",
@@ -1203,7 +1203,7 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:15:21.636608",
+      "fetched_at": "2026-05-06T10:28:20.716522",
       "status": "new",
       "score": 3.8,
       "category": "财经"
