@@ -1,7 +1,7 @@
 {
   "must-read": [
     {
-      "id": "df942fcf-7122-4e0e-a3f3-e6b2c039c354",
+      "id": "3fdbcd10-35cf-4726-8bfd-5f64532177ec",
       "title": "Cyber-Insecurity in the AI Era",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/",
@@ -19,13 +19,13 @@
         121,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:31.868093",
+      "fetched_at": "2026-05-06T11:21:05.501154",
       "status": "new",
       "score": 6.4,
       "category": "AI"
     },
     {
-      "id": "cb9982e6-310d-48d0-8cf9-e863e4277e8a",
+      "id": "dbc5653e-4385-44ce-8c19-ee1f600b5389",
       "title": "Operationalizing AI for Scale and Sovereignty",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty/",
@@ -43,37 +43,37 @@
         121,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:31.868093",
+      "fetched_at": "2026-05-06T11:21:05.501154",
       "status": "new",
       "score": 6.4,
       "category": "AI"
     },
     {
-      "id": "fd03cd3a-2a21-4e20-9b4f-b35f2c7f4d0e",
-      "title": "US Utility Threatens to Quit Power Grids on Data Center Rift",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-05/aep-weighs-break-from-two-of-america-s-biggest-power-grids",
-      "summary": "American Electric Power Co., one of the largest US utilities, is threatening to remove itself from two of the country’s biggest electricity grids over the length of time it takes to connect new AI data centers.",
-      "published": "Tue, 05 May 2026 15:43:44 GMT",
-      "published_at": "2026-05-05T15:43:44",
+      "id": "bcbdf4a5-de69-4b66-8455-75608260025d",
+      "title": "两轮融资数亿元，工商储新锐度能科技，逐鹿全球千亿市场｜创业邦首发",
+      "source": "创业邦",
+      "url": "http://www.cyzone.cn/article/832443.html",
+      "summary": "创业邦获悉，度能科技（厦门）有限公司（以下简称“度能科技”）近日完成数亿元A轮系列融资，本轮由协鑫集团领投，吴中金控产业基金等跟投，资金将主要用于新一代工商储产品研发迭代、欧洲及亚太市场渠道网络建设、厦门智能制造基地投产以及全球化团队扩充。势能资本担任融资独家财务顾问。此前，公司已于2024年完成了Pre-A轮融资，获得了多家产业方的加持认可。度能科技于2023年9月成立，是一家聚焦工商业储能场景的储能产品和解决方案服务商，专注工商储产品的研发、生产和销售。公司创始团队来自于华为数字能源，具备丰富的光伏逆变器和储能产业背景，尤其对欧洲市场有深刻的认知和成功经验。度能科技集成自研EMS、Dulink云端智能调度平台与AI能源算法，致力构建标准化极简的工商业储能解决方案，推动企业用电智能化与降本增效。全球户用储能赛道，2019年正式启动，经历了2022年-2025年的快速增长、深度洗牌和复苏，竞争格局逐步稳固，市场集中度进一步提高，头部企业显现。接下来，用户侧储能领域，将迎来工商业储能赛道的机会。以欧洲市场为例，2024年蓄势起步，当年新增装机仅2.2 GWh， 2025年同比增长高达63",
+      "published": "Wed, 06 May 2026 02:55:31 GMT",
+      "published_at": "2026-05-06T02:55:31",
       "published_parsed": [
         2026,
         5,
-        5,
-        15,
-        43,
-        44,
-        1,
-        125,
+        6,
+        2,
+        55,
+        31,
+        2,
+        126,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:17.933370",
+      "fetched_at": "2026-05-06T11:20:45.882323",
       "status": "new",
       "score": 6.0,
       "category": "财经"
     },
     {
-      "id": "b2ba24a4-b459-43ae-95d7-4816d83abcac",
+      "id": "d9b627cf-cf88-455a-836e-a54d3f964e0d",
       "title": "Toyota switches on to electric vehicles to counter Chinese threat",
       "source": "Financial Times",
       "url": "https://www.ft.com/content/5c321fb2-ae4c-46fa-a762-ec0bd0a2f516",
@@ -91,13 +91,13 @@
         126,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:20.716522",
+      "fetched_at": "2026-05-06T11:20:54.733500",
       "status": "new",
       "score": 6.0,
       "category": "财经"
     },
     {
-      "id": "e10d2a38-deeb-46b3-967e-83746c7d4d9d",
+      "id": "d359a180-26ce-4daa-b0fc-4896cf4dfd06",
       "title": "A blueprint for using AI to strengthen democracy",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/05/05/1136843/ai-democracy-blueprint/",
@@ -115,13 +115,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:31.868093",
+      "fetched_at": "2026-05-06T11:21:05.501154",
       "status": "new",
       "score": 5.699999999999999,
       "category": "AI"
     },
     {
-      "id": "98f111e5-6eae-40d6-a7d5-7af7eb3758c1",
+      "id": "e0624f6b-7e5d-4683-83a7-1254d4f095ea",
       "title": "Tailoring AI solutions for health care needs",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/05/04/1134425/tailoring-ai-solutions-for-health-care-needs/",
@@ -139,13 +139,13 @@
         124,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:31.868093",
+      "fetched_at": "2026-05-06T11:21:05.501154",
       "status": "new",
       "score": 5.699999999999999,
       "category": "AI"
     },
     {
-      "id": "9eae4b88-301f-4f9e-baa5-f47d98c22e93",
+      "id": "3c7c2096-9b16-4e5d-870a-894f4276c0e9",
       "title": "一家AI原生健康硬件公司完成近亿元融资，韶音、甘洁出手，高秉强投过｜硬氪首发",
       "source": "36氪",
       "url": "https://36kr.com/p/3682907323150215?f=rss",
@@ -163,37 +163,13 @@
         126,
         0
       ],
-      "fetched_at": "2026-05-06T10:27:45.062159",
+      "fetched_at": "2026-05-06T11:20:19.733742",
       "status": "new",
       "score": 5.0,
       "category": "科技"
     },
     {
-      "id": "09b7e22c-cbdf-45e5-8c96-f48481bd57af",
-      "title": "“杉木SHANMU”完成近亿元A轮融资",
-      "source": "36氪",
-      "url": "https://36kr.com/newsflashes/3797185277172996?f=rss",
-      "summary": "36氪获悉，AI原生健康硬件公司“杉木SHANMU”近日完成近亿元A轮融资，本轮由石溪资本（兆易创新旗下战投基金）领投，韶音科技、博将资本、涌铧投资、上海天使会等多家机构联合参投，老股东甘洁教授旗下知行一号基金和万物为资本追加本轮投资。庚辛资本为本轮财务顾问。",
-      "published": "2026-05-06 10:16:36  +0800",
-      "published_at": "2026-05-06T02:16:36",
-      "published_parsed": [
-        2026,
-        5,
-        6,
-        2,
-        16,
-        36,
-        2,
-        126,
-        0
-      ],
-      "fetched_at": "2026-05-06T10:27:45.062159",
-      "status": "new",
-      "score": 4.0,
-      "category": "科技"
-    },
-    {
-      "id": "0284b15e-84ad-4e4e-86f4-8024ec2e4eee",
+      "id": "5941efe6-252e-4f10-ae59-9dcc23629e5e",
       "title": "Canadian Gold Miner Halts Trading Again as Project Blocked",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-05/dominican-republic-protests-derail-canadian-gold-mining-project",
@@ -211,13 +187,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:17.933370",
+      "fetched_at": "2026-05-06T11:20:52.039990",
       "status": "new",
       "score": 4.0,
       "category": "财经"
     },
     {
-      "id": "1eaad592-660b-4617-9347-0551eac7ccc1",
+      "id": "e6c2b5a0-16a7-4398-a8d3-51c1ffbcf1f2",
       "title": "Meta and Zuckerberg sued by publishers over ‘massive’ copyright infringement",
       "source": "Financial Times",
       "url": "https://www.ft.com/content/079ef5b2-5c68-435f-9f67-e02bd9073610",
@@ -235,7 +211,31 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:20.716522",
+      "fetched_at": "2026-05-06T11:20:54.733500",
+      "status": "new",
+      "score": 4.0,
+      "category": "财经"
+    },
+    {
+      "id": "6bc4aae1-dd18-4cd1-a683-e67801e7deac",
+      "title": "Apple reaches $250mn settlement over delayed ‘AI Siri’",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/f2c6a27e-8ed9-487c-9384-7e0f0dca3061",
+      "summary": "iPhone buyers sued the tech giant for touting features in 2024 that have yet to launch",
+      "published": "Tue, 05 May 2026 20:43:18 GMT",
+      "published_at": "2026-05-05T20:43:18",
+      "published_parsed": [
+        2026,
+        5,
+        5,
+        20,
+        43,
+        18,
+        1,
+        125,
+        0
+      ],
+      "fetched_at": "2026-05-06T11:20:54.733500",
       "status": "new",
       "score": 4.0,
       "category": "财经"
@@ -243,7 +243,7 @@
   ],
   "AI前沿": [
     {
-      "id": "7eaf78e8-6449-43ef-a722-44d31af71cfc",
+      "id": "06c05acb-5ecb-4ada-ad43-667d74fe326f",
       "title": "OpenAI turns its sold-out GPT-5.5 party into a monthlong Codex giveaway for 8,000 developers",
       "source": "VentureBeat",
       "url": "https://venturebeat.com/technology/openai-turns-its-sold-out-gpt-5-5-party-into-a-monthlong-codex-giveaway-for-8-000-developers",
@@ -261,13 +261,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:39.678765",
+      "fetched_at": "2026-05-06T11:21:11.394768",
       "status": "new",
       "score": 8.549999999999999,
       "category": "AI"
     },
     {
-      "id": "8e7a9de8-06a0-4ded-b26f-060e989a3b52",
+      "id": "063bde38-0ed6-4774-b79f-6e8d6f746767",
       "title": "Samsung Hits $1 Trillion Valuation, Joining TSMC in Elite Club",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-06/samsung-hits-1-trillion-valuation-joining-tsmc-in-elite-club",
@@ -285,13 +285,13 @@
         126,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:17.933370",
+      "fetched_at": "2026-05-06T11:20:52.039990",
       "status": "new",
       "score": 8.0,
       "category": "财经"
     },
     {
-      "id": "0ea6e982-f25e-4a89-8c91-b7aef1b50bc2",
+      "id": "2b2f191f-39fb-4e30-958a-44a52d7f90b9",
       "title": "Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI’s models",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
@@ -309,13 +309,13 @@
         121,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:31.868093",
+      "fetched_at": "2026-05-06T11:21:05.501154",
       "status": "new",
       "score": 6.4,
       "category": "AI"
     },
     {
-      "id": "e5b81c4b-382f-478e-b448-156467e80ac4",
+      "id": "cb5b251b-fe0b-48c1-bc99-e8501d5dfc26",
       "title": "The Download: a new Christian phone network, and debugging LLMs",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/05/01/1136762/the-download-christian-phone-network-debugging-llms/",
@@ -333,13 +333,13 @@
         121,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:31.868093",
+      "fetched_at": "2026-05-06T11:21:05.501154",
       "status": "new",
       "score": 6.4,
       "category": "AI"
     },
     {
-      "id": "ab080d99-8dad-4df5-8a29-b7d951c749a2",
+      "id": "d80d9c88-9415-444d-8719-2acb2aa71cf4",
       "title": "Compass Shares Surge After 2Q Revenue Forecast Beats Estimates",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-05/compass-shares-surge-after-2q-revenue-forecast-beats-estimates",
@@ -357,13 +357,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:17.933370",
+      "fetched_at": "2026-05-06T11:20:52.039990",
       "status": "new",
       "score": 6.0,
       "category": "财经"
     },
     {
-      "id": "d84d6893-186e-4be7-918c-1d6d0b29b169",
+      "id": "3218f9ef-86cf-49fd-ac62-66e1c4a0caaa",
       "title": "Meta plans advanced ‘agentic’ AI assistant for consumers",
       "source": "Financial Times",
       "url": "https://www.ft.com/content/5b48360c-53f2-444a-80a8-f7034750fd62",
@@ -381,13 +381,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:20.716522",
+      "fetched_at": "2026-05-06T11:20:54.733500",
       "status": "new",
       "score": 6.0,
       "category": "财经"
     },
     {
-      "id": "59af030f-456d-468a-9a7c-ed2edd607081",
+      "id": "81aa8fe4-9f0c-4da8-9b56-3ce36f9b9a7d",
       "title": "GPT-5.5 Instant shows you what it remembered — just not all of it",
       "source": "VentureBeat",
       "url": "https://venturebeat.com/orchestration/gpt-5-5-instant-shows-you-what-it-remembered-just-not-all-of-it",
@@ -405,13 +405,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:39.678765",
+      "fetched_at": "2026-05-06T11:21:11.394768",
       "status": "new",
       "score": 6.0,
       "category": "AI"
     },
     {
-      "id": "27f7fd42-1234-4c0c-b723-6ef6c53decd5",
+      "id": "d790a1e5-d943-482f-bff1-62c67d42b96e",
       "title": "Week one of the Musk v. Altman trial: What it was like in the room",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/05/04/1136826/week-one-of-the-musk-v-altman-trial-what-it-was-like-in-the-room/",
@@ -429,13 +429,13 @@
         124,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:31.868093",
+      "fetched_at": "2026-05-06T11:21:05.501154",
       "status": "new",
       "score": 5.699999999999999,
       "category": "AI"
     },
     {
-      "id": "2d748c28-a4ff-44f4-a04d-d5edc8e7d90d",
+      "id": "56cdbefe-685a-4733-b25a-684fe8b9da89",
       "title": "Google DeepMind Workers Vote to Unionize Over Military AI Deals",
       "source": "Wired",
       "url": "https://www.wired.com/story/google-deepmind-workers-vote-to-unionize-over-military-ai-deals/",
@@ -453,13 +453,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:36.089610",
+      "fetched_at": "2026-05-06T11:21:08.942840",
       "status": "new",
       "score": 5.0,
       "category": "AI"
     },
     {
-      "id": "58473c2a-9ed9-4926-86c5-2bf762060e3f",
+      "id": "9c4c744f-533d-47aa-8efb-269ed966002a",
       "title": "Miami startup Subquadratic claims 1,000x AI efficiency gain with SubQ model; researchers demand independent proof.",
       "source": "VentureBeat",
       "url": "https://venturebeat.com/technology/miami-startup-subquadratic-claims-1-000x-ai-efficiency-gain-with-subq-model-researchers-demand-independent-proof",
@@ -477,7 +477,7 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:39.678765",
+      "fetched_at": "2026-05-06T11:21:11.394768",
       "status": "new",
       "score": 5.0,
       "category": "AI"
@@ -485,7 +485,7 @@
   ],
   "大国博弈": [
     {
-      "id": "241e0228-571a-4cfc-906b-b6f2380d0bf4",
+      "id": "02c06ed8-9e01-4036-bd66-320a8565dde2",
       "title": "Gold Rises as Trump Touts Progress with Iran and Dollar Falls",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-05/gold-steady-as-fragile-ceasefire-holds-in-gulf-after-flareup",
@@ -503,13 +503,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:17.933370",
+      "fetched_at": "2026-05-06T11:20:52.039990",
       "status": "new",
       "score": 8.0,
       "category": "财经"
     },
     {
-      "id": "4cf285d0-3c4e-407e-81a6-b66a7f16a61e",
+      "id": "315eeb9a-eb43-4bcf-8cb8-4642962272fd",
       "title": "US to Pause Guiding Ships While Seeking Iran Deal: Trump",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/videos/2026-05-06/us-to-pause-guiding-ships-while-seeking-iran-deal-trump-video",
@@ -527,13 +527,13 @@
         126,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:17.933370",
+      "fetched_at": "2026-05-06T11:20:52.039990",
       "status": "new",
       "score": 8.0,
       "category": "财经"
     },
     {
-      "id": "62d6e5b0-4b7e-494a-9676-d7e98bf0b5ca",
+      "id": "9745bf0b-1fce-4f24-b7bc-b2fda41ff66b",
       "title": "Sydney Hedge Fund Regal Sees Inflows Jump for Inflation Hedges",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-05/sydney-hedge-fund-regal-sees-inflows-jump-for-inflation-hedges",
@@ -551,13 +551,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:17.933370",
+      "fetched_at": "2026-05-06T11:20:52.039990",
       "status": "new",
       "score": 8.0,
       "category": "财经"
     },
     {
-      "id": "6d37fa8e-dd5c-4eeb-9bf7-983715df3746",
+      "id": "3dc517e9-4fd7-43f8-b94a-1708e07d2412",
       "title": "Oil Extends Decline as Trump Says ‘Great Progress’ in Iran Talks",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-05/latest-oil-market-news-and-analysis-for-may-6",
@@ -575,13 +575,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:17.933370",
+      "fetched_at": "2026-05-06T11:20:52.039990",
       "status": "new",
       "score": 6.0,
       "category": "财经"
     },
     {
-      "id": "a268b49c-6aff-497a-96a7-e528026326f8",
+      "id": "95613c9e-bf67-4fdd-84be-722fa0c3557c",
       "title": "US pauses ‘Project Freedom’ as Trump seeks way out of Hormuz impasse",
       "source": "Financial Times",
       "url": "https://www.ft.com/content/5f7ba94e-8a42-4f36-8c4c-19be932c8f66",
@@ -599,13 +599,13 @@
         126,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:20.716522",
+      "fetched_at": "2026-05-06T11:20:54.733500",
       "status": "new",
       "score": 6.0,
       "category": "财经"
     },
     {
-      "id": "02ae0c10-9c1c-40c2-9ffd-484e3d39bb98",
+      "id": "fe6f179f-38b3-4957-bb74-ba61ba72ea3c",
       "title": "Beijing promised to 'fight back' over Taiwan leader's US visit. But this time it has more to lose",
       "source": "CNN",
       "url": "https://www.cnn.com/2023/04/04/asia/tsai-ing-wen-taiwan-mccarthy-meeting-analysis-intl-hnk/index.html",
@@ -623,13 +623,13 @@
         94,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:25.566959",
+      "fetched_at": "2026-05-06T11:21:00.810632",
       "status": "new",
       "score": 4.800000000000001,
       "category": "国际"
     },
     {
-      "id": "b0c211da-6cc2-4f06-a398-93d360c8e96f",
+      "id": "a4e94e11-7aa8-4d8e-98dc-84625563bede",
       "title": "Canada to be first non-European nation at EPC summit as Carney seeks allies",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/may/03/canada-first-non-european-nation-epc-summit-mark-carney-allies-trump",
@@ -647,13 +647,61 @@
         123,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:29.563450",
+      "fetched_at": "2026-05-06T11:21:03.393689",
       "status": "new",
       "score": 4.5,
       "category": "国际"
     },
     {
-      "id": "b451758e-b044-4b36-9086-f6ddf3b3fa08",
+      "id": "a8a00f01-48c5-4951-b600-cacb340fa513",
+      "title": "Chinese Metals Demand Gets Lift as Mideast War Spurs Export Boom",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-06/chinese-metals-demand-gets-lift-as-mideast-war-spurs-export-boom",
+      "summary": "Metal exports from China, especially aluminum, are getting a significant lift from the war in the Middle East, which has cut regional supplies while boosting demand for clean-tech products as fossil fuel prices soar.",
+      "published": "Wed, 06 May 2026 02:35:20 GMT",
+      "published_at": "2026-05-06T02:35:20",
+      "published_parsed": [
+        2026,
+        5,
+        6,
+        2,
+        35,
+        20,
+        2,
+        126,
+        0
+      ],
+      "fetched_at": "2026-05-06T11:20:52.039990",
+      "status": "new",
+      "score": 4.0,
+      "category": "财经"
+    },
+    {
+      "id": "98c33a0b-a424-4d56-b7d7-50391d992bef",
+      "title": "Middle East war: Oil slides as Trump pivots on Strait of Hormuz",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/8dd8d23a-2c5d-42c5-aedb-bbc1f49fcbea",
+      "summary": "US president has “paused” the military mission to guide commercial ships through the vital waterway",
+      "published": "Wed, 06 May 2026 02:58:23 GMT",
+      "published_at": "2026-05-06T02:58:23",
+      "published_parsed": [
+        2026,
+        5,
+        6,
+        2,
+        58,
+        23,
+        2,
+        126,
+        0
+      ],
+      "fetched_at": "2026-05-06T11:20:54.733500",
+      "status": "new",
+      "score": 4.0,
+      "category": "财经"
+    },
+    {
+      "id": "7c89e951-e750-43c8-94cc-776af84688c1",
       "title": "Global oil reserves plunge at record pace as Middle East war strains supplies",
       "source": "Financial Times",
       "url": "https://www.ft.com/content/3beeb26f-6c35-46a9-b116-42edbe6552fd",
@@ -671,55 +719,7 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:20.716522",
-      "status": "new",
-      "score": 4.0,
-      "category": "财经"
-    },
-    {
-      "id": "5420e121-a0a7-4967-b690-c6e6415d922f",
-      "title": "Watch: Captain of stranded ship in Strait of Hormuz tells BBC of 'pressure'",
-      "source": "BBC",
-      "url": "https://www.bbc.com/news/videos/czx2k3eprpgo?at_medium=RSS&at_campaign=rss",
-      "summary": "Capt Raman Kapoor's ship is one of several to be stranded in the strait in the midst of the power struggle between the US and Iran.",
-      "published": "Tue, 05 May 2026 18:28:35 GMT",
-      "published_at": "2026-05-05T18:28:35",
-      "published_parsed": [
-        2026,
-        5,
-        5,
-        18,
-        28,
-        35,
-        1,
-        125,
-        0
-      ],
-      "fetched_at": "2026-05-06T10:28:23.224485",
-      "status": "new",
-      "score": 4.0,
-      "category": "国际"
-    },
-    {
-      "id": "4a538269-1c71-48ac-a46d-28f6f8eee70b",
-      "title": "The Stock Market Is On Fire Because Investors Don't Care About Iran Anymore",
-      "source": "Off the Chain",
-      "url": "https://pomp.substack.com/p/the-stock-market-is-on-fire-because",
-      "summary": "Today&#8217;s Letter Is Brought To You By Fountain Life!",
-      "published": "Fri, 01 May 2026 14:42:04 GMT",
-      "published_at": "2026-05-01T14:42:04",
-      "published_parsed": [
-        2026,
-        5,
-        1,
-        14,
-        42,
-        4,
-        4,
-        121,
-        0
-      ],
-      "fetched_at": "2026-05-06T10:29:04.839783",
+      "fetched_at": "2026-05-06T11:20:54.733500",
       "status": "new",
       "score": 4.0,
       "category": "财经"
@@ -727,7 +727,7 @@
   ],
   "产业趋势": [
     {
-      "id": "53c1dd4b-0cc7-4afa-b29f-3da1f6709566",
+      "id": "aef49df0-b292-4f6d-b69e-e2f5d6c59d82",
       "title": "Sun Pharma Explores Funding Mix for $12 Billion Organon Deal",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-06/sun-pharma-explores-funding-mix-for-12-billion-organon-deal",
@@ -745,13 +745,13 @@
         126,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:17.933370",
+      "fetched_at": "2026-05-06T11:20:52.039990",
       "status": "new",
       "score": 12.0,
       "category": "财经"
     },
     {
-      "id": "9d6bc751-4ab6-45a1-aaa0-d49d3fb47d75",
+      "id": "30250a87-7162-4f3a-8eb9-3220f733037f",
       "title": "在硅谷，中美具身公司聊了聊了4个问题的解法",
       "source": "36氪",
       "url": "https://36kr.com/p/3792155815304450?f=rss",
@@ -769,37 +769,13 @@
         122,
         0
       ],
-      "fetched_at": "2026-05-06T10:27:45.062159",
+      "fetched_at": "2026-05-06T11:20:19.733742",
       "status": "new",
       "score": 4.800000000000001,
       "category": "科技"
     },
     {
-      "id": "bcec1e68-d875-4ce5-8c51-63021072b28a",
-      "title": "Sixth Street BDC Cuts Its Dividend After Posting Quarterly Loss",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-05/sixth-street-bdc-cuts-its-dividend-after-posting-quarterly-loss",
-      "summary": "A private credit fund managed by Sixth Street Partners lowered its dividend and reported a quarterly loss, citing credit spread widening and declining valuations.",
-      "published": "Tue, 05 May 2026 20:58:36 GMT",
-      "published_at": "2026-05-05T20:58:36",
-      "published_parsed": [
-        2026,
-        5,
-        5,
-        20,
-        58,
-        36,
-        1,
-        125,
-        0
-      ],
-      "fetched_at": "2026-05-06T10:28:17.933370",
-      "status": "new",
-      "score": 4.0,
-      "category": "财经"
-    },
-    {
-      "id": "f990d7d2-f779-4437-ba76-876ef9370fd0",
+      "id": "adba0323-a41a-49f8-bb21-a57ae2d5b49c",
       "title": "Philip Morris uses secret Senate hearing to warn that illegal tobacco in Australia could wipe out legal trade by 2030",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/australia-news/2026/may/05/philip-morris-uses-secret-senate-hearing-to-warn-tobacco-in-australia-could-wipe-out-legal-trade-by-2030",
@@ -817,13 +793,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:29.563450",
+      "fetched_at": "2026-05-06T11:21:03.393689",
       "status": "new",
       "score": 4.0,
       "category": "国际"
     },
     {
-      "id": "331badf5-3e06-4d07-b880-5260a7e19c6a",
+      "id": "6afdae10-6909-4561-8f7b-be99f3b5a133",
       "title": "Explosion at fireworks factory in China kills at least 26",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/may/05/fireworks-factory-explosion-china-kills-workers",
@@ -841,61 +817,37 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:29.563450",
+      "fetched_at": "2026-05-06T11:21:03.393689",
       "status": "new",
       "score": 3.8,
       "category": "国际"
     },
     {
-      "id": "83c47914-91c3-4f3f-a36e-8fe770d0aba3",
-      "title": "又一算力独角兽，冲击IPO",
+      "id": "a15f0da0-27d8-433a-bc38-e80e36c9a647",
+      "title": "早期项目 | 德国宇航局工程师创业，让硬件开发进入“vibe时代”",
       "source": "36氪",
-      "url": "https://36kr.com/p/3791796527602951?f=rss",
-      "summary": "作者丨韦香惠 来源丨东四十条资本 A股即将迎来一只“算力独角兽”，估值已站上500亿元门槛。 主角是来自河南的超聚变数字技术股份有限公司。从今年1月提交上市辅导备案，到IPO辅导工作完成，仅用四个多月时间。 这家公司并非“从零起步”，其前身是华为X86服务器业务，2021年受外部环境影响被整体剥离，并独立运营。随后，河南超聚能科技有限公司成为控股股东，持股31.38%，后者大股东则为河南国资平台豫信电子科技集团。此外，超聚变第二大股东系中国移动旗下中移资本，持股15.14%。成立至今，核聚变已至少完成8轮股权融资，身后VC/PE超过30家。 超聚变之所以受资本青睐，离不开“算力即国运”的时代背书。2026年《政府工作报告》明确提出“打造智能经济新形态”，并将“超大规模智算集群、算电协同”等纳入新型基础设施重点方向。在此背景下，从东部沿海到西部内陆，从一线城市到新兴节点城市，算力基础设施建设正呈现出全面铺开的态势。 华为子公司落地河南 超聚变的起点，并不寻常。 其前身是华为的&nbsp;x86&nbsp;服务器业务。2021年，在国际环境变化的背景下，华为将该业务整体剥离，由超聚变承接并",
-      "published": "2026-05-02 15:38:58  +0800",
-      "published_at": "2026-05-02T07:38:58",
+      "url": "https://36kr.com/p/3797224394284033?f=rss",
+      "summary": "“传统工业软件太难用了。” 这是Orthogonal的创始人吉洋和他身边一大批工业界同行的共同感受。 “AI时代，软件开发已经可以用Cursor做vibe coding了，而硬件设计还停留在原始社会”吉洋在接受硬氪采访时表示，达索、ANSYS等巨头构建的，是一个由高昂授权费和极陡学习曲线砌成的“高墙”，Orthogonal想做的，是把“vibe”的方式带入硬件开发。 Orthogonal创始人吉洋曾在德国宇航局（DLR）及工业界深耕了近二十年，参与过达索系统仿真工具核心功能的研发，领导了空客A350宽体客机电气系统的研发，并在库卡、宝马、西门子高速列车、中国商飞、华为、中国航空发动机集团等全球知名企业的合作项目中担任过领导或关键角色。2023年因其在科研和创业领域的贡献，被慕尼黑工业大学授予“TUM Ambassador”荣誉称号。 在他看来，AI带来的不仅是简单的效率提升，更是一次重构工业软件范式的机会，传统工具的复杂性已经成为行业发展的瓶颈。 “AI时代的智能硬件公司，其规模正在变得越来越小，一个人往往需要同时掌握多个领域的技能。对于95%有创新需求的中小企业以及个人爱好者来说，传",
+      "published": "2026-05-06 10:57:18  +0800",
+      "published_at": "2026-05-06T02:57:18",
       "published_parsed": [
         2026,
         5,
+        6,
         2,
-        7,
-        38,
-        58,
-        5,
-        122,
+        57,
+        18,
+        2,
+        126,
         0
       ],
-      "fetched_at": "2026-05-06T10:27:45.062159",
+      "fetched_at": "2026-05-06T11:20:19.733742",
       "status": "new",
-      "score": 3.2,
+      "score": 3.0,
       "category": "科技"
     },
     {
-      "id": "4787546f-38cc-4ca6-94b5-1b4295084e74",
-      "title": "Nissan to close one UK production line and cut 900 jobs in Europe",
-      "source": "BBC",
-      "url": "https://www.bbc.com/news/articles/cdep9g8dp36o?at_medium=RSS&at_campaign=rss",
-      "summary": "Nissan says it is considering working with a third party to fully utilise its Sunderland plant.",
-      "published": "Tue, 05 May 2026 15:39:32 GMT",
-      "published_at": "2026-05-05T15:39:32",
-      "published_parsed": [
-        2026,
-        5,
-        5,
-        15,
-        39,
-        32,
-        1,
-        125,
-        0
-      ],
-      "fetched_at": "2026-05-06T10:28:23.224485",
-      "status": "new",
-      "score": 3.0,
-      "category": "国际"
-    },
-    {
-      "id": "d24c74e9-5f6d-405e-99f8-9266763b12c2",
+      "id": "6e434e61-c0d3-4d5f-a5d4-beeac8c1c020",
       "title": "The iPhone That Never Was",
       "source": "Wired",
       "url": "https://www.wired.com/story/book-excerpt-david-epstein-inside-the-box-general-magic/",
@@ -913,13 +865,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:36.089610",
+      "fetched_at": "2026-05-06T11:21:08.942840",
       "status": "new",
-      "score": 3.0,
+      "score": 2.8499999999999996,
       "category": "AI"
     },
     {
-      "id": "866bc86e-ef7a-4e8f-867f-6ffab7277073",
+      "id": "9483b4ee-368f-4f22-8a17-160074d16380",
       "title": "早报｜苹果：下季度内存成本压力将显著加大/宇树最便宜人形机器发布/5月1日高速车流或创历史纪录",
       "source": "爱范儿",
       "url": "https://www.ifanr.com/1664760?utm_source=rss&utm_medium=rss&utm_campaign=",
@@ -937,13 +889,13 @@
         121,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:15.718068",
+      "fetched_at": "2026-05-06T11:20:49.410729",
       "status": "new",
       "score": 2.4000000000000004,
       "category": "科技"
     },
     {
-      "id": "b223708c-dbf1-4d9b-add2-b5cc0b416ec0",
+      "id": "f6d4618c-c048-4e9d-a60e-b33b764eb43e",
       "title": "The $500 billion beauty industry's 'green' ambitions are a patchwork at best. And they're falling short",
       "source": "CNN",
       "url": "https://www.cnn.com/style/article/beauty-skincare-climate/index.html",
@@ -961,15 +913,77 @@
         96,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:25.566959",
+      "fetched_at": "2026-05-06T11:21:00.810632",
       "status": "new",
       "score": 2.4000000000000004,
       "category": "国际"
+    },
+    {
+      "id": "299f80d0-a983-441a-a492-84c8dbebbf80",
+      "title": "《2025年中国家庭智能大屏行业发展白皮书》：酷喵月活持续稳居行业第一",
+      "source": "创业邦",
+      "url": "http://www.cyzone.cn/article/831870.html",
+      "summary": "近年，“重回大屏”成为中国观众重要的观看习惯趋势之一。对于如今的消费者，大屏正在丢掉传统角色，转而成为承接生活互动的重要伙伴。4月28日，勾正科技发布《2025年中国家庭智能大屏行业发展白皮书》。报告显示，智能电视终端规模已经突破4.39亿台，同比增长4%，在这一行业背景下，酷喵以月活第一的优势，持续领跑OTT内容平台赛道。数据显示，中国智能大屏行业正呈现&quot;质&quot;&quot;量&quot;双升的发展态势，智能大屏日均开机率达52%、日均收视时长突破5.6小时的用户粘性指标，印证了智能电视作为家庭核心媒介的不可替代性。商业化方面，OTT及智能硬件广告市场份额已达互联网广告总量的9%，总收入约为324亿元，呈增长趋势。智能大屏在过去一年实现触达人群增长、内容流量增加，构筑起巨大的营销新空间。数据显示，去年TOP100热门电视剧点播总时长同比增长73%，20-29岁青年人群月活规模同步增长13%，一线城市人群月活更是同比增长30%。报告指出，2025年，55%的广告主计划增加OTT广告支出。以奢侈品为例，2025年奢侈品OTT广告投入指数占比提升15.5%，奢侈品广告投放首",
+      "published": "Tue, 28 Apr 2026 10:00:10 GMT",
+      "published_at": "2026-04-28T10:00:10",
+      "published_parsed": [
+        2026,
+        4,
+        28,
+        10,
+        0,
+        10,
+        1,
+        118,
+        0
+      ],
+      "fetched_at": "2026-05-06T11:20:45.882323",
+      "status": "new",
+      "score": 1.6,
+      "category": "财经"
+    },
+    {
+      "id": "2edac9ec-5fe3-4e5c-a20f-18ef0fa296da",
+      "title": "卖一块亏一块，固态电池独角兽流血IPO\n豹变\n23小时前",
+      "source": "虎嗅",
+      "url": "https://www.huxiu.com/article/4855719.html",
+      "summary": "",
+      "published": "",
+      "published_at": "",
+      "published_parsed": null,
+      "fetched_at": "2026-05-06T11:20:42.476551",
+      "status": "new",
+      "score": 1,
+      "category": "科技"
     }
   ],
   "投资参考": [
     {
-      "id": "86615b0a-ffa4-4d84-9d81-b3f1614b1e5f",
+      "id": "466e5bbd-bb24-4e08-a8e3-28f5026de743",
+      "title": "Asia Central Banks Expected to Move to Higher Interest Rates: JPMorgan AM",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-06/asia-expected-to-move-to-higher-interest-rates-jpmorgan-video",
+      "summary": "Jason Pang of JPMorgan Asset Management says that \"higher oil for longer will translate into a more hawkish bias\" among central banks in Asia. He also tells Bloomberg Television that \"Malaysia, local, remains a good exposure for investors.\" (Source: Bloomberg)",
+      "published": "Wed, 06 May 2026 03:12:44 GMT",
+      "published_at": "2026-05-06T03:12:44",
+      "published_parsed": [
+        2026,
+        5,
+        6,
+        3,
+        12,
+        44,
+        2,
+        126,
+        0
+      ],
+      "fetched_at": "2026-05-06T11:20:52.039990",
+      "status": "new",
+      "score": 8.0,
+      "category": "财经"
+    },
+    {
+      "id": "5ccb61c5-10fb-43d0-910b-a79c696d610c",
       "title": "Private Credit Fund Touts Quick Profit Buying Debt at 65 Cents",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-05/private-credit-fund-touts-quick-profit-buying-debt-at-65-cents",
@@ -987,13 +1001,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:17.933370",
+      "fetched_at": "2026-05-06T11:20:52.039990",
       "status": "new",
       "score": 8.0,
       "category": "财经"
     },
     {
-      "id": "59122b66-8edd-490b-a093-666468eb889c",
+      "id": "b60f7d16-c77b-4cd9-abc2-f4a2ea3d984c",
       "title": "Singapore’s Marina One Office Complex Said to Attract CapitaLand, Hongkong Land",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-05/singapore-s-marina-one-office-complex-said-to-attract-capitaland-hongkong-land",
@@ -1011,13 +1025,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:17.933370",
+      "fetched_at": "2026-05-06T11:20:52.039990",
       "status": "new",
       "score": 5.699999999999999,
       "category": "财经"
     },
     {
-      "id": "fefec25b-4f63-4713-a6f7-b2847e6a77ca",
+      "id": "e84d8d07-ae93-4917-82a9-7362138cbe19",
       "title": "融资丨海外AI创意引擎Creati.ai完成了新一轮融资，金额超过2000万美元",
       "source": "创业邦",
       "url": "http://www.cyzone.cn/article/831823.html",
@@ -1035,37 +1049,13 @@
         118,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:10.693188",
+      "fetched_at": "2026-05-06T11:20:45.882323",
       "status": "new",
       "score": 5.6000000000000005,
       "category": "财经"
     },
     {
-      "id": "8e410305-46ef-4339-938c-af7cd9715af4",
-      "title": "Australia news live: PM announces $10bn fuel and fertiliser security budget package; alleged Bondi terror attacker to face 19 extra charges",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/australia-news/live/2026/may/06/national-cabinet-fuel-crisis-anthony-albanese-labor-angus-taylor-coalition-matt-canavan-federal-budget-interest-rates-reserve-bank-inflation-fears-ntwnfb",
-      "summary": "Follow updates liveGet our breaking news email, free app or daily news podcastFederal shadow treasurer says any handouts in budget could add to inflationThe federal shadow treasurer, Tim Wilson, has warned that potential cash handouts in next week’s federal budget could add to inflation.Unfortunately when the government hasn’t take inflation seriously, we’ve ended up in this situation and the risk is that if you keep handing out money to households, what you’ll actually do is fuel inflation.This",
-      "published": "Wed, 06 May 2026 02:14:23 GMT",
-      "published_at": "2026-05-06T02:14:23",
-      "published_parsed": [
-        2026,
-        5,
-        6,
-        2,
-        14,
-        23,
-        2,
-        126,
-        0
-      ],
-      "fetched_at": "2026-05-06T10:28:29.563450",
-      "status": "new",
-      "score": 5.0,
-      "category": "国际"
-    },
-    {
-      "id": "50ddbecb-14df-4778-9987-2af8bb044857",
+      "id": "4d0b7954-3d86-45fd-b089-5c974400b6dc",
       "title": "Trump’s mass firing just dealt another blow to American science",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/05/01/1136722/mass-firing-trump-fresh-blow-american-science-nsf-nsb/",
@@ -1083,13 +1073,37 @@
         121,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:31.868093",
+      "fetched_at": "2026-05-06T11:21:05.501154",
       "status": "new",
       "score": 4.800000000000001,
       "category": "AI"
     },
     {
-      "id": "d3386210-a903-47ab-80d5-2b8c5beb9beb",
+      "id": "2516f192-f3b6-4653-979f-e258ea8e1253",
+      "title": "India’s Individual Investors Are Leaving Stock Picking to the Pros",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-05-06/individual-investors-direct-ownership-of-indian-stocks-hits-five-year-low",
+      "summary": "Small investors own fewer stocks directly, pour money into the market via mutual funds.",
+      "published": "Wed, 06 May 2026 02:38:42 GMT",
+      "published_at": "2026-05-06T02:38:42",
+      "published_parsed": [
+        2026,
+        5,
+        6,
+        2,
+        38,
+        42,
+        2,
+        126,
+        0
+      ],
+      "fetched_at": "2026-05-06T11:20:52.039990",
+      "status": "new",
+      "score": 4.0,
+      "category": "财经"
+    },
+    {
+      "id": "92808532-2711-4b72-a23e-919cbb71be4e",
       "title": "Alphabet’s Record Canadian Debt Deal Weighs on Bond Spreads",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-05/alphabet-s-record-canadian-debt-deal-weighs-on-bond-spreads",
@@ -1107,37 +1121,13 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:17.933370",
+      "fetched_at": "2026-05-06T11:20:52.039990",
       "status": "new",
       "score": 4.0,
       "category": "财经"
     },
     {
-      "id": "37e8424b-8573-48a2-ba1f-ab862f25ff99",
-      "title": "Prudential Profit Rises Even as Firm Grapples With Japan Pause",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-05/prudential-profit-rises-even-as-firm-grapples-with-japan-pause",
-      "summary": "Prudential Financial Inc.’s first-quarter profit beat Wall Street’s expectations, relieving pressure on Chief Executive Officer Andy Sullivan as he contends with a sales pause in one of its biggest markets.",
-      "published": "Tue, 05 May 2026 21:09:01 GMT",
-      "published_at": "2026-05-05T21:09:01",
-      "published_parsed": [
-        2026,
-        5,
-        5,
-        21,
-        9,
-        1,
-        1,
-        125,
-        0
-      ],
-      "fetched_at": "2026-05-06T10:28:17.933370",
-      "status": "new",
-      "score": 4.0,
-      "category": "财经"
-    },
-    {
-      "id": "f4b3ffae-11a0-4a67-8c58-3fb3d42ed11a",
+      "id": "350e1f0b-5212-45e7-82fd-093012c73b5b",
       "title": "US stock-lending operator charged with $450mn fraud",
       "source": "Financial Times",
       "url": "https://www.ft.com/content/8e71321f-9823-4dda-9a71-9fdc34920122",
@@ -1155,13 +1145,37 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:20.716522",
+      "fetched_at": "2026-05-06T11:20:54.733500",
       "status": "new",
       "score": 4.0,
       "category": "财经"
     },
     {
-      "id": "eeba1a60-1a42-4277-945a-4224fde01059",
+      "id": "0d6af4c1-067d-4ffe-83f8-f152802ce658",
+      "title": "Australia news live: PM announces $10bn fuel and fertiliser security budget package; corporate regulator fines Canva",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/live/2026/may/06/national-cabinet-fuel-crisis-anthony-albanese-labor-angus-taylor-coalition-matt-canavan-federal-budget-interest-rates-reserve-bank-inflation-fears-ntwnfb",
+      "summary": "Follow updates liveGet our breaking news email, free app or daily news podcastFederal shadow treasurer says any handouts in budget could add to inflationThe federal shadow treasurer, Tim Wilson, has warned that potential cash handouts in next week’s federal budget could add to inflation.Unfortunately when the government hasn’t take inflation seriously, we’ve ended up in this situation and the risk is that if you keep handing out money to households, what you’ll actually do is fuel inflation.This",
+      "published": "Wed, 06 May 2026 03:13:37 GMT",
+      "published_at": "2026-05-06T03:13:37",
+      "published_parsed": [
+        2026,
+        5,
+        6,
+        3,
+        13,
+        37,
+        2,
+        126,
+        0
+      ],
+      "fetched_at": "2026-05-06T11:21:03.393689",
+      "status": "new",
+      "score": 4.0,
+      "category": "国际"
+    },
+    {
+      "id": "02a52d96-f4dc-498d-8fff-9abae27c229f",
       "title": "‘It’s quite distressing’: rate rise brings new pain for would-be homebuyers",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/australia-news/2026/may/05/its-quite-distressing-rate-rise-brings-new-pain-for-would-be-homebuyers",
@@ -1179,34 +1193,10 @@
         125,
         0
       ],
-      "fetched_at": "2026-05-06T10:28:29.563450",
+      "fetched_at": "2026-05-06T11:21:03.393689",
       "status": "new",
       "score": 4.0,
       "category": "国际"
-    },
-    {
-      "id": "b320f6b1-8898-40d8-b46c-5586cd3d36d1",
-      "title": "‘An existential crisis’: residents pay for Nashville boom",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/181eaf5e-42cb-418d-a6e4-7d0bbb42be94",
-      "summary": "Tennessee policy attracts corporations and high earners but locals are being priced out of Music City",
-      "published": "Tue, 05 May 2026 04:00:12 GMT",
-      "published_at": "2026-05-05T04:00:12",
-      "published_parsed": [
-        2026,
-        5,
-        5,
-        4,
-        0,
-        12,
-        1,
-        125,
-        0
-      ],
-      "fetched_at": "2026-05-06T10:28:20.716522",
-      "status": "new",
-      "score": 3.8,
-      "category": "财经"
     }
   ]
 }
