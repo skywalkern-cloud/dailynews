@@ -1,0 +1,1 @@
+0 6 * * * cd ~/.openclaw/workspace-dailynews && /usr/bin/python3 scripts/daily_update.py >> ~/.openclaw/workspace-dailynews/logs/daily_update.log 2>&1

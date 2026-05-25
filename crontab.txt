@@ -1,0 +1,5 @@
+GOOGLE_API_KEY=AIzaSyBxKiyVd6n3y2GEX7fUI1nVVxQ_9xOhKQE
+# Layer1: 4:00 采集（新闻+播客列表+YouTube列表+后台下载）
+# Layer2: 10:00 处理（转录+摘要+新闻摘要+HTML+部署）
+0 4 * * * cd ~/.openclaw/workspace-dailynews && python3 scripts/daily_update_layer1.py >> ~/.openclaw/workspace-dailynews/logs/layer1.log 2>&1
+0 10 * * * cd ~/.openclaw/workspace-dailynews && python3 scripts/daily_update_layer2.py >> ~/.openclaw/workspace-dailynews/logs/layer2.log 2>&1

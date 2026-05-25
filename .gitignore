@@ -1,0 +1,4 @@
+.env
+run_deploy.sh
+*.log
+.DS_Store

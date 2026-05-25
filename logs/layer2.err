@@ -1,0 +1,2705 @@
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-04-21 09:00:01,907 [INFO] [generate_podcast_summary] 输入长度=25936, 英文主导=False
+2026-04-21 09:00:01,907 [INFO] [generate_summary] 输入长度: 25936, max_words: 2000
+2026-04-21 09:00:02,220 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-21 09:00:02,220 [ERROR] [MiniMax] 请求异常: 'NoneType' object is not subscriptable, attempt=1/3
+2026-04-21 09:00:06,345 [INFO] [MiniMax] 请求状态: 200, attempt=2
+2026-04-21 09:00:06,346 [ERROR] [MiniMax] 请求异常: 'NoneType' object is not subscriptable, attempt=2/3
+2026-04-21 09:00:08,821 [INFO] [MiniMax] 请求状态: 200, attempt=3
+2026-04-21 09:00:08,822 [ERROR] [MiniMax] 请求异常: 'NoneType' object is not subscriptable, attempt=3/3
+2026-04-21 09:00:08,822 [ERROR] [MiniMax] 3次尝试全部失败
+2026-04-21 09:00:08,824 [INFO] [generate_summary] MiniMax状态: ALL_ATTEMPTS_FAILED, 输出: None
+2026-04-21 09:00:10,094 [INFO] [generate_summary] Gemini请求状态: 429, attempt=1
+2026-04-21 09:00:10,094 [WARNING] [generate_summary] Gemini Rate limit, 等待 5s
+2026-04-21 09:00:16,545 [INFO] [generate_summary] Gemini请求状态: 429, attempt=2
+2026-04-21 09:00:16,546 [WARNING] [generate_summary] Gemini Rate limit, 等待 10s
+2026-04-21 09:00:27,868 [INFO] [generate_summary] Gemini请求状态: 429, attempt=3
+2026-04-21 09:00:27,869 [WARNING] [generate_summary] Gemini Rate limit, 等待 15s
+2026-04-21 09:00:42,991 [ERROR] [generate_summary] 所有API都失败，输入长度=25936
+2026-04-21 09:00:42,994 [INFO] [generate_podcast_summary] 最终状态=ALL_FAILED, 输出长度=8, 输入长度=25936
+2026-04-21 09:00:42,994 [INFO] [generate_podcast_summary] 输入长度=91165, 英文主导=True
+2026-04-21 09:00:42,994 [INFO] [generate_summary] 输入长度: 91165, max_words: 2000
+2026-04-21 09:00:43,290 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-21 09:00:43,290 [ERROR] [MiniMax] 请求异常: 'NoneType' object is not subscriptable, attempt=1/3
+2026-04-21 09:00:47,581 [INFO] [MiniMax] 请求状态: 200, attempt=2
+2026-04-21 09:00:47,581 [ERROR] [MiniMax] 请求异常: 'NoneType' object is not subscriptable, attempt=2/3
+2026-04-21 09:00:49,864 [INFO] [MiniMax] 请求状态: 200, attempt=3
+2026-04-21 09:00:49,865 [ERROR] [MiniMax] 请求异常: 'NoneType' object is not subscriptable, attempt=3/3
+2026-04-21 09:00:49,865 [ERROR] [MiniMax] 3次尝试全部失败
+2026-04-21 09:00:49,867 [INFO] [generate_summary] MiniMax状态: ALL_ATTEMPTS_FAILED, 输出: None
+2026-04-21 09:00:51,073 [INFO] [generate_summary] Gemini请求状态: 429, attempt=1
+2026-04-21 09:00:51,073 [WARNING] [generate_summary] Gemini Rate limit, 等待 5s
+2026-04-21 09:00:57,426 [INFO] [generate_summary] Gemini请求状态: 429, attempt=2
+2026-04-21 09:00:57,426 [WARNING] [generate_summary] Gemini Rate limit, 等待 10s
+2026-04-21 09:01:09,239 [INFO] [generate_summary] Gemini请求状态: 429, attempt=3
+2026-04-21 09:01:09,240 [WARNING] [generate_summary] Gemini Rate limit, 等待 15s
+2026-04-21 09:01:24,242 [ERROR] [generate_summary] 所有API都失败，输入长度=91165
+2026-04-21 09:01:24,245 [INFO] [generate_podcast_summary] 最终状态=ALL_FAILED, 输出长度=8, 输入长度=91165
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-04-21 09:01:24,528 [INFO] [generate_youtube_summary] 输入长度=500, 英文主导=True
+2026-04-21 09:01:24,528 [INFO] [generate_summary] 输入长度: 500, max_words: 2000
+2026-04-21 09:01:26,646 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-21 09:01:26,646 [ERROR] [MiniMax] 请求异常: 'NoneType' object is not subscriptable, attempt=1/3
+2026-04-21 09:01:30,949 [INFO] [MiniMax] 请求状态: 200, attempt=2
+2026-04-21 09:01:30,949 [ERROR] [MiniMax] 请求异常: 'NoneType' object is not subscriptable, attempt=2/3
+2026-04-21 09:01:33,355 [INFO] [MiniMax] 请求状态: 200, attempt=3
+2026-04-21 09:01:33,355 [ERROR] [MiniMax] 请求异常: 'NoneType' object is not subscriptable, attempt=3/3
+2026-04-21 09:01:33,355 [ERROR] [MiniMax] 3次尝试全部失败
+2026-04-21 09:01:33,357 [INFO] [generate_summary] MiniMax状态: ALL_ATTEMPTS_FAILED, 输出: None
+2026-04-21 09:01:34,302 [INFO] [generate_summary] Gemini请求状态: 429, attempt=1
+2026-04-21 09:01:34,302 [WARNING] [generate_summary] Gemini Rate limit, 等待 5s
+2026-04-21 09:01:40,963 [INFO] [generate_summary] Gemini请求状态: 429, attempt=2
+2026-04-21 09:01:40,963 [WARNING] [generate_summary] Gemini Rate limit, 等待 10s
+2026-04-21 09:01:52,021 [INFO] [generate_summary] Gemini请求状态: 429, attempt=3
+2026-04-21 09:01:52,022 [WARNING] [generate_summary] Gemini Rate limit, 等待 15s
+2026-04-21 09:02:07,161 [ERROR] [generate_summary] 所有API都失败，输入长度=500
+2026-04-21 09:02:07,164 [INFO] [generate_youtube_summary] 最终状态=ALL_FAILED, 输出长度=8, 输入长度=500
+2026-04-21 09:02:07,165 [INFO] [generate_youtube_summary] 输入长度=500, 英文主导=True
+2026-04-21 09:02:07,165 [INFO] [generate_summary] 输入长度: 500, max_words: 2000
+2026-04-21 09:02:07,436 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-21 09:02:07,437 [ERROR] [MiniMax] 请求异常: 'NoneType' object is not subscriptable, attempt=1/3
+2026-04-21 09:02:09,784 [INFO] [MiniMax] 请求状态: 200, attempt=2
+2026-04-21 09:02:09,784 [ERROR] [MiniMax] 请求异常: 'NoneType' object is not subscriptable, attempt=2/3
+2026-04-21 09:02:13,842 [INFO] [MiniMax] 请求状态: 200, attempt=3
+2026-04-21 09:02:13,843 [ERROR] [MiniMax] 请求异常: 'NoneType' object is not subscriptable, attempt=3/3
+2026-04-21 09:02:13,843 [ERROR] [MiniMax] 3次尝试全部失败
+2026-04-21 09:02:13,845 [INFO] [generate_summary] MiniMax状态: ALL_ATTEMPTS_FAILED, 输出: None
+2026-04-21 09:02:14,887 [INFO] [generate_summary] Gemini请求状态: 429, attempt=1
+2026-04-21 09:02:14,887 [WARNING] [generate_summary] Gemini Rate limit, 等待 5s
+2026-04-21 09:02:21,806 [INFO] [generate_summary] Gemini请求状态: 429, attempt=2
+2026-04-21 09:02:21,806 [WARNING] [generate_summary] Gemini Rate limit, 等待 10s
+2026-04-21 09:02:33,006 [INFO] [generate_summary] Gemini请求状态: 429, attempt=3
+2026-04-21 09:02:33,007 [WARNING] [generate_summary] Gemini Rate limit, 等待 15s
+2026-04-21 09:02:48,128 [ERROR] [generate_summary] 所有API都失败，输入长度=500
+2026-04-21 09:02:48,130 [INFO] [generate_youtube_summary] 最终状态=ALL_FAILED, 输出长度=8, 输入长度=500
+2026-04-21 09:02:48,131 [INFO] [generate_youtube_summary] 输入长度=500, 英文主导=True
+2026-04-21 09:02:48,131 [INFO] [generate_summary] 输入长度: 500, max_words: 2000
+2026-04-21 09:02:50,428 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-21 09:02:50,428 [ERROR] [MiniMax] 请求异常: 'NoneType' object is not subscriptable, attempt=1/3
+2026-04-21 09:02:52,761 [INFO] [MiniMax] 请求状态: 200, attempt=2
+2026-04-21 09:02:52,761 [ERROR] [MiniMax] 请求异常: 'NoneType' object is not subscriptable, attempt=2/3
+2026-04-21 09:02:56,756 [INFO] [MiniMax] 请求状态: 200, attempt=3
+2026-04-21 09:02:56,756 [ERROR] [MiniMax] 请求异常: 'NoneType' object is not subscriptable, attempt=3/3
+2026-04-21 09:02:56,757 [ERROR] [MiniMax] 3次尝试全部失败
+2026-04-21 09:02:56,759 [INFO] [generate_summary] MiniMax状态: ALL_ATTEMPTS_FAILED, 输出: None
+2026-04-21 09:02:57,909 [INFO] [generate_summary] Gemini请求状态: 429, attempt=1
+2026-04-21 09:02:57,909 [WARNING] [generate_summary] Gemini Rate limit, 等待 5s
+2026-04-21 09:03:04,124 [INFO] [generate_summary] Gemini请求状态: 429, attempt=2
+2026-04-21 09:03:04,125 [WARNING] [generate_summary] Gemini Rate limit, 等待 10s
+2026-04-21 09:03:15,150 [INFO] [generate_summary] Gemini请求状态: 429, attempt=3
+2026-04-21 09:03:15,150 [WARNING] [generate_summary] Gemini Rate limit, 等待 15s
+2026-04-21 09:03:30,299 [ERROR] [generate_summary] 所有API都失败，输入长度=500
+2026-04-21 09:03:30,302 [INFO] [generate_youtube_summary] 最终状态=ALL_FAILED, 输出长度=8, 输入长度=500
+2026-04-21 09:03:30,302 [INFO] [generate_youtube_summary] 输入长度=231, 英文主导=True
+2026-04-21 09:03:30,302 [INFO] [generate_summary] 输入长度: 231, max_words: 2000
+2026-04-21 09:03:32,391 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-21 09:03:32,391 [ERROR] [MiniMax] 请求异常: 'NoneType' object is not subscriptable, attempt=1/3
+2026-04-21 09:03:36,478 [INFO] [MiniMax] 请求状态: 200, attempt=2
+2026-04-21 09:03:36,478 [ERROR] [MiniMax] 请求异常: 'NoneType' object is not subscriptable, attempt=2/3
+2026-04-21 09:03:40,274 [INFO] [MiniMax] 请求状态: 200, attempt=3
+2026-04-21 09:03:40,275 [ERROR] [MiniMax] 请求异常: 'NoneType' object is not subscriptable, attempt=3/3
+2026-04-21 09:03:40,275 [ERROR] [MiniMax] 3次尝试全部失败
+2026-04-21 09:03:40,277 [INFO] [generate_summary] MiniMax状态: ALL_ATTEMPTS_FAILED, 输出: None
+2026-04-21 09:03:41,468 [INFO] [generate_summary] Gemini请求状态: 429, attempt=1
+2026-04-21 09:03:41,468 [WARNING] [generate_summary] Gemini Rate limit, 等待 5s
+2026-04-21 09:03:47,716 [INFO] [generate_summary] Gemini请求状态: 429, attempt=2
+2026-04-21 09:03:47,716 [WARNING] [generate_summary] Gemini Rate limit, 等待 10s
+2026-04-21 09:03:58,975 [INFO] [generate_summary] Gemini请求状态: 429, attempt=3
+2026-04-21 09:03:58,976 [WARNING] [generate_summary] Gemini Rate limit, 等待 15s
+2026-04-21 09:04:14,119 [ERROR] [generate_summary] 所有API都失败，输入长度=231
+2026-04-21 09:04:14,122 [INFO] [generate_youtube_summary] 最终状态=ALL_FAILED, 输出长度=8, 输入长度=231
+2026-04-21 09:04:14,123 [INFO] [generate_youtube_summary] 输入长度=500, 英文主导=True
+2026-04-21 09:04:14,123 [INFO] [generate_summary] 输入长度: 500, max_words: 2000
+2026-04-21 09:04:16,118 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-21 09:04:16,119 [ERROR] [MiniMax] 请求异常: 'NoneType' object is not subscriptable, attempt=1/3
+2026-04-21 09:04:20,118 [INFO] [MiniMax] 请求状态: 200, attempt=2
+2026-04-21 09:04:20,119 [ERROR] [MiniMax] 请求异常: 'NoneType' object is not subscriptable, attempt=2/3
+2026-04-21 09:04:22,556 [INFO] [MiniMax] 请求状态: 200, attempt=3
+2026-04-21 09:04:22,557 [ERROR] [MiniMax] 请求异常: 'NoneType' object is not subscriptable, attempt=3/3
+2026-04-21 09:04:22,557 [ERROR] [MiniMax] 3次尝试全部失败
+2026-04-21 09:04:22,559 [INFO] [generate_summary] MiniMax状态: ALL_ATTEMPTS_FAILED, 输出: None
+2026-04-21 09:04:23,617 [INFO] [generate_summary] Gemini请求状态: 429, attempt=1
+2026-04-21 09:04:23,617 [WARNING] [generate_summary] Gemini Rate limit, 等待 5s
+2026-04-21 09:04:29,904 [INFO] [generate_summary] Gemini请求状态: 429, attempt=2
+2026-04-21 09:04:29,904 [WARNING] [generate_summary] Gemini Rate limit, 等待 10s
+2026-04-21 09:04:41,001 [INFO] [generate_summary] Gemini请求状态: 429, attempt=3
+2026-04-21 09:04:41,001 [WARNING] [generate_summary] Gemini Rate limit, 等待 15s
+2026-04-21 09:04:56,150 [ERROR] [generate_summary] 所有API都失败，输入长度=500
+2026-04-21 09:04:56,153 [INFO] [generate_youtube_summary] 最终状态=ALL_FAILED, 输出长度=8, 输入长度=500
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/faster_whisper/feature_extractor.py:224: RuntimeWarning: divide by zero encountered in matmul
+  mel_spec = self.mel_filters @ magnitudes
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/faster_whisper/feature_extractor.py:224: RuntimeWarning: overflow encountered in matmul
+  mel_spec = self.mel_filters @ magnitudes
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/faster_whisper/feature_extractor.py:224: RuntimeWarning: invalid value encountered in matmul
+  mel_spec = self.mel_filters @ magnitudes
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-04-23 07:16:37,749 [INFO] [generate_podcast_summary] 输入长度=2362, 英文主导=False
+2026-04-23 07:16:37,749 [INFO] [generate_summary] 输入长度: 2362, max_words: 2000
+2026-04-23 07:17:15,105 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-23 07:17:15,106 [INFO] [MiniMax] 成功, 输出长度: 2677
+2026-04-23 07:17:15,107 [INFO] [generate_summary] MiniMax状态: SUCCESS, 输出: # 苹果CEO交棒：从库克时代到特纳斯时代的战略转折
+
+## 库克卸任与权力交接
+
+当地时间4月20
+2026-04-23 07:17:15,107 [INFO] [generate_podcast_summary] 最终状态=SUCCESS, 输出长度=2677, 输入长度=2362
+2026-04-23 07:17:15,108 [INFO] [generate_podcast_summary] 输入长度=48246, 英文主导=True
+2026-04-23 07:17:15,108 [INFO] [generate_summary] 输入长度: 48246, max_words: 2000
+2026-04-23 07:17:50,800 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-23 07:17:50,801 [INFO] [MiniMax] 成功, 输出长度: 1838
+2026-04-23 07:17:50,803 [INFO] [generate_summary] MiniMax状态: SUCCESS, 输出: # 科技与人文：探索苹果帝国的创新哲学与生命意义
+
+## 引言：诗歌与生命的本质追问
+
+播客以一段深
+2026-04-23 07:17:50,803 [INFO] [generate_podcast_summary] 最终状态=SUCCESS, 输出长度=1838, 输入长度=48246
+2026-04-23 07:17:50,804 [INFO] [generate_podcast_summary] 输入长度=30634, 英文主导=False
+2026-04-23 07:17:50,804 [INFO] [generate_summary] 输入长度: 30634, max_words: 2000
+2026-04-23 07:18:34,441 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-23 07:18:34,442 [INFO] [MiniMax] 成功, 输出长度: 2023
+2026-04-23 07:18:34,444 [INFO] [generate_summary] MiniMax状态: SUCCESS, 输出: # 计算神经科学背景下的家庭AI硬件创新之路
+
+## 嘉宾背景与学术历程
+
+本期播客邀请到音谱科技C
+2026-04-23 07:18:34,444 [INFO] [generate_podcast_summary] 最终状态=SUCCESS, 输出长度=2023, 输入长度=30634
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-04-23 07:18:34,814 [INFO] [generate_youtube_summary] 输入长度=500, 英文主导=True
+2026-04-23 07:18:34,814 [INFO] [generate_summary] 输入长度: 500, max_words: 2000
+2026-04-23 07:19:20,120 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-23 07:19:20,121 [INFO] [MiniMax] 成功, 输出长度: 2518
+2026-04-23 07:19:20,123 [INFO] [generate_summary] MiniMax状态: SUCCESS, 输出: # 互联网原生媒体时代的叙事革命：MTS的诞生与“当前事件”现象
+
+**互联网媒体生态的范式转移**
+2026-04-23 07:19:20,123 [INFO] [generate_youtube_summary] 最终状态=SUCCESS, 输出长度=2518, 输入长度=500
+2026-04-23 07:19:20,124 [INFO] [generate_youtube_summary] 输入长度=500, 英文主导=True
+2026-04-23 07:19:20,124 [INFO] [generate_summary] 输入长度: 500, max_words: 2000
+2026-04-23 07:19:56,897 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-23 07:19:56,898 [INFO] [MiniMax] 成功, 输出长度: 2513
+2026-04-23 07:19:56,900 [INFO] [generate_summary] MiniMax状态: SUCCESS, 输出: **中国电动汽车电池供应链的全球主导地位与挑战**
+
+**引言：全球电动汽车产业的核心变革**
+
+随
+2026-04-23 07:19:56,900 [INFO] [generate_youtube_summary] 最终状态=SUCCESS, 输出长度=2513, 输入长度=500
+2026-04-23 07:19:56,902 [INFO] [generate_youtube_summary] 输入长度=500, 英文主导=True
+2026-04-23 07:19:56,902 [INFO] [generate_summary] 输入长度: 500, max_words: 2000
+2026-04-23 07:20:23,553 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-23 07:20:23,554 [INFO] [MiniMax] 成功, 输出长度: 1232
+2026-04-23 07:20:23,556 [INFO] [generate_summary] MiniMax状态: SUCCESS, 输出: # BMW全新7系轿车：传统豪华轿车的坚守与市场挑战
+
+## 车型更新概述：最全面的中期改款
+
+宝马
+2026-04-23 07:20:23,556 [INFO] [generate_youtube_summary] 最终状态=SUCCESS, 输出长度=1232, 输入长度=500
+2026-04-23 07:20:23,557 [INFO] [generate_youtube_summary] 输入长度=500, 英文主导=True
+2026-04-23 07:20:23,557 [INFO] [generate_summary] 输入长度: 500, max_words: 2000
+2026-04-23 07:21:24,746 [ERROR] [MiniMax] 请求异常: HTTPSConnectionPool(host='api.minimax.chat', port=443): Read timed out. (read timeout=60), attempt=1/3
+2026-04-23 07:22:28,084 [ERROR] [MiniMax] 请求异常: HTTPSConnectionPool(host='api.minimax.chat', port=443): Read timed out. (read timeout=60), attempt=2/3
+2026-04-23 07:23:21,288 [INFO] [MiniMax] 请求状态: 200, attempt=3
+2026-04-23 07:23:21,289 [INFO] [MiniMax] 成功, 输出长度: 2702
+2026-04-23 07:23:21,289 [INFO] [generate_summary] MiniMax状态: SUCCESS, 输出: **从 Fukushima 到清洁未来：一位日本气候活动家的不屈之战**
+
+## 背景：福岛核灾难引
+2026-04-23 07:23:21,289 [INFO] [generate_youtube_summary] 最终状态=SUCCESS, 输出长度=2702, 输入长度=500
+2026-04-23 07:23:21,290 [INFO] [generate_youtube_summary] 输入长度=500, 英文主导=True
+2026-04-23 07:23:21,291 [INFO] [generate_summary] 输入长度: 500, max_words: 2000
+2026-04-23 07:24:21,112 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-23 07:24:21,113 [INFO] [MiniMax] 成功, 输出长度: 3268
+2026-04-23 07:24:21,114 [INFO] [generate_summary] MiniMax状态: SUCCESS, 输出: # AI代理在网络安全测试中的应用实践与思考
+
+## 引言：AI代理技术的安全应用新思路
+
+在当今数
+2026-04-23 07:24:21,114 [INFO] [generate_youtube_summary] 最终状态=SUCCESS, 输出长度=3268, 输入长度=500
+2026-04-23 07:24:21,115 [INFO] [generate_youtube_summary] 输入长度=150, 英文主导=True
+2026-04-23 07:24:21,115 [INFO] [generate_summary] 输入长度: 150, max_words: 2000
+2026-04-23 07:24:53,049 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-23 07:24:53,050 [INFO] [MiniMax] 成功, 输出长度: 1591
+2026-04-23 07:24:53,052 [INFO] [generate_summary] MiniMax状态: SUCCESS, 输出: ## AI智能代理驱动的一站式商业报告生成系统演示
+
+### 系统概述与核心功能
+
+本视频展示了一个
+2026-04-23 07:24:53,052 [INFO] [generate_youtube_summary] 最终状态=SUCCESS, 输出长度=1591, 输入长度=150
+2026-04-23 07:24:53,053 [INFO] [generate_youtube_summary] 输入长度=500, 英文主导=True
+2026-04-23 07:24:53,053 [INFO] [generate_summary] 输入长度: 500, max_words: 2000
+2026-04-23 07:25:53,186 [ERROR] [MiniMax] 请求异常: HTTPSConnectionPool(host='api.minimax.chat', port=443): Read timed out. (read timeout=60), attempt=1/3
+2026-04-23 07:26:55,383 [ERROR] [MiniMax] 请求异常: HTTPSConnectionPool(host='api.minimax.chat', port=443): Read timed out. (read timeout=60), attempt=2/3
+2026-04-23 07:27:43,807 [INFO] [MiniMax] 请求状态: 200, attempt=3
+2026-04-23 07:27:43,807 [INFO] [MiniMax] 成功, 输出长度: 2448
+2026-04-23 07:27:43,807 [INFO] [generate_summary] MiniMax状态: SUCCESS, 输出: # FDA多肽禁令内幕与RFK Jr改革：全面解读多肽医学的真相
+
+## 多肽医学的崛起与定义
+
+多
+2026-04-23 07:27:43,808 [INFO] [generate_youtube_summary] 最终状态=SUCCESS, 输出长度=2448, 输入长度=500
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/faster_whisper/feature_extractor.py:224: RuntimeWarning: divide by zero encountered in matmul
+  mel_spec = self.mel_filters @ magnitudes
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/faster_whisper/feature_extractor.py:224: RuntimeWarning: overflow encountered in matmul
+  mel_spec = self.mel_filters @ magnitudes
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/faster_whisper/feature_extractor.py:224: RuntimeWarning: invalid value encountered in matmul
+  mel_spec = self.mel_filters @ magnitudes
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-04-24 07:17:12,373 [INFO] [generate_podcast_summary] 输入长度=3152, 英文主导=False
+2026-04-24 07:17:12,373 [INFO] [generate_summary] 输入长度: 3152, max_words: 2000
+2026-04-24 07:18:04,511 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-24 07:18:04,512 [INFO] [MiniMax] 成功, 输出长度: 3371
+2026-04-24 07:18:04,514 [INFO] [generate_summary] MiniMax状态: SUCCESS, 输出: # 爱奇艺AI战略转型：去中心化平台与影视内容生态的重构
+
+## 事件背景与热搜风波
+
+在4月23日
+2026-04-24 07:18:04,514 [INFO] [generate_podcast_summary] 最终状态=SUCCESS, 输出长度=3371, 输入长度=3152
+2026-04-24 07:18:04,515 [INFO] [generate_podcast_summary] 输入长度=64373, 英文主导=False
+2026-04-24 07:18:04,515 [INFO] [generate_summary] 输入长度: 64373, max_words: 2000
+2026-04-24 07:19:04,660 [ERROR] [MiniMax] 请求异常: HTTPSConnectionPool(host='api.minimax.chat', port=443): Read timed out. (read timeout=60), attempt=1/3
+2026-04-24 07:19:54,049 [INFO] [MiniMax] 请求状态: 200, attempt=2
+2026-04-24 07:19:54,050 [INFO] [MiniMax] 成功, 输出长度: 3216
+2026-04-24 07:19:54,050 [INFO] [generate_summary] MiniMax状态: SUCCESS, 输出: # Musical.ly 到 TikTok：字节跳动全球化产品的整合与演进之路
+
+## 嘉宾背景与职
+2026-04-24 07:19:54,050 [INFO] [generate_podcast_summary] 最终状态=SUCCESS, 输出长度=3216, 输入长度=64373
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-04-24 07:19:54,454 [INFO] [generate_youtube_summary] 输入长度=500, 英文主导=True
+2026-04-24 07:19:54,454 [INFO] [generate_summary] 输入长度: 500, max_words: 2000
+2026-04-24 07:20:28,547 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-24 07:20:28,548 [INFO] [MiniMax] 成功, 输出长度: 2200
+2026-04-24 07:20:28,550 [INFO] [generate_summary] MiniMax状态: SUCCESS, 输出: **大麻从Schedule I到Schedule III：美国联邦药物分类政策的历史性转变**
+
+*
+2026-04-24 07:20:28,550 [INFO] [generate_youtube_summary] 最终状态=SUCCESS, 输出长度=2200, 输入长度=500
+2026-04-24 07:20:28,551 [INFO] [generate_youtube_summary] 输入长度=500, 英文主导=True
+2026-04-24 07:20:28,551 [INFO] [generate_summary] 输入长度: 500, max_words: 2000
+2026-04-24 07:21:28,700 [ERROR] [MiniMax] 请求异常: HTTPSConnectionPool(host='api.minimax.chat', port=443): Read timed out. (read timeout=60), attempt=1/3
+2026-04-24 07:22:13,210 [INFO] [MiniMax] 请求状态: 200, attempt=2
+2026-04-24 07:22:13,211 [INFO] [MiniMax] 成功, 输出长度: 2487
+2026-04-24 07:22:13,211 [INFO] [generate_summary] MiniMax状态: SUCCESS, 输出: ## 情绪主权：掌控内心的风暴
+
+### 1. 演讲背景与核心概念引入
+2025年11月9日，在TE
+2026-04-24 07:22:13,211 [INFO] [generate_youtube_summary] 最终状态=SUCCESS, 输出长度=2487, 输入长度=500
+2026-04-24 07:22:13,212 [INFO] [generate_youtube_summary] 输入长度=500, 英文主导=True
+2026-04-24 07:22:13,212 [INFO] [generate_summary] 输入长度: 500, max_words: 2000
+2026-04-24 07:22:52,294 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-24 07:22:52,295 [INFO] [MiniMax] 成功, 输出长度: 2778
+2026-04-24 07:22:52,297 [INFO] [generate_summary] MiniMax状态: SUCCESS, 输出: # Podman无根容器技术：五大改变游戏规则的功能特性深度解析
+
+## Podman技术概述与核心
+2026-04-24 07:22:52,297 [INFO] [generate_youtube_summary] 最终状态=SUCCESS, 输出长度=2778, 输入长度=500
+2026-04-24 07:22:52,298 [INFO] [generate_youtube_summary] 输入长度=243, 英文主导=True
+2026-04-24 07:22:52,298 [INFO] [generate_summary] 输入长度: 243, max_words: 2000
+2026-04-24 07:23:25,456 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-24 07:23:25,456 [INFO] [MiniMax] 成功, 输出长度: 2006
+2026-04-24 07:23:25,458 [INFO] [generate_summary] MiniMax状态: SUCCESS, 输出: # GPT-5.5助力Ramp平台智能化升级：工具发现能力实现突破性提升
+
+## 采访背景与嘉宾介绍
+2026-04-24 07:23:25,458 [INFO] [generate_youtube_summary] 最终状态=SUCCESS, 输出长度=2006, 输入长度=243
+2026-04-24 07:23:25,459 [INFO] [generate_youtube_summary] 输入长度=500, 英文主导=True
+2026-04-24 07:23:25,459 [INFO] [generate_summary] 输入长度: 500, max_words: 2000
+2026-04-24 07:24:17,157 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-24 07:24:17,158 [INFO] [MiniMax] 成功, 输出长度: 2988
+2026-04-24 07:24:17,160 [INFO] [generate_summary] MiniMax状态: SUCCESS, 输出: # 未来科技与地缘政治趋势深度解析
+
+## 引言：全球系统性变革的核心议题
+
+本视频由彼得·戴曼迪斯
+2026-04-24 07:24:17,160 [INFO] [generate_youtube_summary] 最终状态=SUCCESS, 输出长度=2988, 输入长度=500
+2026-04-24 07:24:17,161 [INFO] [generate_youtube_summary] 输入长度=500, 英文主导=True
+2026-04-24 07:24:17,161 [INFO] [generate_summary] 输入长度: 500, max_words: 2000
+2026-04-24 07:24:56,253 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-24 07:24:56,254 [INFO] [MiniMax] 成功, 输出长度: 2493
+2026-04-24 07:24:56,256 [INFO] [generate_summary] MiniMax状态: SUCCESS, 输出: # 大脑中的多重自我：神经科学视角下的身份认知革命
+
+## 引言：颠覆传统认知的惊人发现
+
+在人类的
+2026-04-24 07:24:56,256 [INFO] [generate_youtube_summary] 最终状态=SUCCESS, 输出长度=2493, 输入长度=500
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/faster_whisper/feature_extractor.py:224: RuntimeWarning: divide by zero encountered in matmul
+  mel_spec = self.mel_filters @ magnitudes
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/faster_whisper/feature_extractor.py:224: RuntimeWarning: overflow encountered in matmul
+  mel_spec = self.mel_filters @ magnitudes
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/faster_whisper/feature_extractor.py:224: RuntimeWarning: invalid value encountered in matmul
+  mel_spec = self.mel_filters @ magnitudes
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-04-27 07:23:17,670 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 07:23:17,671 [INFO] [MiniMax] 成功, 输出长度: 2394
+2026-04-27 07:23:17,672 [INFO] [generate_podcast_summary] status=SUCCESS, len=2394
+2026-04-27 07:23:51,017 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 07:23:51,017 [INFO] [MiniMax] 成功, 输出长度: 2069
+2026-04-27 07:23:51,019 [INFO] [generate_podcast_summary] status=SUCCESS, len=2069
+2026-04-27 07:24:33,731 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 07:24:33,731 [INFO] [MiniMax] 成功, 输出长度: 2448
+2026-04-27 07:24:33,732 [INFO] [generate_podcast_summary] status=SUCCESS, len=2448
+2026-04-27 07:25:33,881 [ERROR] [MiniMax] 请求异常: HTTPSConnectionPool(host='api.minimax.chat', port=443): Read timed out. (read timeout=60), attempt=1/3
+2026-04-27 07:26:24,109 [INFO] [MiniMax] 请求状态: 200, attempt=2
+2026-04-27 07:26:24,110 [INFO] [MiniMax] 成功, 输出长度: 1643
+2026-04-27 07:26:24,110 [INFO] [generate_podcast_summary] status=SUCCESS, len=1643
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-04-27 07:27:01,956 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 07:27:01,957 [INFO] [MiniMax] 成功, 输出长度: 2364
+2026-04-27 07:27:01,959 [INFO] [generate_youtube_summary] status=SUCCESS, len=2364
+2026-04-27 07:27:34,366 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 07:27:34,366 [INFO] [MiniMax] 成功, 输出长度: 2287
+2026-04-27 07:27:34,368 [INFO] [generate_youtube_summary] status=SUCCESS, len=2287
+2026-04-27 07:28:12,925 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 07:28:12,925 [INFO] [MiniMax] 成功, 输出长度: 2328
+2026-04-27 07:28:12,928 [INFO] [generate_youtube_summary] status=SUCCESS, len=2328
+2026-04-27 07:28:39,402 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 07:28:39,403 [INFO] [MiniMax] 成功, 输出长度: 1509
+2026-04-27 07:28:39,405 [INFO] [generate_youtube_summary] status=SUCCESS, len=1509
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-04-28 07:00:36,526 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:00:36,529 [INFO] [MiniMax] 成功, 输出长度: 5037
+2026-04-28 07:00:36,531 [INFO] [generate_news_summary] status=SUCCESS, len=5037
+2026-04-28 07:00:41,855 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:00:41,855 [INFO] [MiniMax] 成功, 输出长度: 30
+2026-04-28 07:00:41,857 [INFO] [translate_to_chinese] status=SUCCESS, len=30
+2026-04-28 07:01:21,106 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:01:21,108 [INFO] [MiniMax] 成功, 输出长度: 4623
+2026-04-28 07:01:21,110 [INFO] [generate_news_summary] status=SUCCESS, len=4623
+2026-04-28 07:01:27,601 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:01:27,602 [INFO] [MiniMax] 成功, 输出长度: 24
+2026-04-28 07:01:27,604 [INFO] [translate_to_chinese] status=SUCCESS, len=24
+2026-04-28 07:02:07,559 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:02:07,561 [INFO] [MiniMax] 成功, 输出长度: 110
+2026-04-28 07:02:07,563 [INFO] [generate_news_summary] status=SUCCESS, len=110
+2026-04-28 07:02:14,801 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:02:14,802 [INFO] [MiniMax] 成功, 输出长度: 28
+2026-04-28 07:02:14,805 [INFO] [translate_to_chinese] status=SUCCESS, len=28
+2026-04-28 07:02:52,274 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:02:52,276 [INFO] [MiniMax] 成功, 输出长度: 4473
+2026-04-28 07:02:52,278 [INFO] [generate_news_summary] status=SUCCESS, len=4473
+2026-04-28 07:03:39,513 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:03:39,515 [INFO] [MiniMax] 成功, 输出长度: 5428
+2026-04-28 07:03:39,517 [INFO] [generate_news_summary] status=SUCCESS, len=5428
+2026-04-28 07:03:42,939 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:03:42,939 [INFO] [MiniMax] 成功, 输出长度: 7
+2026-04-28 07:03:42,941 [INFO] [translate_to_chinese] status=SUCCESS, len=7
+2026-04-28 07:03:59,206 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:03:59,206 [INFO] [MiniMax] 成功, 输出长度: 184
+2026-04-28 07:03:59,208 [INFO] [generate_news_summary] status=SUCCESS, len=184
+2026-04-28 07:04:09,900 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:04:09,901 [INFO] [MiniMax] 成功, 输出长度: 23
+2026-04-28 07:04:09,903 [INFO] [translate_to_chinese] status=SUCCESS, len=23
+2026-04-28 07:04:57,651 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:04:57,652 [INFO] [MiniMax] 成功, 输出长度: 5582
+2026-04-28 07:04:57,654 [INFO] [generate_news_summary] status=SUCCESS, len=5582
+2026-04-28 07:05:03,481 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:05:03,483 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-04-28 07:05:03,485 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-04-28 07:05:47,470 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:05:47,473 [INFO] [MiniMax] 成功, 输出长度: 5207
+2026-04-28 07:05:47,475 [INFO] [generate_news_summary] status=SUCCESS, len=5207
+2026-04-28 07:05:54,630 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:05:54,631 [INFO] [MiniMax] 成功, 输出长度: 23
+2026-04-28 07:05:54,633 [INFO] [translate_to_chinese] status=SUCCESS, len=23
+2026-04-28 07:06:39,393 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:06:39,394 [INFO] [MiniMax] 成功, 输出长度: 5566
+2026-04-28 07:06:39,396 [INFO] [generate_news_summary] status=SUCCESS, len=5566
+2026-04-28 07:06:49,852 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:06:49,852 [INFO] [MiniMax] 成功, 输出长度: 27
+2026-04-28 07:06:49,854 [INFO] [translate_to_chinese] status=SUCCESS, len=27
+2026-04-28 07:07:37,735 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:07:37,737 [INFO] [MiniMax] 成功, 输出长度: 6592
+2026-04-28 07:07:37,739 [INFO] [generate_news_summary] status=SUCCESS, len=6592
+2026-04-28 07:07:43,169 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:07:43,169 [INFO] [MiniMax] 成功, 输出长度: 25
+2026-04-28 07:07:43,171 [INFO] [translate_to_chinese] status=SUCCESS, len=25
+2026-04-28 07:08:13,597 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:08:13,598 [INFO] [MiniMax] 成功, 输出长度: 205
+2026-04-28 07:08:13,600 [INFO] [generate_news_summary] status=SUCCESS, len=205
+2026-04-28 07:08:19,470 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:08:19,471 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-04-28 07:08:19,473 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-04-28 07:08:57,949 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:08:57,950 [INFO] [MiniMax] 成功, 输出长度: 5252
+2026-04-28 07:08:57,952 [INFO] [generate_news_summary] status=SUCCESS, len=5252
+2026-04-28 07:09:06,428 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:09:06,428 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-04-28 07:09:06,430 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+2026-04-28 07:09:43,671 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:09:43,672 [INFO] [MiniMax] 成功, 输出长度: 5214
+2026-04-28 07:09:43,674 [INFO] [generate_news_summary] status=SUCCESS, len=5214
+2026-04-28 07:09:49,169 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:09:49,169 [INFO] [MiniMax] 成功, 输出长度: 18
+2026-04-28 07:09:49,171 [INFO] [translate_to_chinese] status=SUCCESS, len=18
+2026-04-28 07:10:28,242 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:10:28,242 [INFO] [MiniMax] 成功, 输出长度: 5659
+2026-04-28 07:10:28,244 [INFO] [generate_news_summary] status=SUCCESS, len=5659
+2026-04-28 07:10:33,844 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:10:33,845 [INFO] [MiniMax] 成功, 输出长度: 17
+2026-04-28 07:10:33,847 [INFO] [translate_to_chinese] status=SUCCESS, len=17
+2026-04-28 07:11:11,673 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:11:11,674 [INFO] [MiniMax] 成功, 输出长度: 4791
+2026-04-28 07:11:11,676 [INFO] [generate_news_summary] status=SUCCESS, len=4791
+2026-04-28 07:11:15,333 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:11:15,333 [INFO] [MiniMax] 成功, 输出长度: 13
+2026-04-28 07:11:15,335 [INFO] [translate_to_chinese] status=SUCCESS, len=13
+2026-04-28 07:11:47,078 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:11:47,079 [INFO] [MiniMax] 成功, 输出长度: 5426
+2026-04-28 07:11:47,081 [INFO] [generate_news_summary] status=SUCCESS, len=5426
+2026-04-28 07:11:56,014 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:11:56,015 [INFO] [MiniMax] 成功, 输出长度: 25
+2026-04-28 07:11:56,017 [INFO] [translate_to_chinese] status=SUCCESS, len=25
+2026-04-28 07:12:37,570 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:12:37,571 [INFO] [MiniMax] 成功, 输出长度: 5387
+2026-04-28 07:12:37,572 [INFO] [generate_news_summary] status=SUCCESS, len=5387
+2026-04-28 07:12:46,728 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:12:46,729 [INFO] [MiniMax] 成功, 输出长度: 41
+2026-04-28 07:12:46,730 [INFO] [translate_to_chinese] status=SUCCESS, len=41
+2026-04-28 07:13:15,900 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:13:15,901 [INFO] [MiniMax] 成功, 输出长度: 4261
+2026-04-28 07:13:15,901 [INFO] [generate_news_summary] status=SUCCESS, len=4261
+2026-04-28 07:13:17,632 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:13:17,633 [INFO] [MiniMax] 成功, 输出长度: 19
+2026-04-28 07:13:17,635 [INFO] [translate_to_chinese] status=SUCCESS, len=19
+2026-04-28 07:13:51,340 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:13:51,342 [INFO] [MiniMax] 成功, 输出长度: 4840
+2026-04-28 07:13:51,345 [INFO] [generate_news_summary] status=SUCCESS, len=4840
+2026-04-28 07:14:00,580 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:14:00,582 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-04-28 07:14:00,584 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+2026-04-28 07:14:40,674 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:14:40,677 [INFO] [MiniMax] 成功, 输出长度: 6396
+2026-04-28 07:14:40,679 [INFO] [generate_news_summary] status=SUCCESS, len=6396
+2026-04-28 07:14:45,862 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:14:45,862 [INFO] [MiniMax] 成功, 输出长度: 27
+2026-04-28 07:14:45,864 [INFO] [translate_to_chinese] status=SUCCESS, len=27
+2026-04-28 07:15:09,658 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:15:09,658 [INFO] [MiniMax] 成功, 输出长度: 236
+2026-04-28 07:15:09,660 [INFO] [generate_news_summary] status=SUCCESS, len=236
+2026-04-28 07:15:18,281 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:15:18,281 [INFO] [MiniMax] 成功, 输出长度: 36
+2026-04-28 07:15:18,283 [INFO] [translate_to_chinese] status=SUCCESS, len=36
+2026-04-28 07:15:52,406 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:15:52,406 [INFO] [MiniMax] 成功, 输出长度: 23
+2026-04-28 07:15:52,408 [INFO] [generate_news_summary] status=SUCCESS, len=23
+2026-04-28 07:16:03,463 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:16:03,465 [INFO] [MiniMax] 成功, 输出长度: 44
+2026-04-28 07:16:03,467 [INFO] [translate_to_chinese] status=SUCCESS, len=44
+2026-04-28 07:16:41,467 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:16:41,467 [INFO] [MiniMax] 成功, 输出长度: 5553
+2026-04-28 07:16:41,469 [INFO] [generate_news_summary] status=SUCCESS, len=5553
+2026-04-28 07:16:48,968 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:16:48,969 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-04-28 07:16:48,971 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-04-28 07:17:03,695 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:17:03,697 [INFO] [MiniMax] 成功, 输出长度: 236
+2026-04-28 07:17:03,699 [INFO] [generate_news_summary] status=SUCCESS, len=236
+2026-04-28 07:17:11,989 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:17:11,990 [INFO] [MiniMax] 成功, 输出长度: 23
+2026-04-28 07:17:11,992 [INFO] [translate_to_chinese] status=SUCCESS, len=23
+2026-04-28 07:17:45,536 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:17:45,538 [INFO] [MiniMax] 成功, 输出长度: 242
+2026-04-28 07:17:45,540 [INFO] [generate_news_summary] status=SUCCESS, len=242
+2026-04-28 07:17:50,709 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:17:50,710 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-04-28 07:17:50,711 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-04-28 07:18:22,918 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:18:22,920 [INFO] [MiniMax] 成功, 输出长度: 4557
+2026-04-28 07:18:22,922 [INFO] [generate_news_summary] status=SUCCESS, len=4557
+2026-04-28 07:18:28,254 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:18:28,255 [INFO] [MiniMax] 成功, 输出长度: 26
+2026-04-28 07:18:28,257 [INFO] [translate_to_chinese] status=SUCCESS, len=26
+2026-04-28 07:18:54,701 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:18:54,702 [INFO] [MiniMax] 成功, 输出长度: 203
+2026-04-28 07:18:54,705 [INFO] [generate_news_summary] status=SUCCESS, len=203
+2026-04-28 07:18:59,942 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:18:59,942 [INFO] [MiniMax] 成功, 输出长度: 15
+2026-04-28 07:18:59,944 [INFO] [translate_to_chinese] status=SUCCESS, len=15
+2026-04-28 07:19:35,546 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:19:35,548 [INFO] [MiniMax] 成功, 输出长度: 6187
+2026-04-28 07:19:35,550 [INFO] [generate_news_summary] status=SUCCESS, len=6187
+2026-04-28 07:19:43,808 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:19:43,809 [INFO] [MiniMax] 成功, 输出长度: 24
+2026-04-28 07:19:43,811 [INFO] [translate_to_chinese] status=SUCCESS, len=24
+2026-04-28 07:20:25,277 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:20:25,279 [INFO] [MiniMax] 成功, 输出长度: 6055
+2026-04-28 07:20:25,281 [INFO] [generate_news_summary] status=SUCCESS, len=6055
+2026-04-28 07:20:31,558 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:20:31,559 [INFO] [MiniMax] 成功, 输出长度: 27
+2026-04-28 07:20:31,561 [INFO] [translate_to_chinese] status=SUCCESS, len=27
+2026-04-28 07:20:54,889 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:20:54,890 [INFO] [MiniMax] 成功, 输出长度: 243
+2026-04-28 07:20:54,893 [INFO] [generate_news_summary] status=SUCCESS, len=243
+2026-04-28 07:21:06,333 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:21:06,334 [INFO] [MiniMax] 成功, 输出长度: 23
+2026-04-28 07:21:06,336 [INFO] [translate_to_chinese] status=SUCCESS, len=23
+2026-04-28 07:21:36,537 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:21:36,538 [INFO] [MiniMax] 成功, 输出长度: 4563
+2026-04-28 07:21:36,540 [INFO] [generate_news_summary] status=SUCCESS, len=4563
+2026-04-28 07:22:12,288 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:22:12,290 [INFO] [MiniMax] 成功, 输出长度: 4873
+2026-04-28 07:22:12,292 [INFO] [generate_news_summary] status=SUCCESS, len=4873
+2026-04-28 07:22:22,021 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:22:22,022 [INFO] [MiniMax] 成功, 输出长度: 27
+2026-04-28 07:22:22,023 [INFO] [translate_to_chinese] status=SUCCESS, len=27
+2026-04-28 07:22:57,545 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:22:57,547 [INFO] [MiniMax] 成功, 输出长度: 5006
+2026-04-28 07:22:57,549 [INFO] [generate_news_summary] status=SUCCESS, len=5006
+2026-04-28 07:23:32,348 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:23:32,349 [INFO] [MiniMax] 成功, 输出长度: 4271
+2026-04-28 07:23:32,351 [INFO] [generate_news_summary] status=SUCCESS, len=4271
+2026-04-28 07:23:40,493 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:23:40,493 [INFO] [MiniMax] 成功, 输出长度: 226
+2026-04-28 07:23:40,496 [INFO] [generate_news_summary] status=SUCCESS, len=226
+2026-04-28 07:23:57,566 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:23:57,567 [INFO] [MiniMax] 成功, 输出长度: 115
+2026-04-28 07:23:57,569 [INFO] [generate_news_summary] status=SUCCESS, len=115
+2026-04-28 07:24:27,777 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:24:27,778 [INFO] [MiniMax] 成功, 输出长度: 4482
+2026-04-28 07:24:27,780 [INFO] [generate_news_summary] status=SUCCESS, len=4482
+2026-04-28 07:25:04,075 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:25:04,076 [INFO] [MiniMax] 成功, 输出长度: 5211
+2026-04-28 07:25:04,078 [INFO] [generate_news_summary] status=SUCCESS, len=5211
+2026-04-28 07:25:34,763 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:25:34,764 [INFO] [MiniMax] 成功, 输出长度: 5026
+2026-04-28 07:25:34,767 [INFO] [generate_news_summary] status=SUCCESS, len=5026
+2026-04-28 07:25:47,770 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:25:47,771 [INFO] [MiniMax] 成功, 输出长度: 227
+2026-04-28 07:25:47,772 [INFO] [generate_news_summary] status=SUCCESS, len=227
+2026-04-28 07:26:17,271 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:26:17,272 [INFO] [MiniMax] 成功, 输出长度: 4346
+2026-04-28 07:26:17,273 [INFO] [generate_news_summary] status=SUCCESS, len=4346
+2026-04-28 07:26:52,269 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:26:52,270 [INFO] [MiniMax] 成功, 输出长度: 4627
+2026-04-28 07:26:52,272 [INFO] [generate_news_summary] status=SUCCESS, len=4627
+2026-04-28 07:27:29,307 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:27:29,309 [INFO] [MiniMax] 成功, 输出长度: 5162
+2026-04-28 07:27:29,311 [INFO] [generate_news_summary] status=SUCCESS, len=5162
+2026-04-28 07:28:09,652 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-28 07:28:09,654 [INFO] [MiniMax] 成功, 输出长度: 5289
+2026-04-28 07:28:09,656 [INFO] [generate_news_summary] status=SUCCESS, len=5289
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-04-29 07:00:36,361 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-29 07:00:36,364 [INFO] [MiniMax] 成功, 输出长度: 5118
+2026-04-29 07:00:36,366 [INFO] [generate_news_summary] status=SUCCESS, len=5118
+2026-04-29 07:00:46,127 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-29 07:00:46,128 [INFO] [MiniMax] 成功, 输出长度: 30
+2026-04-29 07:00:46,129 [INFO] [translate_to_chinese] status=SUCCESS, len=30
+2026-04-29 07:01:24,869 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-29 07:01:24,871 [INFO] [MiniMax] 成功, 输出长度: 4758
+2026-04-29 07:01:24,873 [INFO] [generate_news_summary] status=SUCCESS, len=4758
+2026-04-29 07:01:34,853 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-29 07:01:34,854 [INFO] [MiniMax] 成功, 输出长度: 23
+2026-04-29 07:01:34,856 [INFO] [translate_to_chinese] status=SUCCESS, len=23
+2026-04-29 07:02:15,978 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-29 07:02:15,980 [INFO] [MiniMax] 成功, 输出长度: 6098
+2026-04-29 07:02:15,981 [INFO] [generate_news_summary] status=SUCCESS, len=6098
+2026-04-29 07:02:28,620 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-29 07:02:28,620 [INFO] [MiniMax] 成功, 输出长度: 31
+2026-04-29 07:02:28,622 [INFO] [translate_to_chinese] status=SUCCESS, len=31
+2026-04-29 07:03:09,612 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-29 07:03:09,613 [INFO] [MiniMax] 成功, 输出长度: 4478
+2026-04-29 07:03:09,615 [INFO] [generate_news_summary] status=SUCCESS, len=4478
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-04-30 07:00:34,337 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-30 07:00:34,339 [INFO] [MiniMax] 成功, 输出长度: 4706
+2026-04-30 07:00:34,341 [INFO] [generate_news_summary] status=SUCCESS, len=4706
+2026-04-30 07:00:40,114 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-30 07:00:40,114 [INFO] [MiniMax] 成功, 输出长度: 26
+2026-04-30 07:00:40,116 [INFO] [translate_to_chinese] status=SUCCESS, len=26
+2026-04-30 07:01:12,880 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-30 07:01:12,882 [INFO] [MiniMax] 成功, 输出长度: 4837
+2026-04-30 07:01:12,884 [INFO] [generate_news_summary] status=SUCCESS, len=4837
+2026-04-30 07:01:18,158 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-30 07:01:18,159 [INFO] [MiniMax] 成功, 输出长度: 28
+2026-04-30 07:01:18,160 [INFO] [translate_to_chinese] status=SUCCESS, len=28
+2026-04-30 07:01:53,925 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-30 07:01:53,926 [INFO] [MiniMax] 成功, 输出长度: 5113
+2026-04-30 07:01:53,928 [INFO] [generate_news_summary] status=SUCCESS, len=5113
+2026-04-30 07:02:01,392 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-30 07:02:01,393 [INFO] [MiniMax] 成功, 输出长度: 14
+2026-04-30 07:02:01,395 [INFO] [translate_to_chinese] status=SUCCESS, len=14
+2026-04-30 07:02:30,105 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-30 07:02:30,105 [INFO] [MiniMax] 成功, 输出长度: 3889
+2026-04-30 07:02:30,107 [INFO] [generate_news_summary] status=SUCCESS, len=3889
+2026-04-30 07:02:40,918 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-30 07:02:40,918 [INFO] [MiniMax] 成功, 输出长度: 24
+2026-04-30 07:02:40,919 [INFO] [translate_to_chinese] status=SUCCESS, len=24
+2026-04-30 07:03:20,144 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-30 07:03:20,145 [INFO] [MiniMax] 成功, 输出长度: 5120
+2026-04-30 07:03:20,147 [INFO] [generate_news_summary] status=SUCCESS, len=5120
+2026-04-30 07:03:33,346 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-30 07:03:33,346 [INFO] [MiniMax] 成功, 输出长度: 20
+2026-04-30 07:03:33,348 [INFO] [translate_to_chinese] status=SUCCESS, len=20
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-01 07:00:32,080 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-01 07:00:32,082 [INFO] [MiniMax] 成功, 输出长度: 5022
+2026-05-01 07:00:32,084 [INFO] [generate_news_summary] status=SUCCESS, len=5022
+2026-05-01 07:00:41,999 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-01 07:00:42,000 [INFO] [MiniMax] 成功, 输出长度: 27
+2026-05-01 07:00:42,001 [INFO] [translate_to_chinese] status=SUCCESS, len=27
+2026-05-01 07:01:14,262 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-01 07:01:14,264 [INFO] [MiniMax] 成功, 输出长度: 6682
+2026-05-01 07:01:14,265 [INFO] [generate_news_summary] status=SUCCESS, len=6682
+2026-05-01 07:01:18,845 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-01 07:01:18,845 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-05-01 07:01:18,847 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-05-01 07:01:46,014 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-01 07:01:46,015 [INFO] [MiniMax] 成功, 输出长度: 5147
+2026-05-01 07:01:46,017 [INFO] [generate_news_summary] status=SUCCESS, len=5147
+2026-05-01 07:01:48,625 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-01 07:01:48,625 [INFO] [MiniMax] 成功, 输出长度: 24
+2026-05-01 07:01:48,627 [INFO] [translate_to_chinese] status=SUCCESS, len=24
+2026-05-01 07:02:20,270 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-01 07:02:20,271 [INFO] [MiniMax] 成功, 输出长度: 5681
+2026-05-01 07:02:20,272 [INFO] [generate_news_summary] status=SUCCESS, len=5681
+2026-05-01 07:02:53,620 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-01 07:02:53,621 [INFO] [MiniMax] 成功, 输出长度: 5159
+2026-05-01 07:02:53,622 [INFO] [generate_news_summary] status=SUCCESS, len=5159
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-02 07:00:29,771 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-02 07:00:29,774 [INFO] [MiniMax] 成功, 输出长度: 5556
+2026-05-02 07:00:29,775 [INFO] [generate_news_summary] status=SUCCESS, len=5556
+2026-05-02 07:00:37,191 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-02 07:00:37,192 [INFO] [MiniMax] 成功, 输出长度: 18
+2026-05-02 07:00:37,193 [INFO] [translate_to_chinese] status=SUCCESS, len=18
+2026-05-02 07:01:15,320 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-02 07:01:15,321 [INFO] [MiniMax] 成功, 输出长度: 5106
+2026-05-02 07:01:15,323 [INFO] [generate_news_summary] status=SUCCESS, len=5106
+2026-05-02 07:01:19,343 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-02 07:01:19,343 [INFO] [MiniMax] 成功, 输出长度: 35
+2026-05-02 07:01:19,345 [INFO] [translate_to_chinese] status=SUCCESS, len=35
+2026-05-02 07:01:50,815 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-02 07:01:50,817 [INFO] [MiniMax] 成功, 输出长度: 4678
+2026-05-02 07:01:50,819 [INFO] [generate_news_summary] status=SUCCESS, len=4678
+2026-05-02 07:02:32,085 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-02 07:02:32,087 [INFO] [MiniMax] 成功, 输出长度: 5941
+2026-05-02 07:02:32,088 [INFO] [generate_news_summary] status=SUCCESS, len=5941
+2026-05-02 07:02:52,711 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-02 07:02:52,712 [INFO] [MiniMax] 成功, 输出长度: 33
+2026-05-02 07:02:52,714 [INFO] [translate_to_chinese] status=SUCCESS, len=33
+2026-05-02 07:03:27,265 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-02 07:03:27,268 [INFO] [MiniMax] 成功, 输出长度: 5072
+2026-05-02 07:03:27,269 [INFO] [generate_news_summary] status=SUCCESS, len=5072
+2026-05-02 07:03:32,149 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-02 07:03:32,149 [INFO] [MiniMax] 成功, 输出长度: 24
+2026-05-02 07:03:32,150 [INFO] [translate_to_chinese] status=SUCCESS, len=24
+2026-05-02 07:04:05,392 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-02 07:04:05,393 [INFO] [MiniMax] 成功, 输出长度: 225
+2026-05-02 07:04:05,394 [INFO] [generate_news_summary] status=SUCCESS, len=225
+2026-05-02 07:04:14,540 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-02 07:04:14,540 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-05-02 07:04:14,542 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-05-02 07:04:45,072 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-02 07:04:45,073 [INFO] [MiniMax] 成功, 输出长度: 4863
+2026-05-02 07:04:45,074 [INFO] [generate_news_summary] status=SUCCESS, len=4863
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-04 07:00:06,999 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-04 07:00:07,000 [INFO] [MiniMax] 成功, 输出长度: 274
+2026-05-04 07:00:07,002 [INFO] [generate_news_summary] status=SUCCESS, len=274
+2026-05-04 07:00:14,394 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-04 07:00:14,395 [INFO] [MiniMax] 成功, 输出长度: 30
+2026-05-04 07:00:14,397 [INFO] [translate_to_chinese] status=SUCCESS, len=30
+2026-05-04 07:00:43,315 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-04 07:00:43,318 [INFO] [MiniMax] 成功, 输出长度: 6176
+2026-05-04 07:00:43,320 [INFO] [generate_news_summary] status=SUCCESS, len=6176
+2026-05-04 07:00:47,195 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-04 07:00:47,195 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-05-04 07:00:47,197 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-05-04 07:01:14,225 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-04 07:01:14,227 [INFO] [MiniMax] 成功, 输出长度: 5016
+2026-05-04 07:01:14,228 [INFO] [generate_news_summary] status=SUCCESS, len=5016
+2026-05-04 07:01:24,142 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-04 07:01:24,142 [INFO] [MiniMax] 成功, 输出长度: 31
+2026-05-04 07:01:24,144 [INFO] [translate_to_chinese] status=SUCCESS, len=31
+2026-05-04 07:01:31,145 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-04 07:01:31,147 [INFO] [MiniMax] 成功, 输出长度: 321
+2026-05-04 07:01:31,148 [INFO] [generate_news_summary] status=SUCCESS, len=321
+2026-05-04 07:01:41,939 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-04 07:01:41,940 [INFO] [MiniMax] 成功, 输出长度: 27
+2026-05-04 07:01:41,941 [INFO] [translate_to_chinese] status=SUCCESS, len=27
+2026-05-04 07:02:12,290 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-04 07:02:12,292 [INFO] [MiniMax] 成功, 输出长度: 4814
+2026-05-04 07:02:12,294 [INFO] [generate_news_summary] status=SUCCESS, len=4814
+2026-05-04 07:02:18,235 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-04 07:02:18,236 [INFO] [MiniMax] 成功, 输出长度: 18
+2026-05-04 07:02:18,236 [INFO] [translate_to_chinese] status=SUCCESS, len=18
+2026-05-04 07:02:54,473 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-04 07:02:54,477 [INFO] [MiniMax] 成功, 输出长度: 204
+2026-05-04 07:02:54,478 [INFO] [generate_news_summary] status=SUCCESS, len=204
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-05 07:00:31,768 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-05 07:00:31,770 [INFO] [MiniMax] 成功, 输出长度: 5042
+2026-05-05 07:00:31,772 [INFO] [generate_news_summary] status=SUCCESS, len=5042
+2026-05-05 07:00:40,441 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-05 07:00:40,443 [INFO] [MiniMax] 成功, 输出长度: 26
+2026-05-05 07:00:40,444 [INFO] [translate_to_chinese] status=SUCCESS, len=26
+2026-05-05 07:01:12,275 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-05 07:01:12,277 [INFO] [MiniMax] 成功, 输出长度: 4707
+2026-05-05 07:01:12,278 [INFO] [generate_news_summary] status=SUCCESS, len=4707
+2026-05-05 07:01:19,093 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-05 07:01:19,094 [INFO] [MiniMax] 成功, 输出长度: 17
+2026-05-05 07:01:19,094 [INFO] [translate_to_chinese] status=SUCCESS, len=17
+2026-05-05 07:01:55,567 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-05 07:01:55,570 [INFO] [MiniMax] 成功, 输出长度: 6069
+2026-05-05 07:01:55,572 [INFO] [generate_news_summary] status=SUCCESS, len=6069
+2026-05-05 07:01:58,890 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-05 07:01:58,890 [INFO] [MiniMax] 成功, 输出长度: 15
+2026-05-05 07:01:58,892 [INFO] [translate_to_chinese] status=SUCCESS, len=15
+2026-05-05 07:02:33,262 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-05 07:02:33,265 [INFO] [MiniMax] 成功, 输出长度: 5530
+2026-05-05 07:02:33,267 [INFO] [generate_news_summary] status=SUCCESS, len=5530
+2026-05-05 07:02:41,794 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-05 07:02:41,795 [INFO] [MiniMax] 成功, 输出长度: 24
+2026-05-05 07:02:41,797 [INFO] [translate_to_chinese] status=SUCCESS, len=24
+2026-05-05 07:03:12,441 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-05 07:03:12,443 [INFO] [MiniMax] 成功, 输出长度: 5115
+2026-05-05 07:03:12,443 [INFO] [generate_news_summary] status=SUCCESS, len=5115
+2026-05-05 07:03:16,430 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-05 07:03:16,430 [INFO] [MiniMax] 成功, 输出长度: 19
+2026-05-05 07:03:16,432 [INFO] [translate_to_chinese] status=SUCCESS, len=19
+2026-05-05 07:03:50,420 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-05 07:03:50,422 [INFO] [MiniMax] 成功, 输出长度: 4506
+2026-05-05 07:03:50,426 [INFO] [generate_news_summary] status=SUCCESS, len=4506
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-06 07:00:28,399 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-06 07:00:28,402 [INFO] [MiniMax] 成功, 输出长度: 4775
+2026-05-06 07:00:28,403 [INFO] [generate_news_summary] status=SUCCESS, len=4775
+2026-05-06 07:00:34,136 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-06 07:00:34,136 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-05-06 07:00:34,137 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-07 07:00:29,940 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-07 07:00:29,941 [INFO] [MiniMax] 成功, 输出长度: 5162
+2026-05-07 07:00:29,942 [INFO] [generate_news_summary] status=SUCCESS, len=5162
+2026-05-07 07:00:36,422 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-07 07:00:36,422 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-05-07 07:00:36,424 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-05-07 07:01:13,592 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-07 07:01:13,594 [INFO] [MiniMax] 成功, 输出长度: 4551
+2026-05-07 07:01:13,596 [INFO] [generate_news_summary] status=SUCCESS, len=4551
+2026-05-07 07:01:21,409 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-07 07:01:21,411 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-05-07 07:01:21,413 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-05-07 07:01:57,326 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-07 07:01:57,328 [INFO] [MiniMax] 成功, 输出长度: 30
+2026-05-07 07:01:57,330 [INFO] [generate_news_summary] status=SUCCESS, len=30
+2026-05-07 07:02:04,361 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-07 07:02:04,361 [INFO] [MiniMax] 成功, 输出长度: 25
+2026-05-07 07:02:04,363 [INFO] [translate_to_chinese] status=SUCCESS, len=25
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-08 07:00:39,043 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-08 07:00:39,045 [INFO] [MiniMax] 成功, 输出长度: 48
+2026-05-08 07:00:39,047 [INFO] [generate_news_summary] status=SUCCESS, len=48
+2026-05-08 07:00:43,117 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-08 07:00:43,118 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-05-08 07:00:43,119 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+2026-05-08 07:01:20,633 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-08 07:01:20,636 [INFO] [MiniMax] 成功, 输出长度: 5760
+2026-05-08 07:01:20,638 [INFO] [generate_news_summary] status=SUCCESS, len=5760
+2026-05-08 07:01:28,669 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-08 07:01:28,670 [INFO] [MiniMax] 成功, 输出长度: 19
+2026-05-08 07:01:28,672 [INFO] [translate_to_chinese] status=SUCCESS, len=19
+2026-05-08 07:02:04,560 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-08 07:02:04,563 [INFO] [MiniMax] 成功, 输出长度: 4860
+2026-05-08 07:02:04,565 [INFO] [generate_news_summary] status=SUCCESS, len=4860
+2026-05-08 07:02:10,074 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-08 07:02:10,074 [INFO] [MiniMax] 成功, 输出长度: 23
+2026-05-08 07:02:10,076 [INFO] [translate_to_chinese] status=SUCCESS, len=23
+2026-05-08 07:02:50,405 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-08 07:02:50,407 [INFO] [MiniMax] 成功, 输出长度: 5113
+2026-05-08 07:02:50,408 [INFO] [generate_news_summary] status=SUCCESS, len=5113
+2026-05-08 07:02:53,821 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-08 07:02:53,822 [INFO] [MiniMax] 成功, 输出长度: 20
+2026-05-08 07:02:53,824 [INFO] [translate_to_chinese] status=SUCCESS, len=20
+2026-05-08 07:03:40,182 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-08 07:03:40,184 [INFO] [MiniMax] 成功, 输出长度: 4978
+2026-05-08 07:03:40,186 [INFO] [generate_news_summary] status=SUCCESS, len=4978
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-09 07:00:31,921 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-09 07:00:31,923 [INFO] [MiniMax] 成功, 输出长度: 4578
+2026-05-09 07:00:31,924 [INFO] [generate_news_summary] status=SUCCESS, len=4578
+2026-05-09 07:00:38,432 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-09 07:00:38,432 [INFO] [MiniMax] 成功, 输出长度: 25
+2026-05-09 07:00:38,434 [INFO] [translate_to_chinese] status=SUCCESS, len=25
+2026-05-09 07:01:18,162 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-09 07:01:18,164 [INFO] [MiniMax] 成功, 输出长度: 5206
+2026-05-09 07:01:18,166 [INFO] [generate_news_summary] status=SUCCESS, len=5206
+2026-05-09 07:01:22,770 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-09 07:01:22,770 [INFO] [MiniMax] 成功, 输出长度: 24
+2026-05-09 07:01:22,772 [INFO] [translate_to_chinese] status=SUCCESS, len=24
+2026-05-09 07:01:58,337 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-09 07:01:58,341 [INFO] [MiniMax] 成功, 输出长度: 207
+2026-05-09 07:01:58,342 [INFO] [generate_news_summary] status=SUCCESS, len=207
+2026-05-09 07:02:00,665 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-09 07:02:00,666 [INFO] [MiniMax] 成功, 输出长度: 23
+2026-05-09 07:02:00,667 [INFO] [translate_to_chinese] status=SUCCESS, len=23
+2026-05-09 07:02:23,151 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-09 07:02:23,153 [INFO] [MiniMax] 成功, 输出长度: 263
+2026-05-09 07:02:23,155 [INFO] [generate_news_summary] status=SUCCESS, len=263
+2026-05-09 07:02:32,686 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-09 07:02:32,687 [INFO] [MiniMax] 成功, 输出长度: 42
+2026-05-09 07:02:32,689 [INFO] [translate_to_chinese] status=SUCCESS, len=42
+2026-05-09 07:03:18,330 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-09 07:03:18,332 [INFO] [MiniMax] 成功, 输出长度: 5178
+2026-05-09 07:03:18,332 [INFO] [generate_news_summary] status=SUCCESS, len=5178
+2026-05-09 07:03:26,577 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-09 07:03:26,579 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-05-09 07:03:26,580 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-10 07:00:28,447 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:00:28,449 [INFO] [MiniMax] 成功, 输出长度: 4773
+2026-05-10 07:00:28,451 [INFO] [generate_news_summary] status=SUCCESS, len=4773
+2026-05-10 07:00:35,306 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:00:35,306 [INFO] [MiniMax] 成功, 输出长度: 20
+2026-05-10 07:00:35,308 [INFO] [translate_to_chinese] status=SUCCESS, len=20
+2026-05-10 07:01:05,285 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:01:05,287 [INFO] [MiniMax] 成功, 输出长度: 4624
+2026-05-10 07:01:05,288 [INFO] [generate_news_summary] status=SUCCESS, len=4624
+2026-05-10 07:01:11,065 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:01:11,065 [INFO] [MiniMax] 成功, 输出长度: 35
+2026-05-10 07:01:11,067 [INFO] [translate_to_chinese] status=SUCCESS, len=35
+2026-05-10 07:01:42,857 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:01:42,859 [INFO] [MiniMax] 成功, 输出长度: 5387
+2026-05-10 07:01:42,860 [INFO] [generate_news_summary] status=SUCCESS, len=5387
+2026-05-10 07:02:00,645 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:02:00,646 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-05-10 07:02:00,648 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+2026-05-10 07:02:32,787 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:02:32,789 [INFO] [MiniMax] 成功, 输出长度: 5229
+2026-05-10 07:02:32,791 [INFO] [generate_news_summary] status=SUCCESS, len=5229
+2026-05-10 07:02:38,521 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:02:38,522 [INFO] [MiniMax] 成功, 输出长度: 17
+2026-05-10 07:02:38,523 [INFO] [translate_to_chinese] status=SUCCESS, len=17
+2026-05-10 07:03:15,024 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:03:15,026 [INFO] [MiniMax] 成功, 输出长度: 6305
+2026-05-10 07:03:15,027 [INFO] [generate_news_summary] status=SUCCESS, len=6305
+2026-05-10 07:03:20,960 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:03:20,961 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-05-10 07:03:20,962 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-05-10 07:03:56,451 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:03:56,453 [INFO] [MiniMax] 成功, 输出长度: 7095
+2026-05-10 07:03:56,456 [INFO] [generate_news_summary] status=SUCCESS, len=7095
+2026-05-10 07:04:03,385 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:04:03,386 [INFO] [MiniMax] 成功, 输出长度: 26
+2026-05-10 07:04:03,387 [INFO] [translate_to_chinese] status=SUCCESS, len=26
+2026-05-10 07:04:32,138 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:04:32,140 [INFO] [MiniMax] 成功, 输出长度: 4270
+2026-05-10 07:04:32,141 [INFO] [generate_news_summary] status=SUCCESS, len=4270
+2026-05-10 07:04:41,583 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:04:41,584 [INFO] [MiniMax] 成功, 输出长度: 16
+2026-05-10 07:04:41,585 [INFO] [translate_to_chinese] status=SUCCESS, len=16
+2026-05-10 07:05:13,299 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:05:13,302 [INFO] [MiniMax] 成功, 输出长度: 5687
+2026-05-10 07:05:13,303 [INFO] [generate_news_summary] status=SUCCESS, len=5687
+2026-05-10 07:05:35,449 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:05:35,451 [INFO] [MiniMax] 成功, 输出长度: 20
+2026-05-10 07:05:35,453 [INFO] [translate_to_chinese] status=SUCCESS, len=20
+2026-05-10 07:06:06,326 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:06:06,328 [INFO] [MiniMax] 成功, 输出长度: 4004
+2026-05-10 07:06:06,329 [INFO] [generate_news_summary] status=SUCCESS, len=4004
+2026-05-10 07:06:34,535 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:06:34,537 [INFO] [MiniMax] 成功, 输出长度: 205
+2026-05-10 07:06:34,538 [INFO] [generate_news_summary] status=SUCCESS, len=205
+2026-05-10 07:06:42,757 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:06:42,757 [INFO] [MiniMax] 成功, 输出长度: 24
+2026-05-10 07:06:42,758 [INFO] [translate_to_chinese] status=SUCCESS, len=24
+2026-05-10 07:07:14,684 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:07:14,685 [INFO] [MiniMax] 成功, 输出长度: 5271
+2026-05-10 07:07:14,686 [INFO] [generate_news_summary] status=SUCCESS, len=5271
+2026-05-10 07:07:26,324 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:07:26,326 [INFO] [MiniMax] 成功, 输出长度: 55
+2026-05-10 07:07:26,326 [INFO] [translate_to_chinese] status=SUCCESS, len=55
+2026-05-10 07:07:56,316 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:07:56,318 [INFO] [MiniMax] 成功, 输出长度: 5031
+2026-05-10 07:07:56,319 [INFO] [generate_news_summary] status=SUCCESS, len=5031
+2026-05-10 07:08:02,594 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:08:02,596 [INFO] [MiniMax] 成功, 输出长度: 42
+2026-05-10 07:08:02,597 [INFO] [translate_to_chinese] status=SUCCESS, len=42
+2026-05-10 07:08:27,200 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:08:27,202 [INFO] [MiniMax] 成功, 输出长度: 4681
+2026-05-10 07:08:27,204 [INFO] [generate_news_summary] status=SUCCESS, len=4681
+2026-05-10 07:08:55,499 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:08:55,501 [INFO] [MiniMax] 成功, 输出长度: 5467
+2026-05-10 07:08:55,503 [INFO] [generate_news_summary] status=SUCCESS, len=5467
+2026-05-10 07:09:04,628 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:09:04,629 [INFO] [MiniMax] 成功, 输出长度: 44
+2026-05-10 07:09:04,630 [INFO] [translate_to_chinese] status=SUCCESS, len=44
+2026-05-10 07:09:32,039 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:09:32,040 [INFO] [MiniMax] 成功, 输出长度: 4703
+2026-05-10 07:09:32,042 [INFO] [generate_news_summary] status=SUCCESS, len=4703
+2026-05-10 07:09:36,242 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:09:36,242 [INFO] [MiniMax] 成功, 输出长度: 51
+2026-05-10 07:09:36,243 [INFO] [translate_to_chinese] status=SUCCESS, len=51
+2026-05-10 07:09:59,731 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:09:59,733 [INFO] [MiniMax] 成功, 输出长度: 275
+2026-05-10 07:09:59,735 [INFO] [generate_news_summary] status=SUCCESS, len=275
+2026-05-10 07:10:29,711 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:10:29,714 [INFO] [MiniMax] 成功, 输出长度: 4659
+2026-05-10 07:10:29,715 [INFO] [generate_news_summary] status=SUCCESS, len=4659
+2026-05-10 07:11:00,341 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:11:00,344 [INFO] [MiniMax] 成功, 输出长度: 4791
+2026-05-10 07:11:00,346 [INFO] [generate_news_summary] status=SUCCESS, len=4791
+2026-05-10 07:11:26,652 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:11:26,654 [INFO] [MiniMax] 成功, 输出长度: 4882
+2026-05-10 07:11:26,659 [INFO] [generate_news_summary] status=SUCCESS, len=4882
+2026-05-10 07:11:54,369 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:11:54,371 [INFO] [MiniMax] 成功, 输出长度: 4743
+2026-05-10 07:11:54,374 [INFO] [generate_news_summary] status=SUCCESS, len=4743
+2026-05-10 07:12:24,072 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:12:24,074 [INFO] [MiniMax] 成功, 输出长度: 5354
+2026-05-10 07:12:24,078 [INFO] [generate_news_summary] status=SUCCESS, len=5354
+2026-05-10 07:12:36,392 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:12:36,392 [INFO] [MiniMax] 成功, 输出长度: 41
+2026-05-10 07:12:36,394 [INFO] [translate_to_chinese] status=SUCCESS, len=41
+2026-05-10 07:12:43,131 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:12:43,132 [INFO] [MiniMax] 成功, 输出长度: 270
+2026-05-10 07:12:43,134 [INFO] [generate_news_summary] status=SUCCESS, len=270
+2026-05-10 07:12:47,612 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:12:47,613 [INFO] [MiniMax] 成功, 输出长度: 39
+2026-05-10 07:12:47,614 [INFO] [translate_to_chinese] status=SUCCESS, len=39
+2026-05-10 07:12:55,258 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:12:55,258 [INFO] [MiniMax] 成功, 输出长度: 301
+2026-05-10 07:12:55,259 [INFO] [generate_news_summary] status=SUCCESS, len=301
+2026-05-10 07:13:01,451 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:13:01,452 [INFO] [MiniMax] 成功, 输出长度: 34
+2026-05-10 07:13:01,453 [INFO] [translate_to_chinese] status=SUCCESS, len=34
+2026-05-10 07:13:33,562 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:13:33,564 [INFO] [MiniMax] 成功, 输出长度: 4835
+2026-05-10 07:13:33,566 [INFO] [generate_news_summary] status=SUCCESS, len=4835
+2026-05-10 07:13:41,610 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:13:41,611 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-05-10 07:13:41,613 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+2026-05-10 07:13:53,854 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:13:53,856 [INFO] [MiniMax] 成功, 输出长度: 340
+2026-05-10 07:13:53,858 [INFO] [generate_news_summary] status=SUCCESS, len=340
+2026-05-10 07:14:10,873 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:14:10,874 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-05-10 07:14:10,875 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-05-10 07:14:30,884 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:14:30,886 [INFO] [MiniMax] 成功, 输出长度: 195
+2026-05-10 07:14:30,889 [INFO] [generate_news_summary] status=SUCCESS, len=195
+2026-05-10 07:14:40,049 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:14:40,050 [INFO] [MiniMax] 成功, 输出长度: 316
+2026-05-10 07:14:40,052 [INFO] [generate_news_summary] status=SUCCESS, len=316
+2026-05-10 07:14:46,441 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:14:46,442 [INFO] [MiniMax] 成功, 输出长度: 36
+2026-05-10 07:14:46,444 [INFO] [translate_to_chinese] status=SUCCESS, len=36
+2026-05-10 07:15:11,156 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:15:11,162 [INFO] [MiniMax] 成功, 输出长度: 4363
+2026-05-10 07:15:11,163 [INFO] [generate_news_summary] status=SUCCESS, len=4363
+2026-05-10 07:15:16,332 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:15:16,333 [INFO] [MiniMax] 成功, 输出长度: 19
+2026-05-10 07:15:16,334 [INFO] [translate_to_chinese] status=SUCCESS, len=19
+2026-05-10 07:15:40,498 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:15:40,500 [INFO] [MiniMax] 成功, 输出长度: 5292
+2026-05-10 07:15:40,501 [INFO] [generate_news_summary] status=SUCCESS, len=5292
+2026-05-10 07:15:45,681 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:15:45,682 [INFO] [MiniMax] 成功, 输出长度: 29
+2026-05-10 07:15:45,683 [INFO] [translate_to_chinese] status=SUCCESS, len=29
+2026-05-10 07:16:18,836 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:16:18,838 [INFO] [MiniMax] 成功, 输出长度: 5809
+2026-05-10 07:16:18,839 [INFO] [generate_news_summary] status=SUCCESS, len=5809
+2026-05-10 07:16:25,951 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:16:25,952 [INFO] [MiniMax] 成功, 输出长度: 17
+2026-05-10 07:16:25,953 [INFO] [translate_to_chinese] status=SUCCESS, len=17
+2026-05-10 07:16:53,490 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:16:53,491 [INFO] [MiniMax] 成功, 输出长度: 4791
+2026-05-10 07:16:53,493 [INFO] [generate_news_summary] status=SUCCESS, len=4791
+2026-05-10 07:17:00,925 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:17:00,926 [INFO] [MiniMax] 成功, 输出长度: 17
+2026-05-10 07:17:00,928 [INFO] [translate_to_chinese] status=SUCCESS, len=17
+2026-05-10 07:17:34,355 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:17:34,356 [INFO] [MiniMax] 成功, 输出长度: 5414
+2026-05-10 07:17:34,358 [INFO] [generate_news_summary] status=SUCCESS, len=5414
+2026-05-10 07:17:41,507 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:17:41,508 [INFO] [MiniMax] 成功, 输出长度: 25
+2026-05-10 07:17:41,509 [INFO] [translate_to_chinese] status=SUCCESS, len=25
+2026-05-10 07:17:47,537 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:17:47,537 [INFO] [MiniMax] 成功, 输出长度: 226
+2026-05-10 07:17:47,538 [INFO] [generate_news_summary] status=SUCCESS, len=226
+2026-05-10 07:17:57,792 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:17:57,793 [INFO] [MiniMax] 成功, 输出长度: 29
+2026-05-10 07:17:57,794 [INFO] [translate_to_chinese] status=SUCCESS, len=29
+2026-05-10 07:18:27,007 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:18:27,009 [INFO] [MiniMax] 成功, 输出长度: 5139
+2026-05-10 07:18:27,011 [INFO] [generate_news_summary] status=SUCCESS, len=5139
+2026-05-10 07:18:31,279 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:18:31,279 [INFO] [MiniMax] 成功, 输出长度: 26
+2026-05-10 07:18:31,280 [INFO] [translate_to_chinese] status=SUCCESS, len=26
+2026-05-10 07:18:59,899 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:18:59,901 [INFO] [MiniMax] 成功, 输出长度: 5246
+2026-05-10 07:18:59,903 [INFO] [generate_news_summary] status=SUCCESS, len=5246
+2026-05-10 07:19:05,225 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:19:05,225 [INFO] [MiniMax] 成功, 输出长度: 17
+2026-05-10 07:19:05,227 [INFO] [translate_to_chinese] status=SUCCESS, len=17
+2026-05-10 07:19:31,403 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:19:31,405 [INFO] [MiniMax] 成功, 输出长度: 4454
+2026-05-10 07:19:31,406 [INFO] [generate_news_summary] status=SUCCESS, len=4454
+2026-05-10 07:19:38,857 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:19:38,858 [INFO] [MiniMax] 成功, 输出长度: 20
+2026-05-10 07:19:38,860 [INFO] [translate_to_chinese] status=SUCCESS, len=20
+2026-05-10 07:19:46,154 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:19:46,155 [INFO] [MiniMax] 成功, 输出长度: 166
+2026-05-10 07:19:46,156 [INFO] [generate_news_summary] status=SUCCESS, len=166
+2026-05-10 07:19:51,831 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:19:51,831 [INFO] [MiniMax] 成功, 输出长度: 19
+2026-05-10 07:19:51,833 [INFO] [translate_to_chinese] status=SUCCESS, len=19
+2026-05-10 07:19:58,723 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:19:58,724 [INFO] [MiniMax] 成功, 输出长度: 272
+2026-05-10 07:19:58,726 [INFO] [generate_news_summary] status=SUCCESS, len=272
+2026-05-10 07:20:05,430 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:20:05,430 [INFO] [MiniMax] 成功, 输出长度: 23
+2026-05-10 07:20:05,431 [INFO] [translate_to_chinese] status=SUCCESS, len=23
+2026-05-10 07:20:30,407 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:20:30,409 [INFO] [MiniMax] 成功, 输出长度: 5209
+2026-05-10 07:20:30,411 [INFO] [generate_news_summary] status=SUCCESS, len=5209
+2026-05-10 07:20:35,041 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:20:35,042 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-05-10 07:20:35,043 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+2026-05-10 07:20:43,900 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:20:43,901 [INFO] [MiniMax] 成功, 输出长度: 255
+2026-05-10 07:20:43,903 [INFO] [generate_news_summary] status=SUCCESS, len=255
+2026-05-10 07:20:48,443 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:20:48,443 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-05-10 07:20:48,444 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+2026-05-10 07:21:15,036 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:21:15,079 [INFO] [MiniMax] 成功, 输出长度: 4773
+2026-05-10 07:21:15,082 [INFO] [generate_news_summary] status=SUCCESS, len=4773
+2026-05-10 07:21:22,781 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:21:22,783 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-05-10 07:21:22,787 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+2026-05-10 07:21:51,340 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:21:51,341 [INFO] [MiniMax] 成功, 输出长度: 4550
+2026-05-10 07:21:51,343 [INFO] [generate_news_summary] status=SUCCESS, len=4550
+2026-05-10 07:21:57,693 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:21:57,695 [INFO] [MiniMax] 成功, 输出长度: 49
+2026-05-10 07:21:57,697 [INFO] [translate_to_chinese] status=SUCCESS, len=49
+2026-05-10 07:22:23,881 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:22:23,883 [INFO] [MiniMax] 成功, 输出长度: 4760
+2026-05-10 07:22:23,885 [INFO] [generate_news_summary] status=SUCCESS, len=4760
+2026-05-10 07:22:31,167 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:22:31,169 [INFO] [MiniMax] 成功, 输出长度: 34
+2026-05-10 07:22:31,172 [INFO] [translate_to_chinese] status=SUCCESS, len=34
+2026-05-10 07:22:53,779 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:22:53,781 [INFO] [MiniMax] 成功, 输出长度: 5025
+2026-05-10 07:22:53,784 [INFO] [generate_news_summary] status=SUCCESS, len=5025
+2026-05-10 07:22:59,435 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:22:59,436 [INFO] [MiniMax] 成功, 输出长度: 29
+2026-05-10 07:22:59,440 [INFO] [translate_to_chinese] status=SUCCESS, len=29
+2026-05-10 07:23:22,656 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:23:22,657 [INFO] [MiniMax] 成功, 输出长度: 4717
+2026-05-10 07:23:22,659 [INFO] [generate_news_summary] status=SUCCESS, len=4717
+2026-05-10 07:23:28,748 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:23:28,752 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-05-10 07:23:28,754 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-05-10 07:23:37,709 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:23:37,710 [INFO] [MiniMax] 成功, 输出长度: 294
+2026-05-10 07:23:37,713 [INFO] [generate_news_summary] status=SUCCESS, len=294
+2026-05-10 07:23:44,896 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:23:44,897 [INFO] [MiniMax] 成功, 输出长度: 20
+2026-05-10 07:23:44,899 [INFO] [translate_to_chinese] status=SUCCESS, len=20
+2026-05-10 07:24:15,274 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:24:15,276 [INFO] [MiniMax] 成功, 输出长度: 5014
+2026-05-10 07:24:15,278 [INFO] [generate_news_summary] status=SUCCESS, len=5014
+2026-05-10 07:24:21,519 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:24:21,520 [INFO] [MiniMax] 成功, 输出长度: 11
+2026-05-10 07:24:21,522 [INFO] [translate_to_chinese] status=SUCCESS, len=11
+2026-05-10 07:24:59,787 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:24:59,789 [INFO] [MiniMax] 成功, 输出长度: 216
+2026-05-10 07:24:59,791 [INFO] [generate_news_summary] status=SUCCESS, len=216
+2026-05-10 07:25:15,738 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:25:15,739 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-05-10 07:25:15,740 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-05-10 07:25:22,734 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:25:22,777 [INFO] [MiniMax] 成功, 输出长度: 175
+2026-05-10 07:25:22,780 [INFO] [generate_news_summary] status=SUCCESS, len=175
+2026-05-10 07:25:25,462 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:25:25,462 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-05-10 07:25:25,464 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-05-10 07:25:51,160 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:25:51,179 [INFO] [MiniMax] 成功, 输出长度: 5039
+2026-05-10 07:25:51,186 [INFO] [generate_news_summary] status=SUCCESS, len=5039
+2026-05-10 07:25:57,997 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:25:57,999 [INFO] [MiniMax] 成功, 输出长度: 29
+2026-05-10 07:25:58,002 [INFO] [translate_to_chinese] status=SUCCESS, len=29
+2026-05-10 07:26:27,057 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:26:27,062 [INFO] [MiniMax] 成功, 输出长度: 5123
+2026-05-10 07:26:27,064 [INFO] [generate_news_summary] status=SUCCESS, len=5123
+2026-05-10 07:26:34,479 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:26:34,480 [INFO] [MiniMax] 成功, 输出长度: 29
+2026-05-10 07:26:34,483 [INFO] [translate_to_chinese] status=SUCCESS, len=29
+2026-05-10 07:27:03,685 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:27:03,687 [INFO] [MiniMax] 成功, 输出长度: 5063
+2026-05-10 07:27:03,689 [INFO] [generate_news_summary] status=SUCCESS, len=5063
+2026-05-10 07:27:06,995 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:27:06,996 [INFO] [MiniMax] 成功, 输出长度: 14
+2026-05-10 07:27:06,999 [INFO] [translate_to_chinese] status=SUCCESS, len=14
+2026-05-10 07:27:38,774 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:27:38,775 [INFO] [MiniMax] 成功, 输出长度: 5349
+2026-05-10 07:27:38,777 [INFO] [generate_news_summary] status=SUCCESS, len=5349
+2026-05-10 07:27:43,917 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:27:43,920 [INFO] [MiniMax] 成功, 输出长度: 18
+2026-05-10 07:27:43,921 [INFO] [translate_to_chinese] status=SUCCESS, len=18
+2026-05-10 07:28:12,647 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:28:12,650 [INFO] [MiniMax] 成功, 输出长度: 5629
+2026-05-10 07:28:12,652 [INFO] [generate_news_summary] status=SUCCESS, len=5629
+2026-05-10 07:28:19,518 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:28:19,519 [INFO] [MiniMax] 成功, 输出长度: 34
+2026-05-10 07:28:19,522 [INFO] [translate_to_chinese] status=SUCCESS, len=34
+2026-05-10 07:28:42,241 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:28:42,242 [INFO] [MiniMax] 成功, 输出长度: 208
+2026-05-10 07:28:42,244 [INFO] [generate_news_summary] status=SUCCESS, len=208
+2026-05-10 07:28:47,032 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:28:47,033 [INFO] [MiniMax] 成功, 输出长度: 16
+2026-05-10 07:28:47,035 [INFO] [translate_to_chinese] status=SUCCESS, len=16
+2026-05-10 07:29:13,466 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:29:13,468 [INFO] [MiniMax] 成功, 输出长度: 4404
+2026-05-10 07:29:13,469 [INFO] [generate_news_summary] status=SUCCESS, len=4404
+2026-05-10 07:29:19,137 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:29:19,137 [INFO] [MiniMax] 成功, 输出长度: 37
+2026-05-10 07:29:19,138 [INFO] [translate_to_chinese] status=SUCCESS, len=37
+2026-05-10 07:29:29,007 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:29:29,008 [INFO] [MiniMax] 成功, 输出长度: 374
+2026-05-10 07:29:29,009 [INFO] [generate_news_summary] status=SUCCESS, len=374
+2026-05-10 07:29:35,244 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:29:35,245 [INFO] [MiniMax] 成功, 输出长度: 25
+2026-05-10 07:29:35,247 [INFO] [translate_to_chinese] status=SUCCESS, len=25
+2026-05-10 07:30:01,906 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-10 07:30:01,907 [INFO] [MiniMax] 成功, 输出长度: 4673
+2026-05-10 07:30:01,908 [INFO] [generate_news_summary] status=SUCCESS, len=4673
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-11 07:00:30,898 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-11 07:00:30,901 [INFO] [MiniMax] 成功, 输出长度: 4353
+2026-05-11 07:00:30,902 [INFO] [generate_news_summary] status=SUCCESS, len=4353
+2026-05-11 07:00:43,276 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-11 07:00:43,277 [INFO] [MiniMax] 成功, 输出长度: 20
+2026-05-11 07:00:43,278 [INFO] [translate_to_chinese] status=SUCCESS, len=20
+2026-05-11 07:01:15,227 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-11 07:01:15,228 [INFO] [MiniMax] 成功, 输出长度: 194
+2026-05-11 07:01:15,230 [INFO] [generate_news_summary] status=SUCCESS, len=194
+2026-05-11 07:01:49,997 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-11 07:01:49,998 [INFO] [MiniMax] 成功, 输出长度: 4869
+2026-05-11 07:01:50,000 [INFO] [generate_news_summary] status=SUCCESS, len=4869
+2026-05-11 07:01:53,672 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-11 07:01:53,673 [INFO] [MiniMax] 成功, 输出长度: 17
+2026-05-11 07:01:53,674 [INFO] [translate_to_chinese] status=SUCCESS, len=17
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-12 07:00:10,486 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-12 07:00:10,486 [INFO] [MiniMax] 成功, 输出长度: 196
+2026-05-12 07:00:10,488 [INFO] [generate_news_summary] status=SUCCESS, len=196
+2026-05-12 07:00:21,034 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-12 07:00:21,035 [INFO] [MiniMax] 成功, 输出长度: 31
+2026-05-12 07:00:21,037 [INFO] [translate_to_chinese] status=SUCCESS, len=31
+2026-05-12 07:01:01,549 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-12 07:01:01,551 [INFO] [MiniMax] 成功, 输出长度: 5577
+2026-05-12 07:01:01,553 [INFO] [generate_news_summary] status=SUCCESS, len=5577
+2026-05-12 07:01:11,173 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-12 07:01:11,173 [INFO] [MiniMax] 成功, 输出长度: 28
+2026-05-12 07:01:11,175 [INFO] [translate_to_chinese] status=SUCCESS, len=28
+2026-05-12 07:01:47,936 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-12 07:01:47,937 [INFO] [MiniMax] 成功, 输出长度: 5001
+2026-05-12 07:01:47,939 [INFO] [generate_news_summary] status=SUCCESS, len=5001
+2026-05-12 07:02:24,132 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-12 07:02:24,134 [INFO] [MiniMax] 成功, 输出长度: 5879
+2026-05-12 07:02:24,136 [INFO] [generate_news_summary] status=SUCCESS, len=5879
+2026-05-12 07:02:34,563 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-12 07:02:34,563 [INFO] [MiniMax] 成功, 输出长度: 56
+2026-05-12 07:02:34,565 [INFO] [translate_to_chinese] status=SUCCESS, len=56
+2026-05-12 07:03:07,541 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-12 07:03:07,542 [INFO] [MiniMax] 成功, 输出长度: 4668
+2026-05-12 07:03:07,544 [INFO] [generate_news_summary] status=SUCCESS, len=4668
+2026-05-12 07:03:41,925 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-12 07:03:41,926 [INFO] [MiniMax] 成功, 输出长度: 5173
+2026-05-12 07:03:41,928 [INFO] [generate_news_summary] status=SUCCESS, len=5173
+2026-05-12 07:03:49,349 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-12 07:03:49,350 [INFO] [MiniMax] 成功, 输出长度: 17
+2026-05-12 07:03:49,352 [INFO] [translate_to_chinese] status=SUCCESS, len=17
+2026-05-12 07:04:26,141 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-12 07:04:26,142 [INFO] [MiniMax] 成功, 输出长度: 5279
+2026-05-12 07:04:26,144 [INFO] [generate_news_summary] status=SUCCESS, len=5279
+2026-05-12 07:04:34,297 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-12 07:04:34,298 [INFO] [MiniMax] 成功, 输出长度: 23
+2026-05-12 07:04:34,300 [INFO] [translate_to_chinese] status=SUCCESS, len=23
+2026-05-12 07:05:06,681 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-12 07:05:06,682 [INFO] [MiniMax] 成功, 输出长度: 4982
+2026-05-12 07:05:06,684 [INFO] [generate_news_summary] status=SUCCESS, len=4982
+2026-05-12 07:05:17,241 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-12 07:05:17,241 [INFO] [MiniMax] 成功, 输出长度: 27
+2026-05-12 07:05:17,243 [INFO] [translate_to_chinese] status=SUCCESS, len=27
+2026-05-12 07:05:45,341 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-12 07:05:45,342 [INFO] [MiniMax] 成功, 输出长度: 4114
+2026-05-12 07:05:45,344 [INFO] [generate_news_summary] status=SUCCESS, len=4114
+2026-05-12 07:05:50,519 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-12 07:05:50,520 [INFO] [MiniMax] 成功, 输出长度: 19
+2026-05-12 07:05:50,522 [INFO] [translate_to_chinese] status=SUCCESS, len=19
+2026-05-12 07:06:18,539 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-12 07:06:18,540 [INFO] [MiniMax] 成功, 输出长度: 4520
+2026-05-12 07:06:18,542 [INFO] [generate_news_summary] status=SUCCESS, len=4520
+2026-05-12 07:06:22,096 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-12 07:06:22,096 [INFO] [MiniMax] 成功, 输出长度: 26
+2026-05-12 07:06:22,098 [INFO] [translate_to_chinese] status=SUCCESS, len=26
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-13 07:00:34,150 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-13 07:00:34,153 [INFO] [MiniMax] 成功, 输出长度: 5803
+2026-05-13 07:00:34,155 [INFO] [generate_news_summary] status=SUCCESS, len=5803
+2026-05-13 07:00:42,295 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-13 07:00:42,295 [INFO] [MiniMax] 成功, 输出长度: 15
+2026-05-13 07:00:42,297 [INFO] [translate_to_chinese] status=SUCCESS, len=15
+2026-05-13 07:00:54,113 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-13 07:00:54,114 [INFO] [MiniMax] 成功, 输出长度: 314
+2026-05-13 07:00:54,116 [INFO] [generate_news_summary] status=SUCCESS, len=314
+2026-05-13 07:01:10,251 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-13 07:01:10,251 [INFO] [MiniMax] 成功, 输出长度: 43
+2026-05-13 07:01:10,254 [INFO] [translate_to_chinese] status=SUCCESS, len=43
+2026-05-13 07:01:48,487 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-13 07:01:48,489 [INFO] [MiniMax] 成功, 输出长度: 4891
+2026-05-13 07:01:48,490 [INFO] [generate_news_summary] status=SUCCESS, len=4891
+2026-05-13 07:02:26,948 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-13 07:02:26,949 [INFO] [MiniMax] 成功, 输出长度: 5184
+2026-05-13 07:02:26,951 [INFO] [generate_news_summary] status=SUCCESS, len=5184
+2026-05-13 07:02:37,800 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-13 07:02:37,801 [INFO] [MiniMax] 成功, 输出长度: 25
+2026-05-13 07:02:37,803 [INFO] [translate_to_chinese] status=SUCCESS, len=25
+2026-05-13 07:03:19,110 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-13 07:03:19,111 [INFO] [MiniMax] 成功, 输出长度: 4723
+2026-05-13 07:03:19,113 [INFO] [generate_news_summary] status=SUCCESS, len=4723
+2026-05-13 07:03:27,601 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-13 07:03:27,602 [INFO] [MiniMax] 成功, 输出长度: 43
+2026-05-13 07:03:27,604 [INFO] [translate_to_chinese] status=SUCCESS, len=43
+2026-05-13 07:04:09,804 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-13 07:04:09,805 [INFO] [MiniMax] 成功, 输出长度: 6208
+2026-05-13 07:04:09,807 [INFO] [generate_news_summary] status=SUCCESS, len=6208
+2026-05-13 07:04:16,820 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-13 07:04:16,821 [INFO] [MiniMax] 成功, 输出长度: 38
+2026-05-13 07:04:16,823 [INFO] [translate_to_chinese] status=SUCCESS, len=38
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-14 07:00:12,517 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-14 07:00:12,518 [INFO] [MiniMax] 成功, 输出长度: 284
+2026-05-14 07:00:12,520 [INFO] [generate_news_summary] status=SUCCESS, len=284
+2026-05-14 07:00:44,892 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-14 07:00:44,894 [INFO] [MiniMax] 成功, 输出长度: 4876
+2026-05-14 07:00:44,896 [INFO] [generate_news_summary] status=SUCCESS, len=4876
+2026-05-14 07:00:51,737 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-14 07:00:51,737 [INFO] [MiniMax] 成功, 输出长度: 27
+2026-05-14 07:00:51,739 [INFO] [translate_to_chinese] status=SUCCESS, len=27
+2026-05-14 07:01:32,495 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-14 07:01:32,496 [INFO] [MiniMax] 成功, 输出长度: 5430
+2026-05-14 07:01:32,497 [INFO] [generate_news_summary] status=SUCCESS, len=5430
+2026-05-14 07:01:37,510 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-14 07:01:37,511 [INFO] [MiniMax] 成功, 输出长度: 13
+2026-05-14 07:01:37,513 [INFO] [translate_to_chinese] status=SUCCESS, len=13
+2026-05-14 07:02:13,455 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-14 07:02:13,456 [INFO] [MiniMax] 成功, 输出长度: 5125
+2026-05-14 07:02:13,458 [INFO] [generate_news_summary] status=SUCCESS, len=5125
+2026-05-14 07:02:18,635 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-14 07:02:18,636 [INFO] [MiniMax] 成功, 输出长度: 18
+2026-05-14 07:02:18,638 [INFO] [translate_to_chinese] status=SUCCESS, len=18
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-15 07:00:29,557 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:00:29,559 [INFO] [MiniMax] 成功, 输出长度: 5192
+2026-05-15 07:00:29,561 [INFO] [generate_news_summary] status=SUCCESS, len=5192
+2026-05-15 07:00:32,510 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:00:32,511 [INFO] [MiniMax] 成功, 输出长度: 31
+2026-05-15 07:00:32,512 [INFO] [translate_to_chinese] status=SUCCESS, len=31
+2026-05-15 07:01:06,162 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:01:06,163 [INFO] [MiniMax] 成功, 输出长度: 4972
+2026-05-15 07:01:06,164 [INFO] [generate_news_summary] status=SUCCESS, len=4972
+2026-05-15 07:01:15,521 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:01:15,521 [INFO] [MiniMax] 成功, 输出长度: 35
+2026-05-15 07:01:15,522 [INFO] [translate_to_chinese] status=SUCCESS, len=35
+2026-05-15 07:01:51,349 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:01:51,351 [INFO] [MiniMax] 成功, 输出长度: 6410
+2026-05-15 07:01:51,352 [INFO] [generate_news_summary] status=SUCCESS, len=6410
+2026-05-15 07:02:03,284 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:02:03,284 [INFO] [MiniMax] 成功, 输出长度: 18
+2026-05-15 07:02:03,285 [INFO] [translate_to_chinese] status=SUCCESS, len=18
+2026-05-15 07:02:42,205 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:02:42,207 [INFO] [MiniMax] 成功, 输出长度: 5988
+2026-05-15 07:02:42,209 [INFO] [generate_news_summary] status=SUCCESS, len=5988
+2026-05-15 07:02:47,918 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:02:47,919 [INFO] [MiniMax] 成功, 输出长度: 16
+2026-05-15 07:02:47,921 [INFO] [translate_to_chinese] status=SUCCESS, len=16
+2026-05-15 07:03:27,887 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:03:27,890 [INFO] [MiniMax] 成功, 输出长度: 5909
+2026-05-15 07:03:27,891 [INFO] [generate_news_summary] status=SUCCESS, len=5909
+2026-05-15 07:03:32,426 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:03:32,426 [INFO] [MiniMax] 成功, 输出长度: 24
+2026-05-15 07:03:32,428 [INFO] [translate_to_chinese] status=SUCCESS, len=24
+2026-05-15 07:04:07,694 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:04:07,696 [INFO] [MiniMax] 成功, 输出长度: 4627
+2026-05-15 07:04:07,697 [INFO] [generate_news_summary] status=SUCCESS, len=4627
+2026-05-15 07:04:16,661 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:04:16,661 [INFO] [MiniMax] 成功, 输出长度: 24
+2026-05-15 07:04:16,662 [INFO] [translate_to_chinese] status=SUCCESS, len=24
+2026-05-15 07:04:52,830 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:04:52,832 [INFO] [MiniMax] 成功, 输出长度: 5797
+2026-05-15 07:04:52,834 [INFO] [generate_news_summary] status=SUCCESS, len=5797
+2026-05-15 07:05:03,670 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:05:03,671 [INFO] [MiniMax] 成功, 输出长度: 29
+2026-05-15 07:05:03,672 [INFO] [translate_to_chinese] status=SUCCESS, len=29
+2026-05-15 07:05:36,350 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:05:36,351 [INFO] [MiniMax] 成功, 输出长度: 5275
+2026-05-15 07:05:36,352 [INFO] [generate_news_summary] status=SUCCESS, len=5275
+2026-05-15 07:05:39,129 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:05:39,129 [INFO] [MiniMax] 成功, 输出长度: 36
+2026-05-15 07:05:39,130 [INFO] [translate_to_chinese] status=SUCCESS, len=36
+2026-05-15 07:06:11,085 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:06:11,087 [INFO] [MiniMax] 成功, 输出长度: 5357
+2026-05-15 07:06:11,088 [INFO] [generate_news_summary] status=SUCCESS, len=5357
+2026-05-15 07:06:17,384 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:06:17,385 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-05-15 07:06:17,386 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+2026-05-15 07:06:49,250 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:06:49,251 [INFO] [MiniMax] 成功, 输出长度: 5325
+2026-05-15 07:06:49,253 [INFO] [generate_news_summary] status=SUCCESS, len=5325
+2026-05-15 07:06:57,980 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:06:57,981 [INFO] [MiniMax] 成功, 输出长度: 29
+2026-05-15 07:06:57,982 [INFO] [translate_to_chinese] status=SUCCESS, len=29
+2026-05-15 07:07:29,452 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:07:29,454 [INFO] [MiniMax] 成功, 输出长度: 5855
+2026-05-15 07:07:29,455 [INFO] [generate_news_summary] status=SUCCESS, len=5855
+2026-05-15 07:07:34,702 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:07:34,703 [INFO] [MiniMax] 成功, 输出长度: 29
+2026-05-15 07:07:34,703 [INFO] [translate_to_chinese] status=SUCCESS, len=29
+2026-05-15 07:07:45,625 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:07:45,627 [INFO] [MiniMax] 成功, 输出长度: 212
+2026-05-15 07:07:45,628 [INFO] [generate_news_summary] status=SUCCESS, len=212
+2026-05-15 07:07:53,494 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:07:53,495 [INFO] [MiniMax] 成功, 输出长度: 15
+2026-05-15 07:07:53,496 [INFO] [translate_to_chinese] status=SUCCESS, len=15
+2026-05-15 07:08:26,176 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:08:26,178 [INFO] [MiniMax] 成功, 输出长度: 4636
+2026-05-15 07:08:26,179 [INFO] [generate_news_summary] status=SUCCESS, len=4636
+2026-05-15 07:08:55,838 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:08:55,840 [INFO] [MiniMax] 成功, 输出长度: 5006
+2026-05-15 07:08:55,842 [INFO] [generate_news_summary] status=SUCCESS, len=5006
+2026-05-15 07:09:02,754 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:09:02,755 [INFO] [MiniMax] 成功, 输出长度: 23
+2026-05-15 07:09:02,757 [INFO] [translate_to_chinese] status=SUCCESS, len=23
+2026-05-15 07:09:33,473 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:09:33,474 [INFO] [MiniMax] 成功, 输出长度: 5157
+2026-05-15 07:09:33,476 [INFO] [generate_news_summary] status=SUCCESS, len=5157
+2026-05-15 07:09:37,480 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:09:37,481 [INFO] [MiniMax] 成功, 输出长度: 18
+2026-05-15 07:09:37,482 [INFO] [translate_to_chinese] status=SUCCESS, len=18
+2026-05-15 07:10:05,933 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:10:05,935 [INFO] [MiniMax] 成功, 输出长度: 4813
+2026-05-15 07:10:05,937 [INFO] [generate_news_summary] status=SUCCESS, len=4813
+2026-05-15 07:10:10,047 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:10:10,047 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-05-15 07:10:10,049 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+2026-05-15 07:10:44,125 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:10:44,126 [INFO] [MiniMax] 成功, 输出长度: 5641
+2026-05-15 07:10:44,128 [INFO] [generate_news_summary] status=SUCCESS, len=5641
+2026-05-15 07:10:47,765 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:10:47,766 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-05-15 07:10:47,767 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+2026-05-15 07:11:16,454 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:11:16,456 [INFO] [MiniMax] 成功, 输出长度: 4875
+2026-05-15 07:11:16,458 [INFO] [generate_news_summary] status=SUCCESS, len=4875
+2026-05-15 07:11:44,042 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:11:44,044 [INFO] [MiniMax] 成功, 输出长度: 5394
+2026-05-15 07:11:44,045 [INFO] [generate_news_summary] status=SUCCESS, len=5394
+2026-05-15 07:11:50,584 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:11:50,585 [INFO] [MiniMax] 成功, 输出长度: 29
+2026-05-15 07:11:50,586 [INFO] [translate_to_chinese] status=SUCCESS, len=29
+2026-05-15 07:12:16,548 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:12:16,550 [INFO] [MiniMax] 成功, 输出长度: 5032
+2026-05-15 07:12:16,551 [INFO] [generate_news_summary] status=SUCCESS, len=5032
+2026-05-15 07:12:20,628 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:12:20,628 [INFO] [MiniMax] 成功, 输出长度: 50
+2026-05-15 07:12:20,629 [INFO] [translate_to_chinese] status=SUCCESS, len=50
+2026-05-15 07:12:29,656 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:12:29,656 [INFO] [MiniMax] 成功, 输出长度: 283
+2026-05-15 07:12:29,657 [INFO] [generate_news_summary] status=SUCCESS, len=283
+2026-05-15 07:13:00,100 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:13:00,102 [INFO] [MiniMax] 成功, 输出长度: 6334
+2026-05-15 07:13:00,103 [INFO] [generate_news_summary] status=SUCCESS, len=6334
+2026-05-15 07:13:03,992 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:13:03,992 [INFO] [MiniMax] 成功, 输出长度: 41
+2026-05-15 07:13:03,993 [INFO] [translate_to_chinese] status=SUCCESS, len=41
+2026-05-15 07:13:32,996 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:13:32,997 [INFO] [MiniMax] 成功, 输出长度: 226
+2026-05-15 07:13:32,999 [INFO] [generate_news_summary] status=SUCCESS, len=226
+2026-05-15 07:13:36,865 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:13:36,865 [INFO] [MiniMax] 成功, 输出长度: 38
+2026-05-15 07:13:36,866 [INFO] [translate_to_chinese] status=SUCCESS, len=38
+2026-05-15 07:13:46,283 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:13:46,284 [INFO] [MiniMax] 成功, 输出长度: 252
+2026-05-15 07:13:46,285 [INFO] [generate_news_summary] status=SUCCESS, len=252
+2026-05-15 07:14:10,796 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:14:10,798 [INFO] [MiniMax] 成功, 输出长度: 4876
+2026-05-15 07:14:10,799 [INFO] [generate_news_summary] status=SUCCESS, len=4876
+2026-05-15 07:14:18,661 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:14:18,663 [INFO] [MiniMax] 成功, 输出长度: 212
+2026-05-15 07:14:18,664 [INFO] [generate_news_summary] status=SUCCESS, len=212
+2026-05-15 07:14:26,981 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:14:26,982 [INFO] [MiniMax] 成功, 输出长度: 35
+2026-05-15 07:14:26,983 [INFO] [translate_to_chinese] status=SUCCESS, len=35
+2026-05-15 07:14:34,287 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:14:34,288 [INFO] [MiniMax] 成功, 输出长度: 233
+2026-05-15 07:14:34,290 [INFO] [generate_news_summary] status=SUCCESS, len=233
+2026-05-15 07:14:37,563 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:14:37,564 [INFO] [MiniMax] 成功, 输出长度: 20
+2026-05-15 07:14:37,565 [INFO] [translate_to_chinese] status=SUCCESS, len=20
+2026-05-15 07:15:05,511 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:15:05,513 [INFO] [MiniMax] 成功, 输出长度: 6120
+2026-05-15 07:15:05,514 [INFO] [generate_news_summary] status=SUCCESS, len=6120
+2026-05-15 07:15:09,109 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:15:09,109 [INFO] [MiniMax] 成功, 输出长度: 46
+2026-05-15 07:15:09,110 [INFO] [translate_to_chinese] status=SUCCESS, len=46
+2026-05-15 07:15:15,076 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:15:15,078 [INFO] [MiniMax] 成功, 输出长度: 251
+2026-05-15 07:15:15,079 [INFO] [generate_news_summary] status=SUCCESS, len=251
+2026-05-15 07:15:22,832 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:15:22,833 [INFO] [MiniMax] 成功, 输出长度: 315
+2026-05-15 07:15:22,834 [INFO] [generate_news_summary] status=SUCCESS, len=315
+2026-05-15 07:16:13,372 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:16:13,375 [INFO] [MiniMax] 成功, 输出长度: 4032
+2026-05-15 07:16:13,376 [INFO] [generate_news_summary] status=SUCCESS, len=4032
+2026-05-15 07:16:39,640 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:16:39,641 [INFO] [MiniMax] 成功, 输出长度: 4543
+2026-05-15 07:16:39,643 [INFO] [generate_news_summary] status=SUCCESS, len=4543
+2026-05-15 07:17:03,595 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:17:03,597 [INFO] [MiniMax] 成功, 输出长度: 4698
+2026-05-15 07:17:03,599 [INFO] [generate_news_summary] status=SUCCESS, len=4698
+2026-05-15 07:17:32,003 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:17:32,005 [INFO] [MiniMax] 成功, 输出长度: 4691
+2026-05-15 07:17:32,007 [INFO] [generate_news_summary] status=SUCCESS, len=4691
+2026-05-15 07:17:48,796 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:17:48,798 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-05-15 07:17:48,800 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+2026-05-15 07:17:56,803 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:17:56,803 [INFO] [MiniMax] 成功, 输出长度: 270
+2026-05-15 07:17:56,805 [INFO] [generate_news_summary] status=SUCCESS, len=270
+2026-05-15 07:18:07,351 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:18:07,352 [INFO] [MiniMax] 成功, 输出长度: 37
+2026-05-15 07:18:07,353 [INFO] [translate_to_chinese] status=SUCCESS, len=37
+2026-05-15 07:18:43,579 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:18:43,581 [INFO] [MiniMax] 成功, 输出长度: 5062
+2026-05-15 07:18:43,583 [INFO] [generate_news_summary] status=SUCCESS, len=5062
+2026-05-15 07:19:09,880 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:19:09,882 [INFO] [MiniMax] 成功, 输出长度: 4684
+2026-05-15 07:19:09,884 [INFO] [generate_news_summary] status=SUCCESS, len=4684
+2026-05-15 07:19:15,365 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:19:15,366 [INFO] [MiniMax] 成功, 输出长度: 282
+2026-05-15 07:19:15,367 [INFO] [generate_news_summary] status=SUCCESS, len=282
+2026-05-15 07:19:43,824 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:19:43,826 [INFO] [MiniMax] 成功, 输出长度: 5667
+2026-05-15 07:19:43,827 [INFO] [generate_news_summary] status=SUCCESS, len=5667
+2026-05-15 07:19:47,457 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:19:47,457 [INFO] [MiniMax] 成功, 输出长度: 37
+2026-05-15 07:19:47,459 [INFO] [translate_to_chinese] status=SUCCESS, len=37
+2026-05-15 07:19:55,343 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:19:55,345 [INFO] [MiniMax] 成功, 输出长度: 214
+2026-05-15 07:19:55,346 [INFO] [generate_news_summary] status=SUCCESS, len=214
+2026-05-15 07:20:04,536 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:20:04,537 [INFO] [MiniMax] 成功, 输出长度: 46
+2026-05-15 07:20:04,539 [INFO] [translate_to_chinese] status=SUCCESS, len=46
+2026-05-15 07:20:30,000 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:20:30,001 [INFO] [MiniMax] 成功, 输出长度: 4296
+2026-05-15 07:20:30,004 [INFO] [generate_news_summary] status=SUCCESS, len=4296
+2026-05-15 07:20:38,039 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:20:38,041 [INFO] [MiniMax] 成功, 输出长度: 27
+2026-05-15 07:20:38,042 [INFO] [translate_to_chinese] status=SUCCESS, len=27
+2026-05-15 07:21:04,533 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:21:04,534 [INFO] [MiniMax] 成功, 输出长度: 301
+2026-05-15 07:21:04,535 [INFO] [generate_news_summary] status=SUCCESS, len=301
+2026-05-15 07:21:09,452 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:21:09,452 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-05-15 07:21:09,453 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+2026-05-15 07:21:35,776 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:21:35,778 [INFO] [MiniMax] 成功, 输出长度: 4589
+2026-05-15 07:21:35,781 [INFO] [generate_news_summary] status=SUCCESS, len=4589
+2026-05-15 07:21:43,116 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:21:43,117 [INFO] [MiniMax] 成功, 输出长度: 29
+2026-05-15 07:21:43,118 [INFO] [translate_to_chinese] status=SUCCESS, len=29
+2026-05-15 07:22:11,644 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:22:11,646 [INFO] [MiniMax] 成功, 输出长度: 4886
+2026-05-15 07:22:11,648 [INFO] [generate_news_summary] status=SUCCESS, len=4886
+2026-05-15 07:22:18,205 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:22:18,205 [INFO] [MiniMax] 成功, 输出长度: 16
+2026-05-15 07:22:18,206 [INFO] [translate_to_chinese] status=SUCCESS, len=16
+2026-05-15 07:22:45,105 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:22:45,106 [INFO] [MiniMax] 成功, 输出长度: 5339
+2026-05-15 07:22:45,108 [INFO] [generate_news_summary] status=SUCCESS, len=5339
+2026-05-15 07:22:52,641 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:22:52,641 [INFO] [MiniMax] 成功, 输出长度: 33
+2026-05-15 07:22:52,643 [INFO] [translate_to_chinese] status=SUCCESS, len=33
+2026-05-15 07:23:18,433 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:23:18,436 [INFO] [MiniMax] 成功, 输出长度: 5015
+2026-05-15 07:23:18,438 [INFO] [generate_news_summary] status=SUCCESS, len=5015
+2026-05-15 07:23:24,179 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:23:24,180 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-05-15 07:23:24,181 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-05-15 07:23:49,125 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:23:49,127 [INFO] [MiniMax] 成功, 输出长度: 199
+2026-05-15 07:23:49,129 [INFO] [generate_news_summary] status=SUCCESS, len=199
+2026-05-15 07:23:53,981 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:23:53,982 [INFO] [MiniMax] 成功, 输出长度: 18
+2026-05-15 07:23:53,983 [INFO] [translate_to_chinese] status=SUCCESS, len=18
+2026-05-15 07:24:19,271 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:24:19,273 [INFO] [MiniMax] 成功, 输出长度: 4583
+2026-05-15 07:24:19,276 [INFO] [generate_news_summary] status=SUCCESS, len=4583
+2026-05-15 07:24:24,586 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:24:24,586 [INFO] [MiniMax] 成功, 输出长度: 17
+2026-05-15 07:24:24,587 [INFO] [translate_to_chinese] status=SUCCESS, len=17
+2026-05-15 07:24:51,569 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:24:51,571 [INFO] [MiniMax] 成功, 输出长度: 4840
+2026-05-15 07:24:51,573 [INFO] [generate_news_summary] status=SUCCESS, len=4840
+2026-05-15 07:24:58,300 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:24:58,300 [INFO] [MiniMax] 成功, 输出长度: 30
+2026-05-15 07:24:58,301 [INFO] [translate_to_chinese] status=SUCCESS, len=30
+2026-05-15 07:25:24,729 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:25:24,731 [INFO] [MiniMax] 成功, 输出长度: 4295
+2026-05-15 07:25:24,733 [INFO] [generate_news_summary] status=SUCCESS, len=4295
+2026-05-15 07:25:30,491 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:25:30,491 [INFO] [MiniMax] 成功, 输出长度: 27
+2026-05-15 07:25:30,492 [INFO] [translate_to_chinese] status=SUCCESS, len=27
+2026-05-15 07:26:02,832 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:26:02,834 [INFO] [MiniMax] 成功, 输出长度: 5115
+2026-05-15 07:26:02,835 [INFO] [generate_news_summary] status=SUCCESS, len=5115
+2026-05-15 07:26:10,740 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:26:10,740 [INFO] [MiniMax] 成功, 输出长度: 31
+2026-05-15 07:26:10,741 [INFO] [translate_to_chinese] status=SUCCESS, len=31
+2026-05-15 07:26:45,233 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:26:45,235 [INFO] [MiniMax] 成功, 输出长度: 6151
+2026-05-15 07:26:45,236 [INFO] [generate_news_summary] status=SUCCESS, len=6151
+2026-05-15 07:26:48,717 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:26:48,717 [INFO] [MiniMax] 成功, 输出长度: 15
+2026-05-15 07:26:48,718 [INFO] [translate_to_chinese] status=SUCCESS, len=15
+2026-05-15 07:27:14,519 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:27:14,521 [INFO] [MiniMax] 成功, 输出长度: 5434
+2026-05-15 07:27:14,523 [INFO] [generate_news_summary] status=SUCCESS, len=5434
+2026-05-15 07:27:18,253 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:27:18,254 [INFO] [MiniMax] 成功, 输出长度: 20
+2026-05-15 07:27:18,256 [INFO] [translate_to_chinese] status=SUCCESS, len=20
+2026-05-15 07:27:53,867 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:27:53,870 [INFO] [MiniMax] 成功, 输出长度: 5297
+2026-05-15 07:27:53,872 [INFO] [generate_news_summary] status=SUCCESS, len=5297
+2026-05-15 07:28:00,750 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:28:00,751 [INFO] [MiniMax] 成功, 输出长度: 20
+2026-05-15 07:28:00,752 [INFO] [translate_to_chinese] status=SUCCESS, len=20
+2026-05-15 07:28:28,509 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:28:28,510 [INFO] [MiniMax] 成功, 输出长度: 200
+2026-05-15 07:28:28,512 [INFO] [generate_news_summary] status=SUCCESS, len=200
+2026-05-15 07:28:34,074 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:28:34,074 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-05-15 07:28:34,076 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-05-15 07:29:03,578 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:29:03,580 [INFO] [MiniMax] 成功, 输出长度: 5111
+2026-05-15 07:29:03,583 [INFO] [generate_news_summary] status=SUCCESS, len=5111
+2026-05-15 07:29:06,888 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:29:06,888 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-05-15 07:29:06,890 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+2026-05-15 07:29:29,570 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:29:29,571 [INFO] [MiniMax] 成功, 输出长度: 4975
+2026-05-15 07:29:29,573 [INFO] [generate_news_summary] status=SUCCESS, len=4975
+2026-05-15 07:29:34,427 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:29:34,428 [INFO] [MiniMax] 成功, 输出长度: 23
+2026-05-15 07:29:34,429 [INFO] [translate_to_chinese] status=SUCCESS, len=23
+2026-05-15 07:29:58,306 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-15 07:29:58,308 [INFO] [MiniMax] 成功, 输出长度: 202
+2026-05-15 07:29:58,309 [INFO] [generate_news_summary] status=SUCCESS, len=202
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-16 07:00:13,547 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:00:13,548 [INFO] [MiniMax] 成功, 输出长度: 320
+2026-05-16 07:00:13,550 [INFO] [generate_news_summary] status=SUCCESS, len=320
+2026-05-16 07:00:24,668 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:00:24,669 [INFO] [MiniMax] 成功, 输出长度: 17
+2026-05-16 07:00:24,671 [INFO] [translate_to_chinese] status=SUCCESS, len=17
+2026-05-16 07:01:00,360 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:01:00,362 [INFO] [MiniMax] 成功, 输出长度: 6289
+2026-05-16 07:01:00,364 [INFO] [generate_news_summary] status=SUCCESS, len=6289
+2026-05-16 07:01:06,877 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:01:06,878 [INFO] [MiniMax] 成功, 输出长度: 26
+2026-05-16 07:01:06,880 [INFO] [translate_to_chinese] status=SUCCESS, len=26
+2026-05-16 07:01:18,836 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:01:18,837 [INFO] [MiniMax] 成功, 输出长度: 181
+2026-05-16 07:01:18,839 [INFO] [generate_news_summary] status=SUCCESS, len=181
+2026-05-16 07:01:45,755 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:01:45,757 [INFO] [MiniMax] 成功, 输出长度: 196
+2026-05-16 07:01:45,758 [INFO] [generate_news_summary] status=SUCCESS, len=196
+2026-05-16 07:01:51,124 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:01:51,124 [INFO] [MiniMax] 成功, 输出长度: 20
+2026-05-16 07:01:51,126 [INFO] [translate_to_chinese] status=SUCCESS, len=20
+2026-05-16 07:02:18,592 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:02:18,595 [INFO] [MiniMax] 成功, 输出长度: 5642
+2026-05-16 07:02:18,597 [INFO] [generate_news_summary] status=SUCCESS, len=5642
+2026-05-16 07:02:25,730 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:02:25,731 [INFO] [MiniMax] 成功, 输出长度: 37
+2026-05-16 07:02:25,733 [INFO] [translate_to_chinese] status=SUCCESS, len=37
+2026-05-16 07:02:58,895 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:02:58,896 [INFO] [MiniMax] 成功, 输出长度: 4699
+2026-05-16 07:02:58,898 [INFO] [generate_news_summary] status=SUCCESS, len=4699
+2026-05-16 07:03:06,095 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:03:06,096 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-05-16 07:03:06,098 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+2026-05-16 07:03:40,904 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:03:40,906 [INFO] [MiniMax] 成功, 输出长度: 5140
+2026-05-16 07:03:40,908 [INFO] [generate_news_summary] status=SUCCESS, len=5140
+2026-05-16 07:03:50,980 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:03:50,980 [INFO] [MiniMax] 成功, 输出长度: 27
+2026-05-16 07:03:50,982 [INFO] [translate_to_chinese] status=SUCCESS, len=27
+2026-05-16 07:04:26,619 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:04:26,620 [INFO] [MiniMax] 成功, 输出长度: 5062
+2026-05-16 07:04:26,621 [INFO] [generate_news_summary] status=SUCCESS, len=5062
+2026-05-16 07:04:32,911 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:04:32,912 [INFO] [MiniMax] 成功, 输出长度: 26
+2026-05-16 07:04:32,914 [INFO] [translate_to_chinese] status=SUCCESS, len=26
+2026-05-16 07:05:08,021 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:05:08,023 [INFO] [MiniMax] 成功, 输出长度: 4807
+2026-05-16 07:05:08,025 [INFO] [generate_news_summary] status=SUCCESS, len=4807
+2026-05-16 07:05:16,032 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:05:16,032 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-05-16 07:05:16,034 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-05-16 07:05:47,768 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:05:47,769 [INFO] [MiniMax] 成功, 输出长度: 196
+2026-05-16 07:05:47,771 [INFO] [generate_news_summary] status=SUCCESS, len=196
+2026-05-16 07:05:53,306 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:05:53,306 [INFO] [MiniMax] 成功, 输出长度: 19
+2026-05-16 07:05:53,308 [INFO] [translate_to_chinese] status=SUCCESS, len=19
+2026-05-16 07:06:26,715 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:06:26,716 [INFO] [MiniMax] 成功, 输出长度: 5563
+2026-05-16 07:06:26,718 [INFO] [generate_news_summary] status=SUCCESS, len=5563
+2026-05-16 07:06:35,359 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:06:35,360 [INFO] [MiniMax] 成功, 输出长度: 23
+2026-05-16 07:06:35,363 [INFO] [translate_to_chinese] status=SUCCESS, len=23
+2026-05-16 07:07:07,648 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-16 07:07:07,649 [INFO] [MiniMax] 成功, 输出长度: 60
+2026-05-16 07:07:07,651 [INFO] [generate_news_summary] status=SUCCESS, len=60
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-17 07:00:24,289 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:00:24,292 [INFO] [MiniMax] 成功, 输出长度: 4542
+2026-05-17 07:00:24,295 [INFO] [generate_news_summary] status=SUCCESS, len=4542
+2026-05-17 07:00:29,558 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:00:29,558 [INFO] [MiniMax] 成功, 输出长度: 26
+2026-05-17 07:00:29,560 [INFO] [translate_to_chinese] status=SUCCESS, len=26
+2026-05-17 07:00:52,754 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:00:52,756 [INFO] [MiniMax] 成功, 输出长度: 4397
+2026-05-17 07:00:52,758 [INFO] [generate_news_summary] status=SUCCESS, len=4397
+2026-05-17 07:00:59,696 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:00:59,697 [INFO] [MiniMax] 成功, 输出长度: 28
+2026-05-17 07:00:59,699 [INFO] [translate_to_chinese] status=SUCCESS, len=28
+2026-05-17 07:01:09,680 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:01:09,680 [INFO] [MiniMax] 成功, 输出长度: 235
+2026-05-17 07:01:09,682 [INFO] [generate_news_summary] status=SUCCESS, len=235
+2026-05-17 07:01:16,084 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:01:16,085 [INFO] [MiniMax] 成功, 输出长度: 15
+2026-05-17 07:01:16,087 [INFO] [translate_to_chinese] status=SUCCESS, len=15
+2026-05-17 07:01:39,041 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:01:39,042 [INFO] [MiniMax] 成功, 输出长度: 183
+2026-05-17 07:01:39,044 [INFO] [generate_news_summary] status=SUCCESS, len=183
+2026-05-17 07:01:46,933 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:01:46,934 [INFO] [MiniMax] 成功, 输出长度: 28
+2026-05-17 07:01:46,936 [INFO] [translate_to_chinese] status=SUCCESS, len=28
+2026-05-17 07:02:04,614 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:02:04,615 [INFO] [MiniMax] 成功, 输出长度: 272
+2026-05-17 07:02:04,617 [INFO] [generate_news_summary] status=SUCCESS, len=272
+2026-05-17 07:02:33,115 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:02:33,116 [INFO] [MiniMax] 成功, 输出长度: 5198
+2026-05-17 07:02:33,118 [INFO] [generate_news_summary] status=SUCCESS, len=5198
+2026-05-17 07:02:43,752 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:02:43,752 [INFO] [MiniMax] 成功, 输出长度: 36
+2026-05-17 07:02:43,753 [INFO] [translate_to_chinese] status=SUCCESS, len=36
+2026-05-17 07:02:52,586 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:02:52,586 [INFO] [MiniMax] 成功, 输出长度: 283
+2026-05-17 07:02:52,588 [INFO] [generate_news_summary] status=SUCCESS, len=283
+2026-05-17 07:02:56,794 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:02:56,795 [INFO] [MiniMax] 成功, 输出长度: 26
+2026-05-17 07:02:56,796 [INFO] [translate_to_chinese] status=SUCCESS, len=26
+2026-05-17 07:03:27,512 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:03:27,514 [INFO] [MiniMax] 成功, 输出长度: 4923
+2026-05-17 07:03:27,516 [INFO] [generate_news_summary] status=SUCCESS, len=4923
+2026-05-17 07:03:34,037 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:03:34,037 [INFO] [MiniMax] 成功, 输出长度: 20
+2026-05-17 07:03:34,039 [INFO] [translate_to_chinese] status=SUCCESS, len=20
+2026-05-17 07:04:03,865 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:04:03,867 [INFO] [MiniMax] 成功, 输出长度: 4440
+2026-05-17 07:04:03,869 [INFO] [generate_news_summary] status=SUCCESS, len=4440
+2026-05-17 07:04:10,461 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:04:10,462 [INFO] [MiniMax] 成功, 输出长度: 244
+2026-05-17 07:04:10,463 [INFO] [generate_news_summary] status=SUCCESS, len=244
+2026-05-17 07:04:16,244 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:04:16,244 [INFO] [MiniMax] 成功, 输出长度: 42
+2026-05-17 07:04:16,246 [INFO] [translate_to_chinese] status=SUCCESS, len=42
+2026-05-17 07:04:43,561 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:04:43,563 [INFO] [MiniMax] 成功, 输出长度: 5082
+2026-05-17 07:04:43,565 [INFO] [generate_news_summary] status=SUCCESS, len=5082
+2026-05-17 07:04:53,394 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:04:53,394 [INFO] [MiniMax] 成功, 输出长度: 10
+2026-05-17 07:04:53,397 [INFO] [translate_to_chinese] status=SUCCESS, len=10
+2026-05-17 07:05:22,947 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:05:22,950 [INFO] [MiniMax] 成功, 输出长度: 5577
+2026-05-17 07:05:22,952 [INFO] [generate_news_summary] status=SUCCESS, len=5577
+2026-05-17 07:05:34,795 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:05:34,796 [INFO] [MiniMax] 成功, 输出长度: 28
+2026-05-17 07:05:34,798 [INFO] [translate_to_chinese] status=SUCCESS, len=28
+2026-05-17 07:06:01,092 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:06:01,094 [INFO] [MiniMax] 成功, 输出长度: 5003
+2026-05-17 07:06:01,096 [INFO] [generate_news_summary] status=SUCCESS, len=5003
+2026-05-17 07:06:14,219 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:06:14,220 [INFO] [MiniMax] 成功, 输出长度: 37
+2026-05-17 07:06:14,222 [INFO] [translate_to_chinese] status=SUCCESS, len=37
+2026-05-17 07:06:42,273 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:06:42,274 [INFO] [MiniMax] 成功, 输出长度: 4120
+2026-05-17 07:06:42,276 [INFO] [generate_news_summary] status=SUCCESS, len=4120
+2026-05-17 07:06:48,974 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:06:48,975 [INFO] [MiniMax] 成功, 输出长度: 19
+2026-05-17 07:06:48,977 [INFO] [translate_to_chinese] status=SUCCESS, len=19
+2026-05-17 07:07:19,008 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:07:19,010 [INFO] [MiniMax] 成功, 输出长度: 5402
+2026-05-17 07:07:19,011 [INFO] [generate_news_summary] status=SUCCESS, len=5402
+2026-05-17 07:07:25,354 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:07:25,354 [INFO] [MiniMax] 成功, 输出长度: 54
+2026-05-17 07:07:25,356 [INFO] [translate_to_chinese] status=SUCCESS, len=54
+2026-05-17 07:07:56,772 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:07:56,774 [INFO] [MiniMax] 成功, 输出长度: 5971
+2026-05-17 07:07:56,775 [INFO] [generate_news_summary] status=SUCCESS, len=5971
+2026-05-17 07:08:02,485 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:08:02,486 [INFO] [MiniMax] 成功, 输出长度: 18
+2026-05-17 07:08:02,487 [INFO] [translate_to_chinese] status=SUCCESS, len=18
+2026-05-17 07:08:26,711 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:08:26,713 [INFO] [MiniMax] 成功, 输出长度: 4717
+2026-05-17 07:08:26,715 [INFO] [generate_news_summary] status=SUCCESS, len=4717
+2026-05-17 07:08:34,361 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:08:34,361 [INFO] [MiniMax] 成功, 输出长度: 47
+2026-05-17 07:08:34,362 [INFO] [translate_to_chinese] status=SUCCESS, len=47
+2026-05-17 07:08:59,875 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:08:59,878 [INFO] [MiniMax] 成功, 输出长度: 4846
+2026-05-17 07:08:59,880 [INFO] [generate_news_summary] status=SUCCESS, len=4846
+2026-05-17 07:09:04,845 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:09:04,845 [INFO] [MiniMax] 成功, 输出长度: 14
+2026-05-17 07:09:04,847 [INFO] [translate_to_chinese] status=SUCCESS, len=14
+2026-05-17 07:09:35,017 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:09:35,018 [INFO] [MiniMax] 成功, 输出长度: 5241
+2026-05-17 07:09:35,020 [INFO] [generate_news_summary] status=SUCCESS, len=5241
+2026-05-17 07:10:00,400 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:10:00,402 [INFO] [MiniMax] 成功, 输出长度: 4888
+2026-05-17 07:10:00,403 [INFO] [generate_news_summary] status=SUCCESS, len=4888
+2026-05-17 07:10:04,361 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:10:04,361 [INFO] [MiniMax] 成功, 输出长度: 18
+2026-05-17 07:10:04,363 [INFO] [translate_to_chinese] status=SUCCESS, len=18
+2026-05-17 07:10:35,133 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:10:35,136 [INFO] [MiniMax] 成功, 输出长度: 5182
+2026-05-17 07:10:35,138 [INFO] [generate_news_summary] status=SUCCESS, len=5182
+2026-05-17 07:10:59,370 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:10:59,373 [INFO] [MiniMax] 成功, 输出长度: 4575
+2026-05-17 07:10:59,375 [INFO] [generate_news_summary] status=SUCCESS, len=4575
+2026-05-17 07:11:02,484 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:11:02,484 [INFO] [MiniMax] 成功, 输出长度: 20
+2026-05-17 07:11:02,485 [INFO] [translate_to_chinese] status=SUCCESS, len=20
+2026-05-17 07:11:11,094 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:11:11,095 [INFO] [MiniMax] 成功, 输出长度: 306
+2026-05-17 07:11:11,097 [INFO] [generate_news_summary] status=SUCCESS, len=306
+2026-05-17 07:11:18,978 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:11:18,978 [INFO] [MiniMax] 成功, 输出长度: 50
+2026-05-17 07:11:18,981 [INFO] [translate_to_chinese] status=SUCCESS, len=50
+2026-05-17 07:11:27,396 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:11:27,396 [INFO] [MiniMax] 成功, 输出长度: 261
+2026-05-17 07:11:27,398 [INFO] [generate_news_summary] status=SUCCESS, len=261
+2026-05-17 07:11:35,655 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:11:35,656 [INFO] [MiniMax] 成功, 输出长度: 18
+2026-05-17 07:11:35,658 [INFO] [translate_to_chinese] status=SUCCESS, len=18
+2026-05-17 07:11:45,583 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:11:45,585 [INFO] [MiniMax] 成功, 输出长度: 250
+2026-05-17 07:11:45,586 [INFO] [generate_news_summary] status=SUCCESS, len=250
+2026-05-17 07:12:04,705 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:12:04,706 [INFO] [MiniMax] 成功, 输出长度: 179
+2026-05-17 07:12:04,708 [INFO] [generate_news_summary] status=SUCCESS, len=179
+2026-05-17 07:12:07,202 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:12:07,202 [INFO] [MiniMax] 成功, 输出长度: 27
+2026-05-17 07:12:07,203 [INFO] [translate_to_chinese] status=SUCCESS, len=27
+2026-05-17 07:12:15,180 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:12:15,181 [INFO] [MiniMax] 成功, 输出长度: 352
+2026-05-17 07:12:15,182 [INFO] [generate_news_summary] status=SUCCESS, len=352
+2026-05-17 07:12:21,458 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:12:21,459 [INFO] [MiniMax] 成功, 输出长度: 28
+2026-05-17 07:12:21,460 [INFO] [translate_to_chinese] status=SUCCESS, len=28
+2026-05-17 07:12:50,079 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:12:50,081 [INFO] [MiniMax] 成功, 输出长度: 6691
+2026-05-17 07:12:50,083 [INFO] [generate_news_summary] status=SUCCESS, len=6691
+2026-05-17 07:12:55,756 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:12:55,756 [INFO] [MiniMax] 成功, 输出长度: 61
+2026-05-17 07:12:55,758 [INFO] [translate_to_chinese] status=SUCCESS, len=61
+2026-05-17 07:13:07,465 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:13:07,466 [INFO] [MiniMax] 成功, 输出长度: 344
+2026-05-17 07:13:07,468 [INFO] [generate_news_summary] status=SUCCESS, len=344
+2026-05-17 07:13:33,171 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:13:33,172 [INFO] [MiniMax] 成功, 输出长度: 6427
+2026-05-17 07:13:33,174 [INFO] [generate_news_summary] status=SUCCESS, len=6427
+2026-05-17 07:13:38,823 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:13:38,824 [INFO] [MiniMax] 成功, 输出长度: 40
+2026-05-17 07:13:38,826 [INFO] [translate_to_chinese] status=SUCCESS, len=40
+2026-05-17 07:14:02,700 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:14:02,703 [INFO] [MiniMax] 成功, 输出长度: 4615
+2026-05-17 07:14:02,705 [INFO] [generate_news_summary] status=SUCCESS, len=4615
+2026-05-17 07:14:30,004 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:14:30,006 [INFO] [MiniMax] 成功, 输出长度: 5858
+2026-05-17 07:14:30,009 [INFO] [generate_news_summary] status=SUCCESS, len=5858
+2026-05-17 07:14:34,420 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:14:34,420 [INFO] [MiniMax] 成功, 输出长度: 39
+2026-05-17 07:14:34,422 [INFO] [translate_to_chinese] status=SUCCESS, len=39
+2026-05-17 07:14:56,542 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:14:56,544 [INFO] [MiniMax] 成功, 输出长度: 205
+2026-05-17 07:14:56,544 [INFO] [generate_news_summary] status=SUCCESS, len=205
+2026-05-17 07:15:02,522 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:15:02,523 [INFO] [MiniMax] 成功, 输出长度: 219
+2026-05-17 07:15:02,525 [INFO] [generate_news_summary] status=SUCCESS, len=219
+2026-05-17 07:15:27,947 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:15:27,949 [INFO] [MiniMax] 成功, 输出长度: 5184
+2026-05-17 07:15:27,951 [INFO] [generate_news_summary] status=SUCCESS, len=5184
+2026-05-17 07:15:35,135 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:15:35,135 [INFO] [MiniMax] 成功, 输出长度: 74
+2026-05-17 07:15:35,137 [INFO] [translate_to_chinese] status=SUCCESS, len=74
+2026-05-17 07:16:03,715 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:16:03,717 [INFO] [MiniMax] 成功, 输出长度: 4858
+2026-05-17 07:16:03,719 [INFO] [generate_news_summary] status=SUCCESS, len=4858
+2026-05-17 07:16:07,041 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:16:07,042 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-05-17 07:16:07,044 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-05-17 07:16:32,164 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:16:32,165 [INFO] [MiniMax] 成功, 输出长度: 5612
+2026-05-17 07:16:32,167 [INFO] [generate_news_summary] status=SUCCESS, len=5612
+2026-05-17 07:16:38,520 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:16:38,521 [INFO] [MiniMax] 成功, 输出长度: 49
+2026-05-17 07:16:38,523 [INFO] [translate_to_chinese] status=SUCCESS, len=49
+2026-05-17 07:17:08,212 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:17:08,214 [INFO] [MiniMax] 成功, 输出长度: 5217
+2026-05-17 07:17:08,216 [INFO] [generate_news_summary] status=SUCCESS, len=5217
+2026-05-17 07:17:30,259 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:17:30,260 [INFO] [MiniMax] 成功, 输出长度: 4742
+2026-05-17 07:17:30,262 [INFO] [generate_news_summary] status=SUCCESS, len=4742
+2026-05-17 07:17:38,420 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:17:38,422 [INFO] [MiniMax] 成功, 输出长度: 47
+2026-05-17 07:17:38,424 [INFO] [translate_to_chinese] status=SUCCESS, len=47
+2026-05-17 07:18:03,555 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:18:03,558 [INFO] [MiniMax] 成功, 输出长度: 5401
+2026-05-17 07:18:03,560 [INFO] [generate_news_summary] status=SUCCESS, len=5401
+2026-05-17 07:18:08,118 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:18:08,118 [INFO] [MiniMax] 成功, 输出长度: 33
+2026-05-17 07:18:08,120 [INFO] [translate_to_chinese] status=SUCCESS, len=33
+2026-05-17 07:18:23,480 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:18:23,480 [INFO] [MiniMax] 成功, 输出长度: 254
+2026-05-17 07:18:23,481 [INFO] [generate_news_summary] status=SUCCESS, len=254
+2026-05-17 07:18:34,638 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:18:34,639 [INFO] [MiniMax] 成功, 输出长度: 211
+2026-05-17 07:18:34,641 [INFO] [generate_news_summary] status=SUCCESS, len=211
+2026-05-17 07:18:39,754 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:18:39,755 [INFO] [MiniMax] 成功, 输出长度: 35
+2026-05-17 07:18:39,756 [INFO] [translate_to_chinese] status=SUCCESS, len=35
+2026-05-17 07:19:04,029 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:19:04,031 [INFO] [MiniMax] 成功, 输出长度: 210
+2026-05-17 07:19:04,033 [INFO] [generate_news_summary] status=SUCCESS, len=210
+2026-05-17 07:19:09,356 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:19:09,356 [INFO] [MiniMax] 成功, 输出长度: 27
+2026-05-17 07:19:09,358 [INFO] [translate_to_chinese] status=SUCCESS, len=27
+2026-05-17 07:19:35,090 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:19:35,090 [INFO] [MiniMax] 成功, 输出长度: 208
+2026-05-17 07:19:35,092 [INFO] [generate_news_summary] status=SUCCESS, len=208
+2026-05-17 07:19:37,591 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:19:37,591 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-05-17 07:19:37,593 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+2026-05-17 07:20:02,822 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:20:02,825 [INFO] [MiniMax] 成功, 输出长度: 5108
+2026-05-17 07:20:02,827 [INFO] [generate_news_summary] status=SUCCESS, len=5108
+2026-05-17 07:20:09,352 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:20:09,352 [INFO] [MiniMax] 成功, 输出长度: 33
+2026-05-17 07:20:09,354 [INFO] [translate_to_chinese] status=SUCCESS, len=33
+2026-05-17 07:20:36,484 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:20:36,486 [INFO] [MiniMax] 成功, 输出长度: 5016
+2026-05-17 07:20:36,487 [INFO] [generate_news_summary] status=SUCCESS, len=5016
+2026-05-17 07:20:45,677 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:20:45,678 [INFO] [MiniMax] 成功, 输出长度: 54
+2026-05-17 07:20:45,680 [INFO] [translate_to_chinese] status=SUCCESS, len=54
+2026-05-17 07:20:51,649 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:20:51,649 [INFO] [MiniMax] 成功, 输出长度: 276
+2026-05-17 07:20:51,651 [INFO] [generate_news_summary] status=SUCCESS, len=276
+2026-05-17 07:21:15,912 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:21:15,912 [INFO] [MiniMax] 成功, 输出长度: 202
+2026-05-17 07:21:15,913 [INFO] [generate_news_summary] status=SUCCESS, len=202
+2026-05-17 07:21:18,922 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:21:18,922 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-05-17 07:21:18,923 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+2026-05-17 07:21:27,169 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:21:27,169 [INFO] [MiniMax] 成功, 输出长度: 183
+2026-05-17 07:21:27,170 [INFO] [generate_news_summary] status=SUCCESS, len=183
+2026-05-17 07:21:30,423 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:21:30,424 [INFO] [MiniMax] 成功, 输出长度: 17
+2026-05-17 07:21:30,425 [INFO] [translate_to_chinese] status=SUCCESS, len=17
+2026-05-17 07:21:58,132 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:21:58,134 [INFO] [MiniMax] 成功, 输出长度: 6305
+2026-05-17 07:21:58,136 [INFO] [generate_news_summary] status=SUCCESS, len=6305
+2026-05-17 07:22:01,180 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:22:01,180 [INFO] [MiniMax] 成功, 输出长度: 23
+2026-05-17 07:22:01,181 [INFO] [translate_to_chinese] status=SUCCESS, len=23
+2026-05-17 07:22:28,464 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:22:28,465 [INFO] [MiniMax] 成功, 输出长度: 5666
+2026-05-17 07:22:28,466 [INFO] [generate_news_summary] status=SUCCESS, len=5666
+2026-05-17 07:22:33,061 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:22:33,061 [INFO] [MiniMax] 成功, 输出长度: 30
+2026-05-17 07:22:33,062 [INFO] [translate_to_chinese] status=SUCCESS, len=30
+2026-05-17 07:22:39,410 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:22:39,410 [INFO] [MiniMax] 成功, 输出长度: 268
+2026-05-17 07:22:39,411 [INFO] [generate_news_summary] status=SUCCESS, len=268
+2026-05-17 07:22:50,291 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:22:50,292 [INFO] [MiniMax] 成功, 输出长度: 24
+2026-05-17 07:22:50,294 [INFO] [translate_to_chinese] status=SUCCESS, len=24
+2026-05-17 07:23:15,150 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:23:15,152 [INFO] [MiniMax] 成功, 输出长度: 5583
+2026-05-17 07:23:15,154 [INFO] [generate_news_summary] status=SUCCESS, len=5583
+2026-05-17 07:23:19,748 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:23:19,748 [INFO] [MiniMax] 成功, 输出长度: 16
+2026-05-17 07:23:19,750 [INFO] [translate_to_chinese] status=SUCCESS, len=16
+2026-05-17 07:23:45,505 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:23:45,506 [INFO] [MiniMax] 成功, 输出长度: 4922
+2026-05-17 07:23:45,507 [INFO] [generate_news_summary] status=SUCCESS, len=4922
+2026-05-17 07:23:49,964 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:23:49,965 [INFO] [MiniMax] 成功, 输出长度: 24
+2026-05-17 07:23:49,967 [INFO] [translate_to_chinese] status=SUCCESS, len=24
+2026-05-17 07:24:18,314 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:24:18,316 [INFO] [MiniMax] 成功, 输出长度: 5773
+2026-05-17 07:24:18,318 [INFO] [generate_news_summary] status=SUCCESS, len=5773
+2026-05-17 07:24:25,645 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:24:25,645 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-05-17 07:24:25,647 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-05-17 07:24:31,956 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:24:31,956 [INFO] [MiniMax] 成功, 输出长度: 161
+2026-05-17 07:24:31,958 [INFO] [generate_news_summary] status=SUCCESS, len=161
+2026-05-17 07:24:38,878 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:24:38,879 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-05-17 07:24:38,881 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-05-17 07:25:04,716 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:25:04,718 [INFO] [MiniMax] 成功, 输出长度: 5251
+2026-05-17 07:25:04,720 [INFO] [generate_news_summary] status=SUCCESS, len=5251
+2026-05-17 07:25:09,552 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:25:09,553 [INFO] [MiniMax] 成功, 输出长度: 18
+2026-05-17 07:25:09,555 [INFO] [translate_to_chinese] status=SUCCESS, len=18
+2026-05-17 07:25:36,770 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:25:36,771 [INFO] [MiniMax] 成功, 输出长度: 5143
+2026-05-17 07:25:36,773 [INFO] [generate_news_summary] status=SUCCESS, len=5143
+2026-05-17 07:25:41,487 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:25:41,488 [INFO] [MiniMax] 成功, 输出长度: 28
+2026-05-17 07:25:41,490 [INFO] [translate_to_chinese] status=SUCCESS, len=28
+2026-05-17 07:25:49,330 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:25:49,330 [INFO] [MiniMax] 成功, 输出长度: 289
+2026-05-17 07:25:49,332 [INFO] [generate_news_summary] status=SUCCESS, len=289
+2026-05-17 07:26:01,337 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:26:01,339 [INFO] [MiniMax] 成功, 输出长度: 41
+2026-05-17 07:26:01,341 [INFO] [translate_to_chinese] status=SUCCESS, len=41
+2026-05-17 07:26:25,258 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:26:25,259 [INFO] [MiniMax] 成功, 输出长度: 5371
+2026-05-17 07:26:25,261 [INFO] [generate_news_summary] status=SUCCESS, len=5371
+2026-05-17 07:26:29,504 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:26:29,505 [INFO] [MiniMax] 成功, 输出长度: 18
+2026-05-17 07:26:29,507 [INFO] [translate_to_chinese] status=SUCCESS, len=18
+2026-05-17 07:26:52,578 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:26:52,579 [INFO] [MiniMax] 成功, 输出长度: 5191
+2026-05-17 07:26:52,581 [INFO] [generate_news_summary] status=SUCCESS, len=5191
+2026-05-17 07:27:02,825 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:27:02,826 [INFO] [MiniMax] 成功, 输出长度: 36
+2026-05-17 07:27:02,828 [INFO] [translate_to_chinese] status=SUCCESS, len=36
+2026-05-17 07:27:27,804 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:27:27,805 [INFO] [MiniMax] 成功, 输出长度: 5152
+2026-05-17 07:27:27,805 [INFO] [generate_news_summary] status=SUCCESS, len=5152
+2026-05-17 07:27:30,617 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:27:30,617 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-05-17 07:27:30,620 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-05-17 07:27:37,802 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:27:37,802 [INFO] [MiniMax] 成功, 输出长度: 338
+2026-05-17 07:27:37,804 [INFO] [generate_news_summary] status=SUCCESS, len=338
+2026-05-17 07:27:43,741 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:27:43,742 [INFO] [MiniMax] 成功, 输出长度: 46
+2026-05-17 07:27:43,744 [INFO] [translate_to_chinese] status=SUCCESS, len=46
+2026-05-17 07:28:08,624 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:28:08,627 [INFO] [MiniMax] 成功, 输出长度: 5182
+2026-05-17 07:28:08,629 [INFO] [generate_news_summary] status=SUCCESS, len=5182
+2026-05-17 07:28:30,103 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:28:30,104 [INFO] [MiniMax] 成功, 输出长度: 4076
+2026-05-17 07:28:30,106 [INFO] [generate_news_summary] status=SUCCESS, len=4076
+2026-05-17 07:28:55,845 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:28:55,847 [INFO] [MiniMax] 成功, 输出长度: 5120
+2026-05-17 07:28:55,849 [INFO] [generate_news_summary] status=SUCCESS, len=5120
+2026-05-17 07:29:08,171 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:29:08,171 [INFO] [MiniMax] 成功, 输出长度: 37
+2026-05-17 07:29:08,173 [INFO] [translate_to_chinese] status=SUCCESS, len=37
+2026-05-17 07:29:14,893 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:29:14,893 [INFO] [MiniMax] 成功, 输出长度: 348
+2026-05-17 07:29:14,895 [INFO] [generate_news_summary] status=SUCCESS, len=348
+2026-05-17 07:29:41,706 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:29:41,707 [INFO] [MiniMax] 成功, 输出长度: 6048
+2026-05-17 07:29:41,710 [INFO] [generate_news_summary] status=SUCCESS, len=6048
+2026-05-17 07:29:46,337 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-17 07:29:46,338 [INFO] [MiniMax] 成功, 输出长度: 15
+2026-05-17 07:29:46,340 [INFO] [translate_to_chinese] status=SUCCESS, len=15
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-18 07:00:08,499 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-18 07:00:08,500 [INFO] [MiniMax] 成功, 输出长度: 354
+2026-05-18 07:00:08,502 [INFO] [generate_news_summary] status=SUCCESS, len=354
+2026-05-18 07:00:37,956 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-18 07:00:37,957 [INFO] [MiniMax] 成功, 输出长度: 4764
+2026-05-18 07:00:37,957 [INFO] [generate_news_summary] status=SUCCESS, len=4764
+2026-05-18 07:00:44,174 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-18 07:00:44,175 [INFO] [MiniMax] 成功, 输出长度: 50
+2026-05-18 07:00:44,177 [INFO] [translate_to_chinese] status=SUCCESS, len=50
+2026-05-18 07:00:53,512 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-18 07:00:53,512 [INFO] [MiniMax] 成功, 输出长度: 296
+2026-05-18 07:00:53,514 [INFO] [generate_news_summary] status=SUCCESS, len=296
+2026-05-18 07:01:03,305 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-18 07:01:03,305 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-05-18 07:01:03,307 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+2026-05-18 07:01:34,955 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-18 07:01:34,956 [INFO] [MiniMax] 成功, 输出长度: 13
+2026-05-18 07:01:34,958 [INFO] [generate_news_summary] status=SUCCESS, len=13
+2026-05-18 07:01:45,659 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-18 07:01:45,660 [INFO] [MiniMax] 成功, 输出长度: 32
+2026-05-18 07:01:45,662 [INFO] [translate_to_chinese] status=SUCCESS, len=32
+2026-05-18 07:02:15,049 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-18 07:02:15,050 [INFO] [MiniMax] 成功, 输出长度: 5343
+2026-05-18 07:02:15,053 [INFO] [generate_news_summary] status=SUCCESS, len=5343
+2026-05-18 07:02:21,196 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-18 07:02:21,196 [INFO] [MiniMax] 成功, 输出长度: 29
+2026-05-18 07:02:21,197 [INFO] [translate_to_chinese] status=SUCCESS, len=29
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-19 07:00:33,177 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-19 07:00:33,179 [INFO] [MiniMax] 成功, 输出长度: 4595
+2026-05-19 07:00:33,180 [INFO] [generate_news_summary] status=SUCCESS, len=4595
+2026-05-19 07:01:01,823 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-19 07:01:01,824 [INFO] [MiniMax] 成功, 输出长度: 4524
+2026-05-19 07:01:01,825 [INFO] [generate_news_summary] status=SUCCESS, len=4524
+2026-05-19 07:01:34,605 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-19 07:01:34,607 [INFO] [MiniMax] 成功, 输出长度: 5545
+2026-05-19 07:01:34,609 [INFO] [generate_news_summary] status=SUCCESS, len=5545
+2026-05-19 07:01:44,485 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-19 07:01:44,486 [INFO] [MiniMax] 成功, 输出长度: 316
+2026-05-19 07:01:44,488 [INFO] [generate_news_summary] status=SUCCESS, len=316
+2026-05-19 07:01:53,611 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-19 07:01:53,612 [INFO] [MiniMax] 成功, 输出长度: 43
+2026-05-19 07:01:53,614 [INFO] [translate_to_chinese] status=SUCCESS, len=43
+2026-05-19 07:02:27,051 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-19 07:02:27,052 [INFO] [MiniMax] 成功, 输出长度: 4597
+2026-05-19 07:02:27,052 [INFO] [generate_news_summary] status=SUCCESS, len=4597
+2026-05-19 07:02:57,796 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-19 07:02:57,796 [INFO] [MiniMax] 成功, 输出长度: 198
+2026-05-19 07:02:57,798 [INFO] [generate_news_summary] status=SUCCESS, len=198
+2026-05-19 07:03:34,628 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-19 07:03:34,630 [INFO] [MiniMax] 成功, 输出长度: 5638
+2026-05-19 07:03:34,631 [INFO] [generate_news_summary] status=SUCCESS, len=5638
+2026-05-19 07:03:39,955 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-19 07:03:39,956 [INFO] [MiniMax] 成功, 输出长度: 20
+2026-05-19 07:03:39,957 [INFO] [translate_to_chinese] status=SUCCESS, len=20
+2026-05-19 07:04:19,794 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-19 07:04:19,796 [INFO] [MiniMax] 成功, 输出长度: 6795
+2026-05-19 07:04:19,798 [INFO] [generate_news_summary] status=SUCCESS, len=6795
+2026-05-19 07:04:26,638 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-19 07:04:26,638 [INFO] [MiniMax] 成功, 输出长度: 16
+2026-05-19 07:04:26,639 [INFO] [translate_to_chinese] status=SUCCESS, len=16
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-20 07:00:35,938 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:00:35,941 [INFO] [MiniMax] 成功, 输出长度: 5687
+2026-05-20 07:00:35,943 [INFO] [generate_news_summary] status=SUCCESS, len=5687
+2026-05-20 07:00:46,675 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:00:46,676 [INFO] [MiniMax] 成功, 输出长度: 24
+2026-05-20 07:00:46,677 [INFO] [translate_to_chinese] status=SUCCESS, len=24
+2026-05-20 07:01:23,965 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:01:23,966 [INFO] [MiniMax] 成功, 输出长度: 5655
+2026-05-20 07:01:23,968 [INFO] [generate_news_summary] status=SUCCESS, len=5655
+2026-05-20 07:01:32,215 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:01:32,216 [INFO] [MiniMax] 成功, 输出长度: 26
+2026-05-20 07:01:32,217 [INFO] [translate_to_chinese] status=SUCCESS, len=26
+2026-05-20 07:02:12,751 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:02:12,753 [INFO] [MiniMax] 成功, 输出长度: 4762
+2026-05-20 07:02:12,754 [INFO] [generate_news_summary] status=SUCCESS, len=4762
+2026-05-20 07:02:20,028 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:02:20,029 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-05-20 07:02:20,031 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-05-20 07:02:53,192 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:02:53,193 [INFO] [MiniMax] 成功, 输出长度: 4136
+2026-05-20 07:02:53,194 [INFO] [generate_news_summary] status=SUCCESS, len=4136
+2026-05-20 07:03:02,221 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:03:02,221 [INFO] [MiniMax] 成功, 输出长度: 23
+2026-05-20 07:03:02,223 [INFO] [translate_to_chinese] status=SUCCESS, len=23
+2026-05-20 07:03:41,964 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:03:41,965 [INFO] [MiniMax] 成功, 输出长度: 29
+2026-05-20 07:03:41,967 [INFO] [generate_news_summary] status=SUCCESS, len=29
+2026-05-20 07:03:45,423 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:03:45,423 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-05-20 07:03:45,425 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-05-20 07:04:17,996 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:04:17,998 [INFO] [MiniMax] 成功, 输出长度: 4669
+2026-05-20 07:04:17,999 [INFO] [generate_news_summary] status=SUCCESS, len=4669
+2026-05-20 07:04:39,544 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:04:39,545 [INFO] [MiniMax] 成功, 输出长度: 271
+2026-05-20 07:04:39,547 [INFO] [generate_news_summary] status=SUCCESS, len=271
+2026-05-20 07:05:19,276 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:05:19,279 [INFO] [MiniMax] 成功, 输出长度: 5334
+2026-05-20 07:05:19,281 [INFO] [generate_news_summary] status=SUCCESS, len=5334
+2026-05-20 07:06:01,917 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:06:01,918 [INFO] [MiniMax] 成功, 输出长度: 5810
+2026-05-20 07:06:01,919 [INFO] [generate_news_summary] status=SUCCESS, len=5810
+2026-05-20 07:06:40,045 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:06:40,046 [INFO] [MiniMax] 成功, 输出长度: 5658
+2026-05-20 07:06:40,048 [INFO] [generate_news_summary] status=SUCCESS, len=5658
+2026-05-20 07:06:47,111 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:06:47,111 [INFO] [MiniMax] 成功, 输出长度: 278
+2026-05-20 07:06:47,113 [INFO] [generate_news_summary] status=SUCCESS, len=278
+2026-05-20 07:07:21,258 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:07:21,259 [INFO] [MiniMax] 成功, 输出长度: 4880
+2026-05-20 07:07:21,261 [INFO] [generate_news_summary] status=SUCCESS, len=4880
+2026-05-20 07:07:59,629 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:07:59,631 [INFO] [MiniMax] 成功, 输出长度: 4857
+2026-05-20 07:07:59,634 [INFO] [generate_news_summary] status=SUCCESS, len=4857
+2026-05-20 07:08:07,922 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:08:07,922 [INFO] [MiniMax] 成功, 输出长度: 61
+2026-05-20 07:08:07,924 [INFO] [translate_to_chinese] status=SUCCESS, len=61
+2026-05-20 07:08:35,720 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:08:35,722 [INFO] [MiniMax] 成功, 输出长度: 3968
+2026-05-20 07:08:35,724 [INFO] [generate_news_summary] status=SUCCESS, len=3968
+2026-05-20 07:09:13,111 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:09:13,113 [INFO] [MiniMax] 成功, 输出长度: 5842
+2026-05-20 07:09:13,115 [INFO] [generate_news_summary] status=SUCCESS, len=5842
+2026-05-20 07:09:23,086 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:09:23,087 [INFO] [MiniMax] 成功, 输出长度: 338
+2026-05-20 07:09:23,089 [INFO] [generate_news_summary] status=SUCCESS, len=338
+2026-05-20 07:09:29,259 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:09:29,260 [INFO] [MiniMax] 成功, 输出长度: 32
+2026-05-20 07:09:29,261 [INFO] [translate_to_chinese] status=SUCCESS, len=32
+2026-05-20 07:10:04,604 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:10:04,607 [INFO] [MiniMax] 成功, 输出长度: 5729
+2026-05-20 07:10:04,609 [INFO] [generate_news_summary] status=SUCCESS, len=5729
+2026-05-20 07:10:10,800 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:10:10,801 [INFO] [MiniMax] 成功, 输出长度: 20
+2026-05-20 07:10:10,802 [INFO] [translate_to_chinese] status=SUCCESS, len=20
+2026-05-20 07:10:43,432 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:10:43,434 [INFO] [MiniMax] 成功, 输出长度: 4878
+2026-05-20 07:10:43,436 [INFO] [generate_news_summary] status=SUCCESS, len=4878
+2026-05-20 07:10:49,640 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:10:49,642 [INFO] [MiniMax] 成功, 输出长度: 28
+2026-05-20 07:10:49,644 [INFO] [translate_to_chinese] status=SUCCESS, len=28
+2026-05-20 07:11:21,138 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:11:21,140 [INFO] [MiniMax] 成功, 输出长度: 4072
+2026-05-20 07:11:21,141 [INFO] [generate_news_summary] status=SUCCESS, len=4072
+2026-05-20 07:11:51,655 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:11:51,657 [INFO] [MiniMax] 成功, 输出长度: 4181
+2026-05-20 07:11:51,659 [INFO] [generate_news_summary] status=SUCCESS, len=4181
+2026-05-20 07:12:20,182 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:12:20,184 [INFO] [MiniMax] 成功, 输出长度: 4779
+2026-05-20 07:12:20,186 [INFO] [generate_news_summary] status=SUCCESS, len=4779
+2026-05-20 07:12:52,120 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:12:52,122 [INFO] [MiniMax] 成功, 输出长度: 26
+2026-05-20 07:12:52,124 [INFO] [translate_to_chinese] status=SUCCESS, len=26
+2026-05-20 07:13:59,424 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:13:59,427 [INFO] [MiniMax] 成功, 输出长度: 6012
+2026-05-20 07:13:59,429 [INFO] [generate_news_summary] status=SUCCESS, len=6012
+2026-05-20 07:14:26,767 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:14:26,768 [INFO] [MiniMax] 成功, 输出长度: 51
+2026-05-20 07:14:26,770 [INFO] [translate_to_chinese] status=SUCCESS, len=51
+2026-05-20 07:15:00,155 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:15:00,156 [INFO] [MiniMax] 成功, 输出长度: 323
+2026-05-20 07:15:00,158 [INFO] [generate_news_summary] status=SUCCESS, len=323
+2026-05-20 07:15:29,364 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:15:29,366 [INFO] [MiniMax] 成功, 输出长度: 30
+2026-05-20 07:15:29,368 [INFO] [translate_to_chinese] status=SUCCESS, len=30
+2026-05-20 07:16:16,748 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:16:16,751 [INFO] [MiniMax] 成功, 输出长度: 4200
+2026-05-20 07:16:16,753 [INFO] [generate_news_summary] status=SUCCESS, len=4200
+2026-05-20 07:17:13,270 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:17:13,272 [INFO] [MiniMax] 成功, 输出长度: 5713
+2026-05-20 07:17:13,273 [INFO] [generate_news_summary] status=SUCCESS, len=5713
+2026-05-20 07:17:44,182 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:17:44,184 [INFO] [MiniMax] 成功, 输出长度: 40
+2026-05-20 07:17:44,186 [INFO] [translate_to_chinese] status=SUCCESS, len=40
+2026-05-20 07:18:37,958 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:18:37,961 [INFO] [MiniMax] 成功, 输出长度: 5907
+2026-05-20 07:18:37,963 [INFO] [generate_news_summary] status=SUCCESS, len=5907
+2026-05-20 07:19:06,098 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:19:06,100 [INFO] [MiniMax] 成功, 输出长度: 36
+2026-05-20 07:19:06,102 [INFO] [translate_to_chinese] status=SUCCESS, len=36
+2026-05-20 07:19:37,579 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:19:37,579 [INFO] [MiniMax] 成功, 输出长度: 303
+2026-05-20 07:19:37,581 [INFO] [generate_news_summary] status=SUCCESS, len=303
+2026-05-20 07:20:05,301 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:20:05,303 [INFO] [MiniMax] 成功, 输出长度: 49
+2026-05-20 07:20:05,305 [INFO] [translate_to_chinese] status=SUCCESS, len=49
+2026-05-20 07:20:41,697 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:20:41,699 [INFO] [MiniMax] 成功, 输出长度: 286
+2026-05-20 07:20:41,701 [INFO] [generate_news_summary] status=SUCCESS, len=286
+2026-05-20 07:21:13,488 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:21:13,490 [INFO] [MiniMax] 成功, 输出长度: 54
+2026-05-20 07:21:13,493 [INFO] [translate_to_chinese] status=SUCCESS, len=54
+2026-05-20 07:22:09,610 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:22:09,611 [INFO] [MiniMax] 成功, 输出长度: 4750
+2026-05-20 07:22:09,613 [INFO] [generate_news_summary] status=SUCCESS, len=4750
+2026-05-20 07:22:42,664 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:22:42,666 [INFO] [MiniMax] 成功, 输出长度: 55
+2026-05-20 07:22:42,669 [INFO] [translate_to_chinese] status=SUCCESS, len=55
+2026-05-20 07:23:35,448 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:23:35,451 [INFO] [MiniMax] 成功, 输出长度: 5930
+2026-05-20 07:23:35,453 [INFO] [generate_news_summary] status=SUCCESS, len=5930
+2026-05-20 07:24:02,840 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:24:02,841 [INFO] [MiniMax] 成功, 输出长度: 18
+2026-05-20 07:24:02,843 [INFO] [translate_to_chinese] status=SUCCESS, len=18
+2026-05-20 07:24:34,893 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:24:34,894 [INFO] [MiniMax] 成功, 输出长度: 282
+2026-05-20 07:24:34,895 [INFO] [generate_news_summary] status=SUCCESS, len=282
+2026-05-20 07:25:08,094 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:25:08,096 [INFO] [MiniMax] 成功, 输出长度: 31
+2026-05-20 07:25:08,098 [INFO] [translate_to_chinese] status=SUCCESS, len=31
+2026-05-20 07:26:00,353 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:26:00,355 [INFO] [MiniMax] 成功, 输出长度: 5100
+2026-05-20 07:26:00,356 [INFO] [generate_news_summary] status=SUCCESS, len=5100
+2026-05-20 07:26:51,433 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:26:51,435 [INFO] [MiniMax] 成功, 输出长度: 4995
+2026-05-20 07:26:51,436 [INFO] [generate_news_summary] status=SUCCESS, len=4995
+2026-05-20 07:27:39,689 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:27:39,691 [INFO] [MiniMax] 成功, 输出长度: 4426
+2026-05-20 07:27:39,693 [INFO] [generate_news_summary] status=SUCCESS, len=4426
+2026-05-20 07:28:04,289 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:28:04,290 [INFO] [MiniMax] 成功, 输出长度: 27
+2026-05-20 07:28:04,291 [INFO] [translate_to_chinese] status=SUCCESS, len=27
+2026-05-20 07:28:57,335 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:28:57,338 [INFO] [MiniMax] 成功, 输出长度: 5598
+2026-05-20 07:28:57,339 [INFO] [generate_news_summary] status=SUCCESS, len=5598
+2026-05-20 07:29:25,767 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:29:25,769 [INFO] [MiniMax] 成功, 输出长度: 43
+2026-05-20 07:29:25,770 [INFO] [translate_to_chinese] status=SUCCESS, len=43
+2026-05-20 07:29:51,261 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:29:51,263 [INFO] [MiniMax] 成功, 输出长度: 309
+2026-05-20 07:29:51,265 [INFO] [generate_news_summary] status=SUCCESS, len=309
+2026-05-20 07:30:14,982 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:30:14,984 [INFO] [MiniMax] 成功, 输出长度: 31
+2026-05-20 07:30:14,985 [INFO] [translate_to_chinese] status=SUCCESS, len=31
+2026-05-20 07:30:43,290 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:30:43,291 [INFO] [MiniMax] 成功, 输出长度: 371
+2026-05-20 07:30:43,294 [INFO] [generate_news_summary] status=SUCCESS, len=371
+2026-05-20 07:31:15,014 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:31:15,015 [INFO] [MiniMax] 成功, 输出长度: 48
+2026-05-20 07:31:15,016 [INFO] [translate_to_chinese] status=SUCCESS, len=48
+2026-05-20 07:32:08,487 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:32:08,489 [INFO] [MiniMax] 成功, 输出长度: 5093
+2026-05-20 07:32:08,491 [INFO] [generate_news_summary] status=SUCCESS, len=5093
+2026-05-20 07:32:40,274 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:32:40,275 [INFO] [MiniMax] 成功, 输出长度: 29
+2026-05-20 07:32:40,276 [INFO] [translate_to_chinese] status=SUCCESS, len=29
+2026-05-20 07:33:41,434 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:33:41,436 [INFO] [MiniMax] 成功, 输出长度: 5047
+2026-05-20 07:33:41,437 [INFO] [generate_news_summary] status=SUCCESS, len=5047
+2026-05-20 07:33:47,594 [ERROR] [MiniMax] 请求异常: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')), attempt=1/3
+2026-05-20 07:34:23,392 [INFO] [MiniMax] 请求状态: 200, attempt=2
+2026-05-20 07:34:23,394 [INFO] [MiniMax] 成功, 输出长度: 319
+2026-05-20 07:34:23,395 [INFO] [generate_news_summary] status=SUCCESS, len=319
+2026-05-20 07:35:27,203 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:35:27,207 [INFO] [MiniMax] 成功, 输出长度: 6690
+2026-05-20 07:35:27,210 [INFO] [generate_news_summary] status=SUCCESS, len=6690
+2026-05-20 07:36:03,344 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:36:03,346 [INFO] [MiniMax] 成功, 输出长度: 20
+2026-05-20 07:36:03,349 [INFO] [translate_to_chinese] status=SUCCESS, len=20
+2026-05-20 07:36:59,872 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:36:59,874 [INFO] [MiniMax] 成功, 输出长度: 5591
+2026-05-20 07:36:59,874 [INFO] [generate_news_summary] status=SUCCESS, len=5591
+2026-05-20 07:37:28,721 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:37:28,723 [INFO] [MiniMax] 成功, 输出长度: 31
+2026-05-20 07:37:28,725 [INFO] [translate_to_chinese] status=SUCCESS, len=31
+2026-05-20 07:38:18,199 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:38:18,201 [INFO] [MiniMax] 成功, 输出长度: 4166
+2026-05-20 07:38:18,203 [INFO] [generate_news_summary] status=SUCCESS, len=4166
+2026-05-20 07:39:12,068 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:39:12,070 [INFO] [MiniMax] 成功, 输出长度: 4688
+2026-05-20 07:39:12,071 [INFO] [generate_news_summary] status=SUCCESS, len=4688
+2026-05-20 07:39:45,463 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:39:45,464 [INFO] [MiniMax] 成功, 输出长度: 40
+2026-05-20 07:39:45,466 [INFO] [translate_to_chinese] status=SUCCESS, len=40
+2026-05-20 07:40:44,484 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:40:44,486 [INFO] [MiniMax] 成功, 输出长度: 4907
+2026-05-20 07:40:44,488 [INFO] [generate_news_summary] status=SUCCESS, len=4907
+2026-05-20 07:41:12,987 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:41:12,989 [INFO] [MiniMax] 成功, 输出长度: 8
+2026-05-20 07:41:12,991 [INFO] [translate_to_chinese] status=SUCCESS, len=8
+2026-05-20 07:41:45,847 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:41:45,847 [INFO] [MiniMax] 成功, 输出长度: 302
+2026-05-20 07:41:45,848 [INFO] [generate_news_summary] status=SUCCESS, len=302
+2026-05-20 07:42:17,731 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:42:17,733 [INFO] [MiniMax] 成功, 输出长度: 25
+2026-05-20 07:42:17,734 [INFO] [translate_to_chinese] status=SUCCESS, len=25
+2026-05-20 07:43:09,416 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:43:09,418 [INFO] [MiniMax] 成功, 输出长度: 203
+2026-05-20 07:43:09,419 [INFO] [generate_news_summary] status=SUCCESS, len=203
+2026-05-20 07:43:39,550 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:43:39,551 [INFO] [MiniMax] 成功, 输出长度: 28
+2026-05-20 07:43:39,553 [INFO] [translate_to_chinese] status=SUCCESS, len=28
+2026-05-20 07:44:41,447 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:44:41,449 [INFO] [MiniMax] 成功, 输出长度: 5109
+2026-05-20 07:44:41,451 [INFO] [generate_news_summary] status=SUCCESS, len=5109
+2026-05-20 07:45:10,501 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:45:10,503 [INFO] [MiniMax] 成功, 输出长度: 20
+2026-05-20 07:45:10,506 [INFO] [translate_to_chinese] status=SUCCESS, len=20
+2026-05-20 07:46:11,546 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:46:11,547 [INFO] [MiniMax] 成功, 输出长度: 5299
+2026-05-20 07:46:11,549 [INFO] [generate_news_summary] status=SUCCESS, len=5299
+2026-05-20 07:46:40,639 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:46:40,640 [INFO] [MiniMax] 成功, 输出长度: 27
+2026-05-20 07:46:40,642 [INFO] [translate_to_chinese] status=SUCCESS, len=27
+2026-05-20 07:46:46,795 [ERROR] [MiniMax] 请求异常: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')), attempt=1/3
+2026-05-20 07:47:48,343 [INFO] [MiniMax] 请求状态: 200, attempt=2
+2026-05-20 07:47:48,345 [INFO] [MiniMax] 成功, 输出长度: 5197
+2026-05-20 07:47:48,347 [INFO] [generate_news_summary] status=SUCCESS, len=5197
+2026-05-20 07:48:22,561 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:48:22,562 [INFO] [MiniMax] 成功, 输出长度: 30
+2026-05-20 07:48:22,564 [INFO] [translate_to_chinese] status=SUCCESS, len=30
+2026-05-20 07:49:26,134 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:49:26,137 [INFO] [MiniMax] 成功, 输出长度: 5286
+2026-05-20 07:49:26,140 [INFO] [generate_news_summary] status=SUCCESS, len=5286
+2026-05-20 07:49:59,544 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:49:59,546 [INFO] [MiniMax] 成功, 输出长度: 33
+2026-05-20 07:49:59,547 [INFO] [translate_to_chinese] status=SUCCESS, len=33
+2026-05-20 07:50:33,860 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:50:33,862 [INFO] [MiniMax] 成功, 输出长度: 271
+2026-05-20 07:50:33,864 [INFO] [generate_news_summary] status=SUCCESS, len=271
+2026-05-20 07:51:02,975 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:51:02,976 [INFO] [MiniMax] 成功, 输出长度: 20
+2026-05-20 07:51:02,978 [INFO] [translate_to_chinese] status=SUCCESS, len=20
+2026-05-20 07:52:07,192 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:52:07,194 [INFO] [MiniMax] 成功, 输出长度: 5007
+2026-05-20 07:52:07,195 [INFO] [generate_news_summary] status=SUCCESS, len=5007
+2026-05-20 07:52:45,395 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:52:45,397 [INFO] [MiniMax] 成功, 输出长度: 22
+2026-05-20 07:52:45,398 [INFO] [translate_to_chinese] status=SUCCESS, len=22
+2026-05-20 07:53:46,972 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:53:46,974 [INFO] [MiniMax] 成功, 输出长度: 5520
+2026-05-20 07:53:46,975 [INFO] [generate_news_summary] status=SUCCESS, len=5520
+2026-05-20 07:54:16,703 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:54:16,704 [INFO] [MiniMax] 成功, 输出长度: 23
+2026-05-20 07:54:16,706 [INFO] [translate_to_chinese] status=SUCCESS, len=23
+2026-05-20 07:55:00,405 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:55:00,406 [INFO] [MiniMax] 成功, 输出长度: 204
+2026-05-20 07:55:00,408 [INFO] [generate_news_summary] status=SUCCESS, len=204
+2026-05-20 07:55:33,390 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:55:33,391 [INFO] [MiniMax] 成功, 输出长度: 34
+2026-05-20 07:55:33,393 [INFO] [translate_to_chinese] status=SUCCESS, len=34
+2026-05-20 07:56:22,830 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:56:22,832 [INFO] [MiniMax] 成功, 输出长度: 5433
+2026-05-20 07:56:22,834 [INFO] [generate_news_summary] status=SUCCESS, len=5433
+2026-05-20 07:56:52,285 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:56:52,286 [INFO] [MiniMax] 成功, 输出长度: 17
+2026-05-20 07:56:52,287 [INFO] [translate_to_chinese] status=SUCCESS, len=17
+2026-05-20 07:57:48,622 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:57:48,624 [INFO] [MiniMax] 成功, 输出长度: 5666
+2026-05-20 07:57:48,626 [INFO] [generate_news_summary] status=SUCCESS, len=5666
+2026-05-20 07:58:15,986 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:58:15,988 [INFO] [MiniMax] 成功, 输出长度: 26
+2026-05-20 07:58:15,989 [INFO] [translate_to_chinese] status=SUCCESS, len=26
+2026-05-20 07:58:59,722 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:58:59,724 [INFO] [MiniMax] 成功, 输出长度: 198
+2026-05-20 07:58:59,726 [INFO] [generate_news_summary] status=SUCCESS, len=198
+2026-05-20 07:59:29,923 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-20 07:59:29,925 [INFO] [MiniMax] 成功, 输出长度: 26
+2026-05-20 07:59:29,926 [INFO] [translate_to_chinese] status=SUCCESS, len=26
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1349, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+The above exception was the direct cause of the following exception:
+
+urllib3.exceptions.ProxyError: ('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+  File "/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/skywalkern-cloud/dailynews/contents/data/2026-05-20/news.json (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vincentnie/.openclaw/workspace-dailynews/scripts/deploy_via_api.py", line 121, in <module>
+    main()
+  File "/Users/vincentnie/.openclaw/workspace-dailynews/scripts/deploy_via_api.py", line 108, in main
+    if upload_file(full_path, repo_path):
+  File "/Users/vincentnie/.openclaw/workspace-dailynews/scripts/deploy_via_api.py", line 75, in upload_file
+    r = requests.put(url, headers=headers, json=data)
+  File "/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/requests/api.py", line 130, in put
+    return request("put", url, data=data, **kwargs)
+  File "/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/requests/adapters.py", line 671, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/skywalkern-cloud/dailynews/contents/data/2026-05-20/news.json (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-21 07:00:30,083 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-21 07:00:30,085 [INFO] [MiniMax] 成功, 输出长度: 5669
+2026-05-21 07:00:30,086 [INFO] [generate_news_summary] status=SUCCESS, len=5669
+2026-05-21 07:00:35,709 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-21 07:00:35,709 [INFO] [MiniMax] 成功, 输出长度: 23
+2026-05-21 07:00:35,711 [INFO] [translate_to_chinese] status=SUCCESS, len=23
+2026-05-21 07:01:12,854 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-21 07:01:12,856 [INFO] [MiniMax] 成功, 输出长度: 4926
+2026-05-21 07:01:12,858 [INFO] [generate_news_summary] status=SUCCESS, len=4926
+2026-05-21 07:01:18,409 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-21 07:01:18,410 [INFO] [MiniMax] 成功, 输出长度: 17
+2026-05-21 07:01:18,412 [INFO] [translate_to_chinese] status=SUCCESS, len=17
+2026-05-21 07:01:44,458 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-21 07:01:44,459 [INFO] [MiniMax] 成功, 输出长度: 4315
+2026-05-21 07:01:44,461 [INFO] [generate_news_summary] status=SUCCESS, len=4315
+2026-05-21 07:01:55,714 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-21 07:01:55,714 [INFO] [MiniMax] 成功, 输出长度: 182
+2026-05-21 07:01:55,716 [INFO] [generate_news_summary] status=SUCCESS, len=182
+2026-05-21 07:02:35,109 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-21 07:02:35,110 [INFO] [MiniMax] 成功, 输出长度: 4447
+2026-05-21 07:02:35,112 [INFO] [generate_news_summary] status=SUCCESS, len=4447
+2026-05-21 07:03:09,041 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-21 07:03:09,043 [INFO] [MiniMax] 成功, 输出长度: 5654
+2026-05-21 07:03:09,045 [INFO] [generate_news_summary] status=SUCCESS, len=5654
+2026-05-21 07:03:14,980 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-21 07:03:14,980 [INFO] [MiniMax] 成功, 输出长度: 38
+2026-05-21 07:03:14,982 [INFO] [translate_to_chinese] status=SUCCESS, len=38
+2026-05-21 07:03:49,284 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-21 07:03:49,285 [INFO] [MiniMax] 成功, 输出长度: 5971
+2026-05-21 07:03:49,287 [INFO] [generate_news_summary] status=SUCCESS, len=5971
+2026-05-21 07:03:57,988 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-05-21 07:03:57,988 [INFO] [MiniMax] 成功, 输出长度: 24
+2026-05-21 07:03:57,991 [INFO] [translate_to_chinese] status=SUCCESS, len=24
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(

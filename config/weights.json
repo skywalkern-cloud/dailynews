@@ -1,0 +1,42 @@
+{
+  "source_weights": {
+    "Bloomberg": 2,
+    "Financial Times": 2,
+    "MIT Technology Review": 2,
+    "机器之心": 2,
+    "WSJ": 2,
+    "虎嗅": 3,
+    "36氪": 2,
+    "第一财经": 3,
+    "财新": 3,
+    "晚点": 3,
+    "爱范儿": 3,
+    "少数派": 3,
+    "极客公园": 3,
+    "品玩": 3,
+    "腾讯科技": 3,
+    "新浪科技": 3,
+    "Wired": 1,
+    "Reuters": 1,
+    "BBC": 1,
+    "CNN": 1,
+    "The Guardian": 1,
+    "VentureBeat": 1,
+    "Stratechery": 2,
+    "Noah Smith": 2,
+    "The Information": 2
+  },
+  "category_weights": {
+    "must-read": 3,
+    "AI前沿": 2,
+    "大国博弈": 2,
+    "产业趋势": 2,
+    "投资参考": 2
+  },
+  "time_decay": {
+    "24h": 1.0,
+    "48h": 0.95,
+    "72h": 0.9,
+    "168h": 0.8
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "channels": {
+    "@LexFridman": {
+      "name": "Lex Fridman",
+      "last_url": "https://www.youtube.com/watch?v=nepKKz-MzFM",
+      "last_title": "FFmpeg: The Incredible Technology Behind Video on the Internet | Lex Fridman Podcast #496",
+      "last_upload_date": "20260506"
+    },
+    "@a16z": {
+      "name": "a16z",
+      "last_url": "https://www.youtube.com/watch?v=pddFfZy4nZU",
+      "last_title": "Is Defense the Next Trillion-Dollar Category? | a16z American Dynamism Summit",
+      "last_upload_date": "20260519"
+    },
+    "@allin": {
+      "name": "All-in Podcast",
+      "last_url": "https://www.youtube.com/watch?v=HGbA6ze0_3M",
+      "last_title": "SpaceX’s $2T Case, Nvidia’s Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+      "last_upload_date": "20260522"
+    },
+    "@business": {
+      "name": "Bloomberg Technology",
+      "last_url": "https://www.youtube.com/watch?v=O_xd_McRfQw",
+      "last_title": "Jess Pegula on the Business of Tennis | The Deal",
+      "last_upload_date": "20260521"
+    },
+    "@CNBC": {
+      "name": "CNBC",
+      "last_url": "https://www.youtube.com/watch?v=ib-XMy-d_2I",
+      "last_title": "Crypto’s Next Phase Is Bigger Than Bitcoin",
+      "last_upload_date": "20260522"
+    },
+    "@TED": {
+      "name": "TED",
+      "last_url": "https://www.youtube.com/watch?v=C18aaP4lvUk",
+      "last_title": "Why Humans Should Merge with AI | D. Scott Phoenix | TED",
+      "last_upload_date": "20260523"
+    },
+    "@IBMTechnology": {
+      "name": "IBM Technology",
+      "last_url": "https://www.youtube.com/watch?v=1m55T8xST9s",
+      "last_title": "Five AI Risks That Can Get You Fired—And How to Avoid Them",
+      "last_upload_date": "20260524"
+    },
+    "@OpenAI": {
+      "name": "OpenAI",
+      "last_url": "https://www.youtube.com/watch?v=ECkHTfvf2e8",
+      "last_title": "Create and edit presentations faster in PowerPoint",
+      "last_upload_date": "20260522"
+    },
+    "@PeterDiamandis": {
+      "name": "Peter Diamandis",
+      "last_url": "https://www.youtube.com/watch?v=n5-RNSKz0sc",
+      "last_title": "SpaceX’ $75B+ Historic IPO, GPT5.5 Outperforms Polymarket, AI Solves 80yr old math problem | EP #257",
+      "last_upload_date": "20260523"
+    },
+    "@TheDiaryOfACEO": {
+      "name": "Diary of a CEO",
+      "last_url": "https://www.youtube.com/watch?v=opB7_JXL0LA",
+      "last_title": "World-Renowned Physicist: You've Been Lied To About Reality! - Michio Kaku",
+      "last_upload_date": "20260521"
+    },
+    "@mkbhd": {
+      "name": "Marques Brownlee",
+      "last_url": "https://www.youtube.com/watch?v=eFeDpUVEy48",
+      "last_title": "“The Biggest Android Update Ever”",
+      "last_upload_date": "20260513"
+    },
+    "@MKBHD": {
+      "name": "MKBHD",
+      "last_url": "https://www.youtube.com/watch?v=eFeDpUVEy48",
+      "last_title": "“The Biggest Android Update Ever”",
+      "last_upload_date": "20260513"
+    }
+  },
+  "last_update": "2026-05-25T04:57:01.960550"
+}

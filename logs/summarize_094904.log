@@ -1,0 +1,104 @@
+/Users/vincentnie/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+============================================================
+AI摘要生成脚本 v1.0
+============================================================
+
+[1/3] 加载新闻数据...
+  读取 /Users/vincentnie/.openclaw/workspace-dailynews/gh-pages/data/2026-04-27/news.json
+  日期: 2026-04-27
+  总条数: 50
+  已有摘要: 0
+
+[2/3] 生成AI摘要...
+  AI摘要 1/50: Monitoring LLM behavior: Drift, retries,... (score=5.0)
+2026-04-27 09:49:47,210 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:49:47,211 [INFO] [MiniMax] 成功, 输出长度: 5020
+2026-04-27 09:49:47,213 [INFO] [generate_news_summary] status=SUCCESS, len=5020
+2026-04-27 09:49:55,324 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:49:55,324 [INFO] [MiniMax] 成功, 输出长度: 20
+2026-04-27 09:49:55,326 [INFO] [translate_to_chinese] status=SUCCESS, len=20
+    ✓ 标题翻译成功: 监控 LLM 行为：漂移、重试和拒绝模式...
+  AI摘要 2/50: 「破壳机器人」许华哲：两年内，中国将出现可用的家庭机器人... (score=5.0)
+2026-04-27 09:50:04,216 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:50:04,216 [INFO] [MiniMax] 成功, 输出长度: 300
+2026-04-27 09:50:04,218 [INFO] [generate_news_summary] status=SUCCESS, len=300
+    ✓ 标题翻译成功: 「破壳机器人」许华哲：两年内，中国将出现可用的家庭机器人...
+  AI摘要 3/50: DeepSeek-V4 arrives with near state-of-t... (score=5.4)
+2026-04-27 09:50:41,092 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:50:41,093 [INFO] [MiniMax] 成功, 输出长度: 5323
+2026-04-27 09:50:41,095 [INFO] [generate_news_summary] status=SUCCESS, len=5323
+2026-04-27 09:50:47,433 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:50:47,434 [INFO] [MiniMax] 成功, 输出长度: 57
+2026-04-27 09:50:47,435 [INFO] [translate_to_chinese] status=SUCCESS, len=57
+    ✓ 标题翻译成功: DeepSeek-V4 发布，具备接近最先进水平的智能，成本...
+  AI摘要 4/50: The Download: supercharged scams and stu... (score=5.4)
+2026-04-27 09:51:23,449 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:51:23,450 [INFO] [MiniMax] 成功, 输出长度: 5427
+2026-04-27 09:51:23,453 [INFO] [generate_news_summary] status=SUCCESS, len=5427
+2026-04-27 09:51:32,100 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:51:32,100 [INFO] [MiniMax] 成功, 输出长度: 16
+2026-04-27 09:51:32,103 [INFO] [translate_to_chinese] status=SUCCESS, len=16
+    ✓ 标题翻译成功: 《下载》：超级诈骗与AI医疗研究...
+  AI摘要 5/50: 欧莱雅BRANDSTORM 2026中国总决赛落幕，AI成美妆创新核心议题｜最前... (score=5.7)
+2026-04-27 09:52:07,741 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:52:07,742 [INFO] [MiniMax] 成功, 输出长度: 4239
+2026-04-27 09:52:07,743 [INFO] [generate_news_summary] status=SUCCESS, len=4239
+    ✓ 标题翻译成功: 欧莱雅BRANDSTORM 2026中国总决赛落幕，AI成美...
+  AI摘要 6/50: History of Presidential Assassination At... (score=6.0)
+2026-04-27 09:52:40,754 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:52:40,755 [INFO] [MiniMax] 成功, 输出长度: 4484
+2026-04-27 09:52:40,756 [INFO] [generate_news_summary] status=SUCCESS, len=4484
+2026-04-27 09:52:49,929 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:52:49,930 [INFO] [MiniMax] 成功, 输出长度: 7
+2026-04-27 09:52:49,932 [INFO] [translate_to_chinese] status=SUCCESS, len=7
+    ✓ 标题翻译成功: 总统暗杀未遂史...
+  AI摘要 7/50: Sen. Tillis Expected to Clear Way for Wa... (score=6.0)
+2026-04-27 09:53:33,141 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:53:33,143 [INFO] [MiniMax] 成功, 输出长度: 4478
+2026-04-27 09:53:33,145 [INFO] [generate_news_summary] status=SUCCESS, len=4478
+2026-04-27 09:53:39,819 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:53:39,820 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-04-27 09:53:39,822 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+    ✓ 标题翻译成功: 参议员蒂利斯预计将为沃什担任美联储主席铺路...
+  AI摘要 8/50: Goldman, JPMorgan Show Wall Street’s Spl... (score=6.0)
+2026-04-27 09:54:22,467 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:54:22,468 [INFO] [MiniMax] 成功, 输出长度: 4780
+2026-04-27 09:54:22,470 [INFO] [generate_news_summary] status=SUCCESS, len=4780
+2026-04-27 09:54:30,519 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:54:30,520 [INFO] [MiniMax] 成功, 输出长度: 23
+2026-04-27 09:54:30,522 [INFO] [translate_to_chinese] status=SUCCESS, len=23
+    ✓ 标题翻译成功: 高盛、摩根大通显示华尔街在量子计算竞赛中的分裂...
+  AI摘要 9/50: Asia’s Busiest Earnings Week May Offer E... (score=6.0)
+2026-04-27 09:55:05,654 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:55:05,654 [INFO] [MiniMax] 成功, 输出长度: 4464
+2026-04-27 09:55:05,656 [INFO] [generate_news_summary] status=SUCCESS, len=4464
+2026-04-27 09:55:11,161 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:55:11,161 [INFO] [MiniMax] 成功, 输出长度: 19
+2026-04-27 09:55:11,162 [INFO] [translate_to_chinese] status=SUCCESS, len=19
+    ✓ 标题翻译成功: 亚洲最繁忙的财报周可能提前展示战争影响...
+  AI摘要 10/50: Washington Attack Raises Presidential Se... (score=6.0)
+2026-04-27 09:55:50,977 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:55:50,978 [INFO] [MiniMax] 成功, 输出长度: 5372
+2026-04-27 09:55:50,980 [INFO] [generate_news_summary] status=SUCCESS, len=5372
+2026-04-27 09:55:54,125 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:55:54,126 [INFO] [MiniMax] 成功, 输出长度: 13
+2026-04-27 09:55:54,127 [INFO] [translate_to_chinese] status=SUCCESS, len=13
+    ✓ 标题翻译成功: 华盛顿袭击引发总统安全问题...
+  AI摘要 11/50: Bond Traders Await Powell Update, Slate ... (score=10.0)
+2026-04-27 09:56:24,856 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:56:24,856 [INFO] [MiniMax] 成功, 输出长度: 203
+2026-04-27 09:56:24,859 [INFO] [generate_news_summary] status=SUCCESS, len=203
+2026-04-27 09:56:31,584 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:56:31,584 [INFO] [MiniMax] 成功, 输出长度: 21
+2026-04-27 09:56:31,586 [INFO] [translate_to_chinese] status=SUCCESS, len=21
+    ✓ 标题翻译成功: 债券交易员等待鲍威尔讲话及美国国债拍卖计划...
+  AI摘要 12/50: AI needs a strong data fabric to deliver... (score=9.6)
+2026-04-27 09:57:10,109 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:57:10,110 [INFO] [MiniMax] 成功, 输出长度: 5711
+2026-04-27 09:57:10,111 [INFO] [generate_news_summary] status=SUCCESS, len=5711
+2026-04-27 09:57:14,510 [INFO] [MiniMax] 请求状态: 200, attempt=1
+2026-04-27 09:57:14,511 [INFO] [MiniMax] 成功, 输出长度: 18
+2026-04-27 09:57:14,513 [INFO] [translate_to_chinese] status=SUCCESS, len=18
+    ✓ 标题翻译成功: AI需要强大的数据编织来交付商业价值...
+  AI摘要 13/50: Gold Declines as Attempts to Restart US-... (score=8.0)

@@ -1,0 +1,42 @@
+{
+  "cached_at": "2026-04-21T15:27:13.562436",
+  "source": "CNN",
+  "items": [
+    {
+      "id": "8af31bc0-c220-4316-9c02-0ec598ee7c72",
+      "title": "Trump pleads not guilty to 34 felony counts",
+      "source": "CNN",
+      "url": "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
+      "summary": "",
+      "published": "",
+      "published_at": "",
+      "published_parsed": null,
+      "fetched_at": "2026-04-21T15:27:13.562370",
+      "status": "new"
+    },
+    {
+      "id": "d08cb38d-ff9c-4dfb-81e5-777a2b1a470b",
+      "title": "READ: Trump indictment related to hush money payment",
+      "source": "CNN",
+      "url": "https://cnn.it/411KYN7",
+      "summary": "",
+      "published": "",
+      "published_at": "",
+      "published_parsed": null,
+      "fetched_at": "2026-04-21T15:27:13.562370",
+      "status": "new"
+    },
+    {
+      "id": "f0d20e55-a594-432d-be90-4fb4c776d289",
+      "title": "Russian authorities detain suspect over St. Petersburg cafe blast",
+      "source": "CNN",
+      "url": "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
+      "summary": "",
+      "published": "",
+      "published_at": "",
+      "published_parsed": null,
+      "fetched_at": "2026-04-21T15:27:13.562370",
+      "status": "new"
+    }
+  ]
+}
