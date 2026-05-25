@@ -48,6 +48,7 @@
 <button class="tab-btn" data-tab="geo">🌍 大国博弈</button>
 <button class="tab-btn" data-tab="industry">🏭 产业趋势</button>
 <button class="tab-btn" data-tab="invest">📈 投资参考</button>
+<button class="tab-btn" data-tab="semiconductor">🔬 半导体</button>
 <button class="tab-btn" data-tab="all-news">📰 全部新闻</button>
 <button class="tab-btn" data-tab="podcast">🎧 播客</button>
 <button class="tab-btn" data-tab="youtube">📺 YouTube</button>
@@ -60,6 +61,7 @@
 <div id="tab-geo" class="tab-content"><div class="card-grid" id="geoGrid"></div></div>
 <div id="tab-industry" class="tab-content"><div class="card-grid" id="industryGrid"></div></div>
 <div id="tab-invest" class="tab-content"><div class="card-grid" id="investGrid"></div></div>
+<div id="tab-semiconductor" class="tab-content"><div class="card-grid" id="semiconductorGrid"></div></div>
 <div id="tab-all-news" class="tab-content"><div class="card-grid" id="allNewsGrid"></div></div>
 <div id="tab-podcast" class="tab-content"><div class="card-grid"><div class="card"><span class="source-tag">🎧 第一财经</span><h3>人脑力蕴藏着宇宙觉醒的秘密 | 两说</h3><p class="summary collapsed" data-full="## 人脑力蕴藏着宇宙觉醒的秘密——从侵入式到超声波脑机接口的技术跨越
 
@@ -3777,7 +3779,7 @@ ChatGPT之所以能够成为项目启动的有力工具，主要源于其在自�
 这段以&quot;Kickstart your projects with ChatGPT”为主题的短视频，向观众展示了人工智能工具在项目启动和执行过程中的巨大潜力。通过专业团队的精心制作，视频以简洁明了的方式传递了核心理念：在信息爆炸和时间紧迫的时代背景下，合理运用ChatGPT等AI工具，可以帮助我们更高效地完成项目初期的信息收集、创意构思、文档撰写等工作。虽然AI工具不能完全替代人类的创造力和判断力，但作为强大的辅助手段，它确实能够显著提升工作效率，缩短项目启动的周期。对于希望在快节奏的商业环境中保持敏捷的个人和团队而言，学会与AI协作将成为一项越来越重要的核心能力。</p><a href="https://www.youtube.com/watch?v=_BY9YTTh6kE" target="_blank" class="link">观看 →</a></div></div></div>
 </div>
 
-<footer><p>每日资讯 · 更新于 09:06</p></footer>
+<footer><p>每日资讯 · 更新于 12:01</p></footer>
 <script>
         function escapeHtml(str) {
             if (!str) return '';
@@ -3822,6 +3824,43 @@ var currentTab = 'must-read';
         }
     
 
+        function renderSemiconductor() {
+            var keywords = ['芯片','半导体','晶圆','台积电','英伟达','算力','光刻','刻蚀','封装','存储器','HBM','DRAM','先进制程','成熟制程','处理器','processor','晶圆厂','代工','制程','GPU','ASIC','FPGA','Chiplet','SoC','Silicon','Foundry','Wafer','Chip','AI chip'];
+            var container = document.getElementById('semiconductorGrid');
+            var seen = {};
+            var items = [];
+            for (var cat in newsData) {
+                if (Array.isArray(newsData[cat])) {
+                    newsData[cat].forEach(function(item) {
+                        if (!item || !item.title) return;
+                        if (seen[item.id]) return;
+                        var title = (item.title || '').toLowerCase();
+                        var matched = keywords.some(function(kw) { return title.indexOf(kw.toLowerCase()) !== -1; });
+                        if (matched) {
+                            seen[item.id] = true;
+                            items.push(item);
+                        }
+                    });
+                }
+            }
+            if (!items || items.length === 0) {
+                container.innerHTML = '<div class="empty-state">暂无该分类内容</div>';
+                return;
+            }
+            container.innerHTML = items.slice(0, 20).map(function(item) {
+                var fullText = item.summary_cn || item.ai_summary || item.summary || '';
+                var displayText = item.title_cn || item.title || '';
+                var source = item.source || '新闻';
+                var url = item.url || '#';
+                return '<div class="card">' +
+                    '<span class="source-tag">' + escapeHtml(source) + '</span>' +
+                    '<h4>' + escapeHtml(displayText) + '</h4>' +
+                    '<p class="summary collapsed" data-full="' + escapeHtml(fullText) + '" onclick="toggleSummary(this)">' + escapeHtml(fullText) + '</p>' +
+                    '<a href="' + escapeHtml(url) + '" target="_blank" class="link">阅读原文 →</a>' +
+                    '</div>';
+            }).join('');
+        }
+
         function renderAllNews() {
             var container = document.getElementById('allNewsGrid');
             var items = [];
@@ -3858,6 +3897,7 @@ var currentTab = 'must-read';
                 else if (tab === 'geo') { renderCategory('geo', newsData['大国博弈'] || []); }
                 else if (tab === 'industry') { renderCategory('industry', newsData['产业趋势'] || []); }
                 else if (tab === 'invest') { renderCategory('invest', newsData['投资参考'] || []); }
+                else if (tab === 'semiconductor') { renderSemiconductor(); }
             });
         });
         window.addEventListener('DOMContentLoaded', function() {
