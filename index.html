@@ -3777,8 +3777,12 @@ ChatGPT之所以能够成为项目启动的有力工具，主要源于其在自�
 这段以&quot;Kickstart your projects with ChatGPT”为主题的短视频，向观众展示了人工智能工具在项目启动和执行过程中的巨大潜力。通过专业团队的精心制作，视频以简洁明了的方式传递了核心理念：在信息爆炸和时间紧迫的时代背景下，合理运用ChatGPT等AI工具，可以帮助我们更高效地完成项目初期的信息收集、创意构思、文档撰写等工作。虽然AI工具不能完全替代人类的创造力和判断力，但作为强大的辅助手段，它确实能够显著提升工作效率，缩短项目启动的周期。对于希望在快节奏的商业环境中保持敏捷的个人和团队而言，学会与AI协作将成为一项越来越重要的核心能力。</p><a href="https://www.youtube.com/watch?v=_BY9YTTh6kE" target="_blank" class="link">观看 →</a></div></div></div>
 </div>
 
-<footer><p>每日资讯 · 更新于 07:00</p></footer>
+<footer><p>每日资讯 · 更新于 08:52</p></footer>
 <script>
+        function escapeHtml(str) {
+            if (!str) return '';
+            return str.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/'/g, '&#39;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        }
         function toggleSummary(el) {
             if (el.classList.contains('collapsed')) {
                 el.classList.remove('collapsed');
@@ -3804,11 +3808,15 @@ var currentTab = 'must-read';
                 return;
             }
             container.innerHTML = items.slice(0, 20).map(function(item) {
+                var fullText = item.ai_summary || item.summary || '';
+                var displayText = item.title_cn || item.title || '';
+                var source = item.source || '新闻';
+                var url = item.url || '#';
                 return '<div class="card">' +
-                    '<span class="source-tag">' + (item.source || '新闻') + '</span>' +
-                    '<h4>' + (item.title_cn || item.title || '') + '</h4>' +
-                    '<p class="summary collapsed" data-full="' + (item.ai_summary || item.summary || '') + '" onclick="toggleSummary(this)">' + (item.ai_summary || item.summary || '') + '</p>' +
-                    '<a href="' + (item.url || '#') + '" target="_blank" class="link">阅读原文 →</a>' +
+                    '<span class="source-tag">' + escapeHtml(source) + '</span>' +
+                    '<h4>' + escapeHtml(displayText) + '</h4>' +
+                    '<p class="summary collapsed" data-full="' + escapeHtml(fullText) + '" onclick="toggleSummary(this)">' + escapeHtml(fullText) + '</p>' +
+                    '<a href="' + escapeHtml(url) + '" target="_blank" class="link">阅读原文 →</a>' +
                     '</div>';
             }).join('');
         }
@@ -3823,11 +3831,15 @@ var currentTab = 'must-read';
                 return;
             }
             container.innerHTML = items.slice(0, 50).map(function(item) {
+                var fullText = item.ai_summary || item.summary || '';
+                var displayText = item.title_cn || item.title || '';
+                var source = item.source || '新闻';
+                var url = item.url || '#';
                 return '<div class="card">' +
-                    '<span class="source-tag">' + (item.source || '新闻') + '</span>' +
-                    '<h4>' + (item.title_cn || item.title || '') + '</h4>' +
-                    '<p class="summary collapsed" data-full="' + (item.ai_summary || item.summary || '') + '" onclick="toggleSummary(this)">' + (item.ai_summary || item.summary || '') + '</p>' +
-                    '<a href="' + (item.url || '#') + '" target="_blank" class="link">阅读原文 →</a>' +
+                    '<span class="source-tag">' + escapeHtml(source) + '</span>' +
+                    '<h4>' + escapeHtml(displayText) + '</h4>' +
+                    '<p class="summary collapsed" data-full="' + escapeHtml(fullText) + '" onclick="toggleSummary(this)">' + escapeHtml(fullText) + '</p>' +
+                    '<a href="' + escapeHtml(url) + '" target="_blank" class="link">阅读原文 →</a>' +
                     '</div>';
             }).join('');
         }
