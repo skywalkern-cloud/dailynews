@@ -7212,3 +7212,305 @@ DailyNews Layer 2 - 处理层
 ✅ Layer 2 处理完成!
   输出目录: /Users/vincentnie/.openclaw/workspace-dailynews/gh-pages/data/2026-05-25
 ============================================================
+============================================================
+播客转录脚本
+============================================================
+✓ 没有待转录的音频
+============================================================
+播客摘要生成脚本
+============================================================
+✓ 没有待生成摘要的播客
+============================================================
+YouTube转录脚本
+============================================================
+✓ 没有待转录的视频
+============================================================
+YouTube摘要生成脚本
+============================================================
+✓ 没有待生成摘要的视频
+============================================================
+AI摘要生成脚本 v1.0
+============================================================
+
+[1/3] 加载新闻数据...
+  读取 /Users/vincentnie/.openclaw/workspace-dailynews/gh-pages/data/2026-05-26/news.json
+  日期: 2026-05-26
+  总条数: 50
+  已有摘要: 49
+
+[2/3] 生成AI摘要...
+  跳过 1/50: 已处理 (Green steel startup Boston Metal is doub...)
+  跳过 2/50: 已处理 (Czech Premier Urges Interest Rate Cut as...)
+  跳过 3/50: 已处理 (Iran War Squeezes India’s Gas Power Supp...)
+  跳过 4/50: 已处理 (Iran Says US Deal Not Imminent | The Pul...)
+  跳过 5/50: 已处理 (Bolsonaro film threatens to sink his son...)
+  跳过 6/50: 已处理 (消除“罪证”：给写作去除“AI味”的不完全手册（2026版）...)
+  跳过 7/50: 已处理 (机器人力传感器龙头再获数亿融资，上汽、中芯等抢先入局...)
+  跳过 8/50: 已处理 (36氪首发 | 商汤国香投了一家消费级空间相机公司，为具身智能采集真实世界数据...)
+  跳过 9/50: 已处理 (融资丨国内首家原生机器人&ldquo;大脑芯片&rdquo;企业维泛智能完成数亿...)
+  跳过 10/50: 已处理 (圆桌对话：从“千人千面”到“人心洞察”| 2026AI Partner·北京亦庄...)
+  跳过 11/50: 已处理 (将 600 亿参数大模型装进手机的瓶颈，终于被中国 AI 公司突破了...)
+  跳过 12/50: 已处理 (36氪首发 | 3D打印齿科龙头要切入桌面全彩造物，获君联、达晨等3亿+融资...)
+  跳过 13/50: 已处理 (融资丨飞捷科思连续完成数亿元Pre-A轮融资...)
+  跳过 14/50: 已处理 (融资丨趋境科技拿下智谱、华控等数亿融资...)
+  跳过 15/50: 已处理 (融资丨机器人力传感器龙头蓝点触控再获数亿投资...)
+  跳过 16/50: 已处理 (AI agents are quietly generating chaos e...)
+  跳过 17/50: 已处理 (融资丨天机智能完成10亿元融资，高瓴、美团联合领投...)
+  跳过 18/50: 已处理 (摩尔线程发布&ldquo;云边端&rdquo;全栈智算矩阵，开启万物智能新纪元...)
+  跳过 19/50: 已处理 (Roundtables: Can AI Learn to Understand ...)
+  跳过 20/50: 已处理 (Alibaba's proprietary Qwen3.7-Max can ru...)
+  跳过 21/50: 已处理 (Gold Gains as Prospects of Iran Deal Tem...)
+  跳过 22/50: 已处理 (US Stock Futures Gain as Crude Oil Drops...)
+  跳过 23/50: 已处理 (Weather tracker: Heavy rain triggers flo...)
+  跳过 24/50: 已处理 (Emerging-Market Assets Rally as Iran Hop...)
+  跳过 25/50: 已处理 (European Stocks Advance on Iran Deal Hop...)
+  跳过 26/50: 已处理 (Israeli ministers call for return to ‘hi...)
+  跳过 27/50: 已处理 (Oil Slides as US Touts Progress on Deal ...)
+  跳过 28/50: 已处理 (Beijing promised to 'fight back' over Ta...)
+  跳过 29/50: 已处理 (Iran’s top negotiators travel to Qatar a...)
+  跳过 30/50: 已处理 (US arms sales to Taiwan on ‘pause’ due t...)
+  跳过 31/50: 已处理 (氪星晚报｜全国首单挂钩蓝色债券合约类信用衍生品交易落地山东；到2030年底全国城...)
+  跳过 32/50: 已处理 (对话欧洲地图商TomTom：中国订单暴涨10倍，帮助中国辅助驾驶出海｜最前线...)
+  跳过 33/50: 已处理 (搞定工业质检：AI视觉如何重构高端制造质量防线| 2026AI Partner·...)
+  跳过 34/50: 已处理 (Musk, SpaceX and the world’s most far-ou...)
+  跳过 35/50: 已处理 (京东加码商业地产，推出更高级大MALL...)
+  跳过 36/50: 已处理 (融资丨寅成智能完成千万美元天使轮融资...)
+  跳过 37/50: 已处理 (宇树科技科创板IPO将于6月1日上会...)
+  处理 38/50: [EN] “长辈的油车开了10多年，我的4年就得换”，新能源车迭代速度过快造成“多输”，能... (摘要0字)
+    ✓ 标题翻译: “长辈的油车开了10多年，我的4年就得换”，新能源车迭代速度...
+    ✓ 摘要翻译完成: 0字
+  跳过 39/50: 已处理 (Zepto Said to Plan June Public Filing fo...)
+  跳过 40/50: 已处理 (Teals eye party structure to fill Libera...)
+  跳过 41/50: 已处理 (飞亚达：长空齿轮机器人及商业航天业务收入占比较低，未来发展存在较大不确定性...)
+  跳过 42/50: 已处理 (Hungary Sees May 28 Deal With EU on Froz...)
+  跳过 43/50: 已处理 (Vigilant ECB Hasn’t Yet Seen Second-Roun...)
+  跳过 44/50: 已处理 (Ghana to Start Buying 30% of Large Gold ...)
+  跳过 45/50: 已处理 (BOSS直聘：第一季度营收20.7亿元，AI助力招聘端人均达成提升...)
+  跳过 46/50: 已处理 (Cox Group Took 20% Bridge Loan for Iberd...)
+  跳过 47/50: 已处理 (Pope Leo says AI ‘needs to be disarmed’...)
+  跳过 48/50: 已处理 (BHP defies its own climate strategy to s...)
+  跳过 49/50: 已处理 (Can Exxon build the world’s biggest carb...)
+  跳过 50/50: 已处理 (California's "billionaire tax" is the wr...)
+  ✓ 处理完成 (英: 1 条, 中: 0 条)
+
+[3/3] 重新整理分类...
+  must-read: 10 条
+  AI前沿: 10 条
+  大国博弈: 10 条
+  产业趋势: 10 条
+  投资参考: 10 条
+  总计: 50 条 (已有摘要: 49)
+
+✓ 已保存到 /Users/vincentnie/.openclaw/workspace-dailynews/gh-pages/data/2026-05-26/news.json
+✓ 已保存到 /Users/vincentnie/.openclaw/workspace-dailynews/gh-pages/news.json
+
+✓ 完成! 耗时: 1.8秒
+✅ index.html v2.0 已生成
+   日期: 2026-05-26
+   新闻: 50 条
+   播客: 14 条
+   YouTube: 31 条
+   9个一级标签: 今日必读、AI前沿、大国博弈、产业趋势、投资参考、🔬半导体、全部新闻、播客、YouTube
+============================================================
+GitHub API部署脚本
+时间: 2026-05-26 07:00:03
+============================================================
+
+待上传: 141 个文件
+  ✅ index.html
+  ⏭️ 跳过: .DS_Store
+  ✅ podcast-data.json
+  ✅ news.json
+  ✅ youtube-data.json
+  ✅ data/podcast-data.json
+  ✅ data/news.json
+  ✅ data/2026-05-16/podcasts.json
+  ✅ data/2026-05-16/youtube.json
+  ✅ data/2026-05-16/news.json
+  ✅ data/2026-05-11/podcasts.json
+  ✅ data/2026-05-11/youtube.json
+  ✅ data/2026-05-11/news.json
+  ✅ data/2026-05-18/podcasts.json
+  ✅ data/2026-05-18/youtube.json
+  ✅ data/2026-05-18/news.json
+  ✅ data/2026-05-20/podcasts.json
+  ✅ data/2026-05-20/youtube.json
+  ✅ data/2026-05-20/news.json
+  ✅ data/2026-05-21/podcasts.json
+  ✅ data/2026-05-21/youtube.json
+  ✅ data/2026-05-21/news.json
+  ✅ data/2026-05-19/podcasts.json
+  ✅ data/2026-05-19/youtube.json
+  ✅ data/2026-05-19/news.json
+  ✅ data/2026-05-26/podcasts.json
+  ✅ data/2026-05-26/youtube.json
+  ✅ data/2026-05-26/news.json
+  ✅ data/2026-05-10/podcasts.json
+  ✅ data/2026-05-10/youtube.json
+  ✅ data/2026-05-10/news.json
+  ✅ data/2026-05-17/podcasts.json
+  ✅ data/2026-05-17/youtube.json
+  ✅ data/2026-05-17/news.json
+  ✅ data/2026-04-21/podcasts.json
+  ✅ data/2026-04-21/youtube.json
+  ✅ data/2026-04-21/news.json
+  ✅ data/2026-04-19/podcasts.json
+  ✅ data/2026-04-19/youtube.json
+  ✅ data/2026-04-19/news.json
+  ✅ data/2026-04-26/podcasts.json
+  ✅ data/2026-04-26/youtube.json
+  ✅ data/2026-04-26/news.json
+  ✅ data/2026-04-28/podcasts.json
+  ✅ data/2026-04-28/youtube.json
+  ✅ data/2026-04-28/news.json
+  ✅ data/2026-04-28/news.json.bak
+  ✅ data/2026-04-17/podcasts.json
+  ✅ data/2026-04-17/youtube.json
+  ✅ data/2026-04-17/news.json
+  ✅ data/2026-04-29/podcasts.json
+  ✅ data/2026-04-29/youtube.json
+  ✅ data/2026-04-29/news.json
+  ✅ data/2026-04-16/news_raw.json
+  ✅ data/2026-04-16/podcasts.json
+  ✅ data/2026-04-16/youtube.json
+  ✅ data/2026-04-16/news.json
+  ✅ data/2026-04-16/news_fetched.json
+  ✅ data/2026-04-18/podcasts.json
+  ✅ data/2026-04-18/youtube.json
+  ✅ data/2026-04-18/news.json
+  ✅ data/2026-04-27/podcasts.json
+  ✅ data/2026-04-27/youtube.json
+  ✅ data/2026-04-27/news.json
+  ✅ data/2026-04-27/news.json.bak
+  ✅ data/2026-04-20/podcasts.json
+  ✅ data/2026-04-20/youtube.json
+  ✅ data/2026-04-20/news.json
+  ✅ data/2026-05-04/podcasts.json
+  ✅ data/2026-05-04/youtube.json
+  ✅ data/2026-05-04/news.json
+  ✅ data/2026-05-03/podcasts.json
+  ✅ data/2026-05-03/youtube.json
+  ✅ data/2026-05-03/news.json
+  ✅ data/2026-05-02/podcasts.json
+  ✅ data/2026-05-02/youtube.json
+  ✅ data/2026-05-02/news.json
+  ✅ data/2026-05-05/podcasts.json
+  ✅ data/2026-05-05/youtube.json
+  ✅ data/2026-05-05/news.json
+  ✅ data/2026-05-12/podcasts.json
+  ✅ data/2026-05-12/youtube.json
+  ✅ data/2026-05-12/news.json
+  ✅ data/2026-05-15/podcasts.json
+  ✅ data/2026-05-15/youtube.json
+  ✅ data/2026-05-15/news.json
+  ✅ data/2026-05-23/podcasts.json
+  ✅ data/2026-05-24/podcasts.json
+  ✅ data/2026-05-24/youtube.json
+  ✅ data/2026-05-24/news.json
+  ✅ data/2026-05-25/podcasts.json
+  ✅ data/2026-05-25/youtube.json
+  ✅ data/2026-05-25/news.json
+  ✅ data/2026-05-22/podcasts.json
+  ✅ data/2026-05-22/news.json
+  ✅ data/2026-05-14/podcasts.json
+  ✅ data/2026-05-14/youtube.json
+  ✅ data/2026-05-14/news.json
+  ✅ data/2026-05-13/podcasts.json
+  ✅ data/2026-05-13/youtube.json
+  ✅ data/2026-05-13/news.json
+  ✅ data/2026-04-25/podcasts.json
+  ✅ data/2026-04-25/youtube.json
+  ✅ data/2026-04-25/news.json
+  ✅ data/2026-04-22/podcasts.json
+  ✅ data/2026-04-22/youtube.json
+  ✅ data/2026-04-22/news.json
+  ✅ data/2026-04-14/podcasts.json
+  ✅ data/2026-04-14/youtube.json
+  ✅ data/2026-04-14/podcast-data.json
+  ✅ data/2026-04-14/news.json
+  ✅ data/2026-04-14/youtube-data.json
+  ✅ data/2026-04-15/podcasts.json
+  ✅ data/2026-04-15/youtube.json
+  ✅ data/2026-04-15/news.json
+  ✅ data/2026-04-23/podcasts.json
+  ✅ data/2026-04-23/youtube.json
+  ✅ data/2026-04-23/news.json
+  ✅ data/2026-04-24/podcasts.json
+  ✅ data/2026-04-24/youtube.json
+  ✅ data/2026-04-24/news.json
+  ✅ data/2026-04-30/podcasts.json
+  ✅ data/2026-04-30/youtube.json
+  ✅ data/2026-04-30/news.json
+  ✅ data/2026-05-09/podcasts.json
+  ✅ data/2026-05-09/youtube.json
+  ✅ data/2026-05-09/news.json
+  ✅ data/2026-05-07/podcasts.json
+  ✅ data/2026-05-07/youtube.json
+  ✅ data/2026-05-07/news.json
+  ✅ data/2026-05-06/podcasts.json
+  ✅ data/2026-05-06/youtube.json
+  ✅ data/2026-05-06/news.json
+  ✅ data/2026-05-01/podcasts.json
+  ✅ data/2026-05-01/youtube.json
+  ✅ data/2026-05-01/news.json
+  ✅ data/2026-05-08/podcasts.json
+  ✅ data/2026-05-08/youtube.json
+  ✅ data/2026-05-08/news.json
+  ✅ .wrangler/cache/pages.json
+  ✅ .wrangler/cache/wrangler-account.json
+
+============================================================
+✅ 部署完成! 成功: 141
+============================================================
+============================================================
+DailyNews Layer 2 - 处理层
+执行时间: 2026-05-26 07:00:01
+============================================================
+
+============================================================
+▶ Step 1: 播客转录 (超时30分钟)
+============================================================
+✓ Step 1: 播客转录 (超时30分钟) 执行成功
+
+============================================================
+▶ Step 2: 播客摘要
+============================================================
+✓ Step 2: 播客摘要 执行成功
+
+============================================================
+▶ Step 3: YouTube转录 (超时30分钟)
+============================================================
+✓ Step 3: YouTube转录 (超时30分钟) 执行成功
+
+============================================================
+▶ Step 4: YouTube摘要
+============================================================
+✓ Step 4: YouTube摘要 执行成功
+
+============================================================
+▶ Step 5: 保存最终输出
+============================================================
+  ⚠️ podcast-pending.json 为空
+  ✅ 播客: 0 条
+  ⚠️ youtube-pending.json 为空
+  ✅ YouTube: 0 条
+
+============================================================
+▶ Step 6: 新闻AI摘要(翻译)
+============================================================
+✓ Step 6: 新闻AI摘要(翻译) 执行成功
+
+============================================================
+▶ Step 7: 生成完整HTML
+============================================================
+✓ Step 7: 生成完整HTML 执行成功
+
+============================================================
+▶ Step 8: 部署到GitHub
+============================================================
+✓ Step 8: 部署到GitHub 执行成功
+
+============================================================
+✅ Layer 2 处理完成!
+  输出目录: /Users/vincentnie/.openclaw/workspace-dailynews/gh-pages/data/2026-05-26
+============================================================

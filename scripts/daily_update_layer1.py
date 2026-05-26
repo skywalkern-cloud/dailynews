@@ -98,7 +98,7 @@ def main():
             print(f"  ✅ 创建空pending: {pf.name}")
 
     # ====== Step 1: 新闻采集 ======
-    run_script("Step 1: 新闻采集", SCRIPTS_DIR / "news_pipeline.py", timeout=600)
+    run_script("Step 1: 新闻采集", SCRIPTS_DIR / "news_pipeline.py", timeout=1200)
 
     # ====== Step 2: 播客列表采集 ======
     run_script("Step 2: 播客列表采集", SCRIPTS_DIR / "podcast_daily.py")
