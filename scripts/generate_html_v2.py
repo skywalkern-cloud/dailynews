@@ -200,7 +200,9 @@ def gen_html(date):
                         if (!item || !item.title) return;
                         if (seen[item.id]) return;
                         var title = (item.title || '').toLowerCase();
-                        var matched = keywords.some(function(kw) { return title.indexOf(kw.toLowerCase()) !== -1; });
+                        var summary = (item.summary || '').toLowerCase();
+                        var text = title + ' ' + summary;
+                        var matched = keywords.some(function(kw) { return text.indexOf(kw.toLowerCase()) !== -1; });
                         if (matched) {
                             seen[item.id] = true;
                             items.push(item);

@@ -520,6 +520,49 @@ def deduplicate_news(news_list):
         print(f"  ✓ 去重: {len(news_list)} -> {len(deduped)} 条")
     return deduped
 
+def deduplicate_against_yesterday(news_list):
+    """Bug 3: 跨天去重 — 与前一天的数据对比，基于URL去重"""
+    yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+    yesterday_file = DATA_DIR / yesterday / "news.json"
+    
+    if not yesterday_file.exists():
+        print(f"  无前一天数据 ({yesterday_file})，跳过跨天去重")
+        return news_list
+    
+    try:
+        with open(yesterday_file, "r", encoding="utf-8") as f:
+            yesterday_data = json.load(f)
+    except (json.JSONDecodeError, Exception) as e:
+        print(f"  ⚠️ 读取前一天数据失败: {e}，跳过跨天去重")
+        return news_list
+    
+    # 收集前一天所有新闻的URL
+    yesterday_urls = set()
+    for cat_items in yesterday_data.values():
+        if isinstance(cat_items, list):
+            for item in cat_items:
+                url = item.get("url", "").strip()
+                if url:
+                    yesterday_urls.add(url)
+    
+    if not yesterday_urls:
+        print("  前一天无有效URL数据，跳过跨天去重")
+        return news_list
+    
+    # 过滤今日新闻中出现在昨天的
+    before = len(news_list)
+    deduped = [item for item in news_list if item.get("url", "").strip() not in yesterday_urls]
+    removed = before - len(deduped)
+    if removed > 0:
+        print(f"  ✅ 跨天去重: 移除 {removed} 条重复新闻 (与 {yesterday} 对比)")
+        removed_titles = [item.get("title", "?") for item in news_list if item.get("url", "").strip() in yesterday_urls]
+        for t in removed_titles:
+            print(f"    - 跳过重复: {t[:60]}")
+    else:
+        print(f"  ✓ 无跨天重复新闻 (与 {yesterday} 对比)")
+    return deduped
+
+
 def main():
     print("=" * 60)
     print("新闻抓取主脚本 v1.0")
@@ -546,6 +589,10 @@ def main():
     # 按URL去重
     print("\n  去重处理...")
     news_list = deduplicate_news(news_list)
+    
+    # Bug 3: 跨天去重
+    print("\n  跨天去重...")
+    news_list = deduplicate_against_yesterday(news_list)
     
     # 按评分排序
     news_list.sort(key=lambda x: x.get("score", 0), reverse=True)

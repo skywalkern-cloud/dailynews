@@ -37,7 +37,7 @@
 <header>
 <div class="header-content">
 <div class="logo">📰 每日资讯</div>
-<div class="refresh-time">📅 2026-05-27 · 刷新 06:28</div>
+<div class="refresh-time">📅 2026-05-27 · 刷新 17:02</div>
 </div>
 </header>
 
@@ -3735,7 +3735,7 @@ OpenAI研发的生成式人工智能模型彻底改变了这一局面。该模�
 这一突破也引发了对数学本质的深层思考：当我们面对复杂问题时，是否应该更多地依赖计算驱动的探索而非纯理论的推导？人工智能的介入是否会改变数学研究的范式？这些问题尚无定论，但毫无疑问的是，人机协作的数学研究新时代已经到来。</p><a href="https://www.youtube.com/watch?v=Br4l9YjCyRU" target="_blank" class="link">观看 →</a></div></div></div>
 </div>
 
-<footer><p>每日资讯 · 更新于 06:28</p></footer>
+<footer><p>每日资讯 · 更新于 17:02</p></footer>
 <script>
         function escapeHtml(str) {
             if (!str) return '';
@@ -3791,7 +3791,9 @@ var currentTab = 'must-read';
                         if (!item || !item.title) return;
                         if (seen[item.id]) return;
                         var title = (item.title || '').toLowerCase();
-                        var matched = keywords.some(function(kw) { return title.indexOf(kw.toLowerCase()) !== -1; });
+                        var summary = (item.summary || '').toLowerCase();
+                        var text = title + ' ' + summary;
+                        var matched = keywords.some(function(kw) { return text.indexOf(kw.toLowerCase()) !== -1; });
                         if (matched) {
                             seen[item.id] = true;
                             items.push(item);
