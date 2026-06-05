@@ -1,3 +1,0 @@
-GOOGLE_API_KEY=AIzaSyBxKiyVd6n3y2GEX7fUI1nVVxQ_9xOhKQE
-0 6 * * * cd /Users/vincentnie/.openclaw/workspace-dailynews && /usr/bin/python3 scripts/daily_update_layer1.py >> /Users/vincentnie/.openclaw/workspace-dailynews/logs/layer1.log 2>&1
-0 9 * * * cd /Users/vincentnie/.openclaw/workspace-dailynews && /usr/bin/python3 scripts/daily_update_layer2.py >> /Users/vincentnie/.openclaw/workspace-dailynews/logs/layer2.log 2>&1
