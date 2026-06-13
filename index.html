@@ -37,7 +37,7 @@
 <header>
 <div class="header-content">
 <div class="logo">📰 每日资讯</div>
-<div class="refresh-time">📅 2026-06-13 · 刷新 13:37</div>
+<div class="refresh-time">📅 2026-06-13 · 刷新 14:09</div>
 </div>
 </header>
 
@@ -1871,7 +1871,7 @@ Dr. Alexander Wissner-Gross则从熵增理论和复杂系统的角度，为理�
 5. **长期视野至关重要**：理解AI技术的变革性影响需要从更宏观的历史视角出发，把握技术奇点临近这一核心趋势，以开放和审慎的态度迎接即将到来的智能时代。</p><a href="https://www.youtube.com/watch?v=hyeoYsVl1No" target="_blank" class="link">观看 →</a></div></div></div>
 </div>
 
-<footer><p>每日资讯 · 更新于 13:37</p></footer>
+<footer><p>每日资讯 · 更新于 14:09</p></footer>
 <script>
         function escapeHtml(str) {
             if (!str) return '';
@@ -1935,7 +1935,7 @@ var currentTab = 'must-read';
                         var strongMatch = strongKeywords.some(function(kw) { 
                             // 短ASCII关键词(<=3字符)用全字匹配，避免soc误匹配social
                             if (kw.length <= 3 && /^[a-zA-Z]+$/.test(kw)) {
-                                return new RegExp('\b' + kw.replace(/[.*+?^${}()|[\]\]/g, '\$&') + '\b', 'i').test(text);
+                                return new RegExp('\b' + kw.replace(/[.*+?^${}()|[\]\\]/g, '\$&') + '\b', 'i').test(text);
                             }
                             return text.indexOf(kw.toLowerCase()) !== -1; 
                         });
